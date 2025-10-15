@@ -9,11 +9,16 @@
     "JavaScript",
     "Node.js",
     "MongoDB",
+    "A-Frame.io",
     "PHP",
     "MySQL",
     "PostgreSQL",
+    "OpenGL",
     "Lua",
-    "Kotlin"
+    "Kotlin",
+    "NextJS",
+    "Vite",
+    "Selenium"
   ],
   "technical_skills": [
     "Microsoft Office (Software)",
@@ -25,25 +30,33 @@
     "Bubble.io (Platform)",
     "Search Engine Optimization",
     "Domain/DNS Maintenance",
-    "App Development (Android Java, Kotlin)",
-    "Web Development",
+    "App Development (JDK, Kotlin, Flutter)",
+    "Web Development (frontend, backend)",
+    "SaaS Development (online, offline)",
     "UI/UX Design",
     "Figma (Platform)",
     "Git (Technology)",
-    "Linux (OS)"
+    "Linux (OS)",
+    "Image Editing",
+    "Video Editing"
   ],
   "business_skills": [
     "Brand Marketing",
     "Customer Satisfaction",
     "Customer Engagement",
     "Copywriting",
+    "Cross-functional Teamwork",
+    "Enterprise Resource Planning",
+    "Public Relations",
     "Project Management",
     "Product Design",
-    "Digital Marketing"
+    "Digital Marketing",
+    "Lead Generation"
   ],
   "passive_skills": [
     "Research & Development",
     "Social & Interpersonal Skills",
+    "Social Responsibility",
     "Leadership",
     "Customer Service",
     "Storytelling",
@@ -51,9 +64,12 @@
     "Cooking",
     "Motivational Speaking",
     "Creativity",
+    "Problem Solving",
     "Critical & Analytical Thinking",
     "Statistical Analysis",
+    "Psychological Techniques",
     "Devotion",
-    "Punctuality"
+    "Punctuality",
+    "Entrepreneurship"
   ]
 }
