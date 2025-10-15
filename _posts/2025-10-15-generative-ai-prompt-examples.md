@@ -2,7 +2,7 @@
 layout: post
 title:  "How I prompt AI tools to generate stuff"
 author: dmimukto
-categories: \[ ai, prompt engineering ]
+categories: [ ai, prompt engineering ]
 published: true
 ---
 
