@@ -38,7 +38,7 @@ All other websites and links shown below this section were either made using pro
 # URL Redirections
 
 |Link Title/Purpose|Current URL|Redirection URL|
-|:---|---:|:---|
+|:---|---:|---:|
 |DMC Affiliates Signup|dmca.dewanmukto.com|tally.so/r/mYLY5v|
 |Cooper Black 2016 novel landing|cb16.dewanmukto.com|dmi.my.canva.site/cooper-black-2016|
 |DMI Books landing|books.dewanmukto.com|dmi.my.canva.site|
@@ -53,6 +53,7 @@ All other websites and links shown below this section were either made using pro
 |Link Title/Purpose|Current URL|Permanent URL|
 |:---|:---|:---|
 |Old DMC website|gs.dewanmukto.com|sites.google.com/view/mukto-net|
+|Research website|research.dewanmukto.com|sites.google.com/view/dewanmukto/home|
 |Wildest Dimensions website|itwd.carrd.co|itwd.carrd.co|
 
 
@@ -65,45 +66,50 @@ All other websites and links shown below this section were either made using pro
 |Substack|dewanmukto.substack.com|dewanmukto.substack.com|
 |Itch.io|dewanmukto.itch.io|dewanmukto.itch.io|
 |Bandcamp|mukto.bandcamp.com|mukto.bandcamp.com|
+|Wordpress|dewanmukto.wordpress.com|dewanmukto.wordpress.com|
+|||
 
 # Social Media Profiles
 
-|Platform|Current URL|
-|:---|:---|
-|GitHub|github.com/dwmk|
-|Instagram|www.instagram.com/dewanmukto|
-|X|x.com/DEWAN_MUKTO|
-|YouTube|www.youtube.com/@Dewan-Mukto|
-|FaceBook|www.facebook.com/dewanmukto|
-|TikTok|www.tiktok.com/@dewanmukto|
-|CodePen|codepen.io/distil|
-|Dribbble|dribbble.com/dmkto|
-|Behance|www.behance.net/dmkto|
-|LinkedIn|www.linkedin.com/in/dewanmukto/|
-|Medium|medium.com/@dewanmukto|
-|GoodReads|www.goodreads.com/author/show/45565659.Dewan_Mukto|
-|WattPad|www.wattpad.com/user/d1stil|
-|WebNovel|www.webnovel.com/profile/4322246237|
-|Google Play|play.google.com/store/info/name/Dewan_Mukto?id=11krcftmvn&hl=as&gl=US|
-|Spotify|open.spotify.com/artist/5dASeJomHYQXfo9ij70zjQ|
-|SoundCloud|soundcloud.com/dewanmukto|
-|HuggingFace|huggingface.co/dwmk|
-|Kaggle|www.kaggle.com/dewanmukto|
-|Threads|www.threads.com/@dewanmukto|
-|BlueSky|bsky.app/profile/did:plc:44q3btlbakdjvkv4kbvfczub|
-|DuoLingo|www.duolingo.com/profile/DewanMux|
-|Discord|discord.com/users/1212343753235243021|
-|Reddit|www.reddit.com/user/MuktoDMI|
-|Twitch|www.twitch.tv/dukemantwo|
-|Hashnode|hashnode.com/@dewanmukto|
-|PayPal|paypal.me/dmukto|
-|OpenSea|opensea.io/muktodmi|
-|Steam|steamcommunity.com/id/diztil|
-|Roblox|www.roblox.com/users/4463653477/profile|
-|Substack|substack.com/@dewanmukto|
-|Tapas|tapas.io/dewanmukto|
-|ScribbleHub|www.scribblehub.com/profile/148729/distil/|
-|Inkitt|www.inkitt.com/dewanmukto|
-|Royal Road|www.royalroad.com/profile/306406|
-|Honeyfeed|www.honeyfeed.fm/u/24734/novels|
-|Spillwords|spillwords.com/author/dewanmukto/|
+|Platform|Username|Current URL|
+|:---|:---|:---|
+|GitHub|@dwmk|github.com/dwmk|
+|Instagram|@dewanmukto|www.instagram.com/dewanmukto|
+|X|@DEWAN_MUKTO|x.com/DEWAN_MUKTO|
+|YouTube|@Dewan-Mukto|www.youtube.com/@Dewan-Mukto|
+|FaceBook|@dewanmukto|www.facebook.com/dewanmukto|
+|TikTok|@dewanmukto|www.tiktok.com/@dewanmukto|
+|CodePen|@distil|codepen.io/distil|
+|Dribbble|@dmkto|dribbble.com/dmkto|
+|Behance|@dmkto|www.behance.net/dmkto|
+|LinkedIn|@dewanmukto|www.linkedin.com/in/dewanmukto/|
+|Medium|@dewanmukto|medium.com/@dewanmukto|
+|GoodReads|@Dewan_Mukto|www.goodreads.com/author/show/45565659.Dewan_Mukto|
+|WattPad|@d1stil|www.wattpad.com/user/d1stil|
+|WebNovel|Distil|www.webnovel.com/profile/4322246237|
+|Webtoon|MuktoDMI|www.webtoons.com/p/community/en/u/b6mkv|
+|Google Play|@Dewan_Mukto|play.google.com/store/info/name/Dewan_Mukto?id=11krcftmvn&hl=as&gl=US|
+|Spotify|Dewan Mukto|open.spotify.com/artist/5dASeJomHYQXfo9ij70zjQ|
+|SoundCloud|@dewanmukto|soundcloud.com/dewanmukto|
+|HuggingFace|@dwmk|huggingface.co/dwmk|
+|Kaggle|@dewanmukto|www.kaggle.com/dewanmukto|
+|Threads|@dewanmukto|www.threads.com/@dewanmukto|
+|BlueSky|@dnmx|bsky.app/profile/did:plc:44q3btlbakdjvkv4kbvfczub|
+|DuoLingo|@DewanMux|www.duolingo.com/profile/DewanMux|
+|Discord|@dewan.mukto|discord.com/users/1212343753235243021|
+|Reddit|@MuktoDMI|www.reddit.com/user/MuktoDMI|
+|Twitch|@dukemantwo|www.twitch.tv/dukemantwo|
+|Hashnode|@dewanmukto|hashnode.com/@dewanmukto|
+|PayPal|@dmukto|paypal.me/dmukto|
+|OpenSea|@muktodmi|opensea.io/muktodmi|
+|Steam|@diztil|steamcommunity.com/id/diztil|
+|Roblox|@DewanMukto|www.roblox.com/users/4463653477/profile|
+|Substack|@dewanmukto|substack.com/@dewanmukto|
+|Tapas|@dewanmukto|tapas.io/dewanmukto|
+|DeviantArt|@MuktoDMI|www.deviantart.com/muktodmi|
+|ScribbleHub|@distil|www.scribblehub.com/profile/148729/distil/|
+|Inkitt|@dewanmukto|www.inkitt.com/dewanmukto|
+|Royal Road|@dewanmukto|www.royalroad.com/profile/306406|
+|Honeyfeed|Dewan Mukto|www.honeyfeed.fm/u/24734/novels|
+|Spillwords|@dewanmukto|spillwords.com/author/dewanmukto/|
+|MuxDay|@dm|muxday.vercel.app/profile/dm|
