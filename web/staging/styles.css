@@ -1,0 +1,77 @@
+/* Apple-like minimal CV aesthetics: lots of white space, crisp typography */
+:root{
+  --bg:#ffffff;
+  --muted:#6b7280;
+  --accent:#111827;
+  --card:#fbfbfb;
+  --glass: rgba(255,255,255,0.6);
+  --radius:14px;
+  --max-width:1100px;
+  --page-padding:28px;
+  --print-font-size:12pt;
+}
+
+/* System fonts (San Francisco feel) */
+* { box-sizing: border-box; }
+html,body { height:100%; margin:0; background:var(--bg); color:var(--accent); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+.app { max-width:var(--max-width); margin:28px auto; padding:var(--page-padding); }
+
+/* Topbar */
+.topbar { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-bottom:18px; }
+.brand { display:flex; align-items:center; gap:14px; }
+.logo-blob { width:56px; height:56px; border-radius:12px; background:linear-gradient(135deg,#111827 0%, rgba(0,0,0,0.6) 100%); box-shadow: 0 6px 18px rgba(17,24,39,0.12); }
+.brand-text h1 { margin:0; font-size:20px; letter-spacing: -0.3px; }
+.brand-text p { margin:0; color:var(--muted); font-size:13px; }
+
+/* container layout */
+.container { display:grid; gap:20px; grid-template-columns: 320px 1fr; align-items:start; }
+.left-pane { display:flex; flex-direction:column; gap:14px; }
+.right-pane { display:flex; flex-direction:column; gap:14px; }
+
+/* cards */
+.card { background:var(--card); border-radius:var(--radius); padding:16px; box-shadow: 0 6px 20px rgba(17,24,39,0.06); }
+.card h2, .card h3 { margin:0 0 10px 0; font-weight:600; }
+.profile .bio { color:var(--muted); font-size:14px; line-height:1.45; margin-top:8px; }
+
+/* skill badges */
+.skill-list { display:flex; flex-wrap:wrap; gap:8px; }
+.skill-chip { padding:6px 10px; border-radius:999px; background:transparent; border:1px solid rgba(17,24,39,0.06); font-size:13px; color:var(--accent); }
+
+/* lists */
+.experience-item, .project-item, .education-item, .publication-item { margin-bottom:12px; padding-bottom:8px; border-bottom:1px dashed rgba(0,0,0,0.04); }
+.job-head { display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+.job-title { font-weight:600; font-size:15px; }
+.job-meta { color:var(--muted); font-size:13px; }
+
+/* projects grid */
+#projects-list { display:grid; gap:12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+/* contacts */
+.quick-contacts { display:flex; gap:12px; align-items:center; }
+.contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+
+/* footer */
+.footer { display:flex; justify-content:space-between; align-items:center; color:var(--muted); margin-top:12px; }
+
+/* buttons */
+.btn-ghost { background:transparent; border:1px solid rgba(0,0,0,0.06); padding:8px 12px; border-radius:10px; cursor:pointer; }
+
+/* responsive */
+@media (max-width:900px){
+  .container { grid-template-columns:1fr; }
+  .left-pane { order:2; }
+  .right-pane { order:1; }
+  .brand-text h1 { font-size:18px; }
+  .logo-blob { width:48px; height:48px; }
+}
+
+/* print styles — crisp black/white, hide buttons & shadows */
+@media print {
+  :root { --bg: #fff; --card: #fff; --muted:#333; }
+  .app { margin:0; padding:4mm; max-width:100%; }
+  * { box-shadow:none !important; }
+  .btn-ghost, .quick-contacts, .footer, #print-btn { display:none !important; }
+  body { color:#000; font-size:var(--print-font-size); }
+  .card { border: none; padding:0; border-radius:0; }
+  .container { gap:6px; grid-template-columns: 320px 1fr; }
+}

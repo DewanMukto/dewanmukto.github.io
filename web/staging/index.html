@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dewan Mukto — CV</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Dewan M.I. Mukto — CV / Portfolio. Multipotentialite: art, literature, science & technology.">
+  <style>
+    /* Small inline preserve for print spacing so page prints exactly as intended */
+    @page { margin: 20mm; }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo-blob" aria-hidden="true"></div>
+        <div class="brand-text">
+          <h1>The Muktoverse</h1>
+          <p class="role">Art · Tech · Research</p>
+        </div>
+      </div>
+
+      <nav class="quick-contacts" id="contacts-inline">
+        <!-- contact links injected by JS for consistent ordering -->
+      </nav>
+    </header>
+
+    <main class="container">
+      <aside class="left-pane">
+        <section class="card profile" id="profile">
+          <!-- profile content injected -->
+        </section>
+
+        <section class="card skills" id="skills">
+          <h3>Skills</h3>
+          <div class="skill-list" id="skill-list"></div>
+        </section>
+
+        <section class="card education" id="education">
+          <h3>Education</h3>
+          <div id="education-list"></div>
+        </section>
+
+        <section class="card publications" id="publications">
+          <h3>Publications</h3>
+          <div id="publications-list"></div>
+        </section>
+      </aside>
+
+      <section class="right-pane">
+        <section class="card experience" id="experience">
+          <h2>Experience</h2>
+          <div id="experience-list"></div>
+        </section>
+
+        <section class="card projects" id="projects">
+          <h2>Projects & Designs</h2>
+          <div id="projects-list"></div>
+        </section>
+
+        <section class="card contact" id="contact-card">
+          <h2>Contact</h2>
+          <div class="contact-grid" id="contact-grid"></div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small>© Dewan Mukto Co. 2025</small>
+      <button id="print-btn" class="btn-ghost">Print / Save PDF</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
