@@ -1,4 +1,4 @@
-{
+[
   { name: 'GitHub', username: 'dwmk', url: 'https://github.com/dwmk', icon: 'fab fa-github' },
   { name: 'Instagram', username: 'dewanmukto', url: 'https://www.instagram.com/dewanmukto/', icon: 'fab fa-instagram' },
   { name: 'Twitter X', username: 'DEWAN_MUKTO', url: 'https://x.com/DEWAN_MUKTO', icon: 'fab fa-x-twitter' },
@@ -25,4 +25,4 @@
 { name: 'Twitch', username: 'DukeManTwo', url: 'https://www.twitch.tv/dukemantwo', icon: 'fab fa-twitch' },
 { name: 'Hashnode', username: 'DewanMukto', url: 'https://hashnode.com/@dewanmukto', icon: 'fab fa-hashnode' },
   { name: 'OpenSea', username: 'muktodmi', url: 'https://opensea.io/muktodmi', icon: 'fas fa-sailboat' }
-}
+]
