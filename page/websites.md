@@ -56,6 +56,7 @@ All other websites and links shown below this section were either made using pro
 |Old DMC website|dmc.mux8.com|sites.google.com/view/mukto-net|
 |Research website|research.dm.mux8.com|sites.google.com/view/dewanmukto/home|
 |Wildest Dimensions website|itwd.carrd.co|itwd.carrd.co|
+|DMI Store|dmistore.mux8.com|dmistore.gumroad.com|
 
 
 # Subdomains
@@ -113,4 +114,5 @@ All other websites and links shown below this section were either made using pro
 |Royal Road|@dewanmukto|www.royalroad.com/profile/306406|
 |Honeyfeed|Dewan Mukto|www.honeyfeed.fm/u/24734/novels|
 |Spillwords|@dewanmukto|spillwords.com/author/dewanmukto/|
+|ORCID|Dewan Maksudul Islam Mukto|https://orcid.org/0009-0005-3998-9252|
 |MuxDay|@dm|muxday.vercel.app/profile/dm|
