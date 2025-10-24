@@ -101,6 +101,7 @@ All other websites and links shown below this section were either made using pro
 |Discord|@dewan.mukto|discord.com/users/1212343753235243021|
 |Reddit|@MuktoDMI|www.reddit.com/user/MuktoDMI|
 |Twitch|@dukemantwo|www.twitch.tv/dukemantwo|
+|Tumblr|@muktodmi|www.tumblr.com/muktodmi|
 |Hashnode|@dewanmukto|hashnode.com/@dewanmukto|
 |PayPal|@dmukto|paypal.me/dmukto|
 |OpenSea|@muktodmi|opensea.io/muktodmi|
@@ -114,5 +115,5 @@ All other websites and links shown below this section were either made using pro
 |Royal Road|@dewanmukto|www.royalroad.com/profile/306406|
 |Honeyfeed|Dewan Mukto|www.honeyfeed.fm/u/24734/novels|
 |Spillwords|@dewanmukto|spillwords.com/author/dewanmukto/|
-|ORCID|Dewan Maksudul Islam Mukto|https://orcid.org/0009-0005-3998-9252|
+|ORCID|Dewan Maksudul Islam Mukto|orcid.org/0009-0005-3998-9252|
 |MuxDay|@dm|muxday.vercel.app/profile/dm|
