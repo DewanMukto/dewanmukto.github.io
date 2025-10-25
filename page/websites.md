@@ -74,7 +74,12 @@ All other websites and links shown below this section were either made using pro
 |Tumblr|muktodmi.tumblr.com|muktodmi.tumblr.com|
 |GitHub|dwmk.github.io|dwmk.github.io|
 
+
+<p id="social"></p>
+
 # Social Media Profiles
+
+Social platform accounts managed by Dewan Mukto:
 
 |Platform|Username|Current URL|
 |:---|:---|:---|
@@ -108,7 +113,7 @@ All other websites and links shown below this section were either made using pro
 |<i class="fab fa-hashnode"></i> Hashnode|@dewanmukto|hashnode.com/@dewanmukto|
 |<i class="fab fa-paypal"></i> PayPal|@dmukto|paypal.me/dmukto|
 |<i class="fab fa-patreon"></i> Patreon|@muktodmi|patreon.com/muktodmi|
-|<i class="fab fa-opensea"></i> OpenSea|@muktodmi|opensea.io/muktodmi|
+|<i class="fas fa-sailboat"></i> OpenSea|@muktodmi|opensea.io/muktodmi|
 |<i class="fab fa-steam"></i> Steam|@diztil|steamcommunity.com/id/diztil|
 |<i class="fas fa-cube"></i> Roblox|@DewanMukto|www.roblox.com/users/4463653477/profile|
 |<i class="fas fa-newspaper"></i> Substack|@dewanmukto|substack.com/@dewanmukto|
@@ -121,3 +126,5 @@ All other websites and links shown below this section were either made using pro
 |<i class="fas fa-quote-right"></i> Spillwords|@dewanmukto|spillwords.com/author/dewanmukto/|
 |<i class="fab fa-orcid"></i> ORCID|Dewan Maksudul Islam Mukto|orcid.org/0009-0005-3998-9252|
 |<i class="fas fa-sun"></i> MuxDay|@dm|muxday.vercel.app/profile/dm|
+
+There could be more, but likely to be abandoned. If any account/profile is not on this list, consider it to be a crime of misrepresentation.
