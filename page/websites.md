@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Websites on the DM Network
+title: Websites on the DM Network + Social Media
 permalink: /websites
 jekyll-theme-WuK:
   default:
@@ -8,12 +8,8 @@ jekyll-theme-WuK:
       open: false
 ---
 
-<link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        crossOrigin="anonymous"
-        referrerPolicy="no-referrer"
-      />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
 
 # Custom Websites
 
@@ -63,7 +59,7 @@ All other websites and links shown below this section were either made using pro
 |Research website|research.dm.mux8.com|sites.google.com/view/dewanmukto/home|
 |Wildest Dimensions website|itwd.carrd.co|itwd.carrd.co|
 |DMI Store|dmistore.mux8.com|dmistore.gumroad.com|
-
+|DM Merch|dm.mux8.com/page/merch|dewanmukto.myspreadshop.com|
 
 # Subdomains
 
@@ -125,4 +121,3 @@ All other websites and links shown below this section were either made using pro
 |<i class="fas fa-quote-right"></i> Spillwords|@dewanmukto|spillwords.com/author/dewanmukto/|
 |<i class="fab fa-orcid"></i> ORCID|Dewan Maksudul Islam Mukto|orcid.org/0009-0005-3998-9252|
 |<i class="fas fa-sun"></i> MuxDay|@dm|muxday.vercel.app/profile/dm|
-
