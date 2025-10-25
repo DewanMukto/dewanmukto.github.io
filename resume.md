@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0.5;url=resume.pdf" />
+<meta http-equiv="refresh" content="0.5;url=/resume.pdf" />
