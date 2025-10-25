@@ -108,6 +108,7 @@ Social platform accounts managed by Dewan Mukto:
 |<i class="fas fa-dove"></i> DuoLingo|@DewanMux|www.duolingo.com/profile/DewanMux|
 |<i class="fab fa-discord"></i> Discord|@dewan.mukto|discord.com/users/1212343753235243021|
 |<i class="fab fa-reddit"></i> Reddit|@MuktoDMI|www.reddit.com/user/MuktoDMI|
+|<i class="fab fa-telegram"></i> Telegram|@dmkto|t.me/dmkto|
 |<i class="fab fa-twitch"></i> Twitch|@dukemantwo|www.twitch.tv/dukemantwo|
 |<i class="fab fa-tumblr"></i> Tumblr|@muktodmi|www.tumblr.com/muktodmi|
 |<i class="fab fa-hashnode"></i> Hashnode|@dewanmukto|hashnode.com/@dewanmukto|
