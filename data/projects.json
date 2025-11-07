@@ -1,4 +1,37 @@
 [
+ {
+    "title": "LiaoTian",
+    "description": "Easy-to-host social platform with minimal setup necessary",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "NextJS",
+      "PostgreSQL",
+      "Supabase"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/huanmux/liaotian",
+    "url": "https://liaotian-live.vercel.app",
+    "icon": "https://mux8.com/assets/logo/liaotian.png",
+    "problem_solved": "Easy to host social platforms for everyone",
+    "category": "Communication"
+  },
+{
+    "title": "Faculty of Survival",
+    "description": "online 2D survival game to celebrate World Teachers' Day 2025.",
+    "technologies": [
+      "HTML",
+      "Vite",
+      "NextJS"
+    ],
+    "type": "2D game",
+    "repo": null,
+    "url": "https://facultyofsurvival.vercel.app/",
+    "icon": "https://dm.mux8.com/asset/images/facultyofsurvival-favicon.png",
+    "problem_solved": null,
+    "category": "Games"
+  },
+
 {
     "title": "Acado - Academic Documents Online",
     "description": "free, mobile-friendly online document editor for you to create, preview, and export your academic assignments easily. With built-in APA-7 format.",
