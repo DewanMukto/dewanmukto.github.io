@@ -105,7 +105,7 @@ Social platform accounts managed by Dewan Mukto:
 |<i class="fab fa-kaggle"></i> Kaggle|@dewanmukto|www.kaggle.com/dewanmukto|
 |<i class="fab fa-threads"></i> Threads|@dewanmukto|www.threads.com/@dewanmukto|
 |<i class="fab fa-bluesky"></i> BlueSky|@dnmx|bsky.app/profile/did:plc:44q3btlbakdjvkv4kbvfczub|
-|<i class="fas fa-dove"></i> DuoLingo|@DewanMux|www.duolingo.com/profile/DewanMux|
+|<i class="fab fa-duolingo"></i> DuoLingo|@DewanMukto|www.duolingo.com/profile/DewanMukto|
 |<i class="fab fa-discord"></i> Discord|@dewan.mukto|discord.com/users/1212343753235243021|
 |<i class="fab fa-reddit"></i> Reddit|@MuktoDMI|www.reddit.com/user/MuktoDMI|
 |<i class="fab fa-telegram"></i> Telegram|@dmkto|t.me/dmkto|
