@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mux QR Code Generator</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+    body {
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      width: 100%;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .input-section, .preview-section {
+      padding: 30px;
+      flex: 1;
+    }
+
+    .input-section {
+      background: #f9f9f9;
+      border-right: 1px solid #eee;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #555;
+      font-weight: 500;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: #fff;
+      transition: all 0.2s;
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+      transform: scale(1.02);
+    }
+
+    button {
+      background: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    button:hover {
+      background: #0056b3;
+      transform: scale(1.05);
+    }
+
+    .preview-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #qrCode {
+      margin: 20px 0;
+      transition: transform 0.3s;
+    }
+
+    #qrCode:hover {
+      transform: scale(1.05);
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #ff4444;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 1000;
+    }
+
+    .toast.show { opacity: 1; }
+
+    .footer {
+      position: fixed;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      .container { flex-direction: column; }
+      .input-section { border-right: none; border-bottom: 1px solid #eee; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="input-section">
+      <h1>Mux QR</h1>
+
+      <label for="qrText">Text or URL</label>
+      <input type="text" id="qrText" placeholder="Enter text or URL">
+
+      <label for="template">QR Code Template</label>
+      <select id="template">
+        <option value="square">Default (Square)</option>
+        <option value="rounded">Rounded</option>
+        <option value="dots">Dots</option>
+      </select>
+
+      <label for="fgColor">Foreground Color</label>
+      <input type="color" id="fgColor" value="#000000">
+
+      <label for="bgColor">Background Color</label>
+      <input type="color" id="bgColor" value="#ffffff">
+
+      <label for="logo">Upload Logo (Optional)</label>
+      <input type="file" id="logo" accept="image/*">
+    </div>
+
+    <div class="preview-section">
+      <div id="qrCode"></div>
+      <button id="downloadBtn">Download QR Code</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <div class="footer">© Dewan Mukto Co. 2025</div>
+
+  <script>
+    const qrText = document.getElementById('qrText');
+    const template = document.getElementById('template');
+    const fgColor = document.getElementById('fgColor');
+    const bgColor = document.getElementById('bgColor');
+    const logoInput = document.getElementById('logo');
+    const qrCodeDiv = document.getElementById('qrCode');
+    const downloadBtn = document.getElementById('downloadBtn');
+    const toast = document.getElementById('toast');
+
+    let logoData = null;
+
+    const qrCode = new QRCodeStyling({
+      width: 300,
+      height: 300,
+      data: "https://example.com",
+      dotsOptions: { color: "#000", type: "square" },
+      backgroundOptions: { color: "#fff" },
+    });
+
+    qrCode.append(qrCodeDiv);
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 3000);
+    }
+
+    function updateQRCode() {
+      const text = qrText.value.trim() || "DM";
+      const style = template.value;
+      let type = "square";
+      if (style === "rounded") type = "rounded";
+      else if (style === "dots") type = "dots";
+
+      qrCode.update({
+        data: text,
+        dotsOptions: { color: fgColor.value, type },
+        backgroundOptions: { color: bgColor.value },
+        image: logoData || null,
+      });
+    }
+
+    logoInput.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) { logoData = null; updateQRCode(); return; }
+
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        logoData = event.target.result;
+        updateQRCode();
+      };
+      reader.readAsDataURL(file);
+    });
+
+    qrText.addEventListener('input', updateQRCode);
+    template.addEventListener('change', updateQRCode);
+    fgColor.addEventListener('input', updateQRCode);
+    bgColor.addEventListener('input', updateQRCode);
+
+    downloadBtn.addEventListener('click', async () => {
+      const blob = await qrCode.getRawData("png");
+      const link = document.createElement("a");
+      link.download = "mux_qr.png";
+      link.href = URL.createObjectURL(blob);
+      link.click();
+    });
+    updateQRCode();
+  </script>
+</body>
+</html>
