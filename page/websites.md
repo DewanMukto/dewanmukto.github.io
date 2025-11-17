@@ -27,6 +27,7 @@ Made using HTML, CSS, JS, A-Frame (WebVR), LeafletJS, PeerJS, NextJS, Vite, Neon
 |Mizu CV|mizucv.mux8.com|mizucv.vercel.app|
 |Acado|acado.mux8.com|acadolife.vercel.app|
 |MuxDay|muxday.mux8.com|muxday.vercel.app|
+|Liaoverse|liaoverse.xyz|liaoverse.vercel.app|
 |Disorder|dm.mux8.com/web/disorder/|dewanmukto.github.io/web/disorder|
 |Muktoverse 3D|muktoverse.mux8.com|dwmk.github.io/muktoverse3d/|
 |Netstate|dm.mux8.com/web/internet-checker/|dewanmukto.github.io/web/internet-checker/|
@@ -127,5 +128,6 @@ Social platform accounts managed by Dewan Mukto:
 |<i class="fas fa-quote-right"></i> Spillwords|@dewanmukto|spillwords.com/author/dewanmukto/|
 |<i class="fab fa-orcid"></i> ORCID|Dewan Maksudul Islam Mukto|orcid.org/0009-0005-3998-9252|
 |<i class="fas fa-sun"></i> MuxDay|@dm|muxday.vercel.app/profile/dm|
+|<i class="fas fa-dragon"></i> Liaoverse|@dm|liaoverse.xyz/?user=dm|
 
 There could be more, but likely to be abandoned. If any account/profile is not on this list, consider it to be a crime of misrepresentation.
