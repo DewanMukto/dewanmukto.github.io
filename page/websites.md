@@ -17,64 +17,36 @@ Made using HTML, CSS, JS, A-Frame (WebVR), LeafletJS, PeerJS, NextJS, Vite, Neon
 
 |Website Title/Purpose|Current URL|Permanent URL|
 |:---|:---|:---|
-|Dewan Mukto Co.|dewanmukto.mux8.com|dm-website-cool.vercel.app|
-|Dewan Mukto's personal v2|dm.mux8.com/v2|dewanmukto.github.io/v2|
-|Dewan Mukto merch|dm.mux8.com|dewanmukto.github.io|
-|BRAX Suite|brax.mux8.com|braxapp.github.io|
-|Faculty of Survival game|fos.mux8.com|facultyofsurvival.vercel.app|
-|DM Article/Post Archives|dm.mux8.com/archive|dewanmukto.github.io/archive|
+|Dewan Mukto Co.|dewanmukto.com|muktoverse.vercel.app|
+|Dewan Mukto's personal v2|dewanmukto.com/v2|dewanmukto.github.io/v2|
+|BRAX Suite|brax.dewanmukto.com|braxapp.github.io|
+|Faculty of Survival game|fos.dewanmukto.com|facultyofsurvival.vercel.app|
 |Asenturisk website|asenturisk.web.app|asenturisk.github.io|
-|Mizu CV|mizucv.mux8.com|mizucv.vercel.app|
-|Acado|acado.mux8.com|acadolife.vercel.app|
-|MuxDay|muxday.mux8.com|muxday.vercel.app|
+|HuanMux website|huanmux.github.io|huanmux.github.io|
+|Mizu CV|cvbuilder.dewanmukto.com|mizucv.vercel.app|
+|Acado|acado.dewanmukto.com|acadolife.vercel.app|
+|MuxDay|muxday.dewanmukto.com|muxday.vercel.app|
 |Liaoverse|liaoverse.xyz|liaoverse.vercel.app|
-|Disorder|dm.mux8.com/web/disorder/|dewanmukto.github.io/web/disorder|
-|Muktoverse 3D|muktoverse.mux8.com|dwmk.github.io/muktoverse3d/|
-|Netstate|dm.mux8.com/web/internet-checker/|dewanmukto.github.io/web/internet-checker/|
-|JackBus|dm.mux8.com/web/metrobus-tracker/|dewanmukto.github.io/web/metrobus-tracker/|
-|Cooper Black website|dm.mux8.com/verse/cooper-black/|dewanmukto.github.io/verse/cooper-black/|
-|Dewan Mukto's personal v1|dm.mux8.com/v1|dewanmukto.github.io/v1|
-|AI Workflow landing|dm.mux8.com/aiworkflow|dewanmukto.github.io/aiworkflow|
+|Disorder|dewanmukto.com/web/disorder/|dewanmukto.github.io/web/disorder|
+|Muktoverse 3D|3d.dewanmukto.com|dwmk.github.io/muktoverse3d/|
+|Cooper Black website|dewanmukto.com/verse/cooper-black/|dewanmukto.github.io/verse/cooper-black/|
+|AI Workflow landing|dewanmukto.com/aiworkflow|dewanmukto.github.io/aiworkflow|
+|Memorial University page|www.cs.mun.ca/~dmimukto|www.cs.mun.ca/~dmimukto|
 
 All other websites and links shown below this section were either made using proprietary tools on other platforms or manually designed using visual editors.
 
-# URL Redirections
-
-|Link Title/Purpose|Current URL|Redirection URL|
-|:---|---:|---:|
-|Uptime statuspage|status.mux8.com|stats.uptimerobot.com/sWfoV5sCXq|
-|DMC Affiliates Signup|dmca.mux8.com|tally.so/r/mYLY5v|
-|Cooper Black 2016 novel landing|cb16.mux8.com|dmi.my.canva.site/cooper-black-2016|
-|DMI Books landing|books.dm.mux8.com|dmi.my.canva.site|
-|Buy books from Lulu|lulu.books.dm.mux8.com|www.lulu.com/spotlight/dewanmukto|
-|Buy books from Blurb|blurb.books.dm.mux8.com|www.blurb.com/user/dewanmukto|
-|Bandcamp|music.dm.mux8.com|mukto.bandcamp.com|
-|Bored Roads single landing|br.music.dm.mux8.com|dmi.my.canva.site/bored-roads|
-|Memorial University hosted website|mun.dm.mux8.com|www.cs.mun.ca/~dmimukto|
-
-# Made with Site Builders
-
-|Link Title/Purpose|Current URL|Permanent URL|
-|:---|:---|:---|
-|Old DMC website|dmc.mux8.com|sites.google.com/view/mukto-net|
-|Research website|research.dm.mux8.com|sites.google.com/view/dewanmukto/home|
-|Wildest Dimensions website|itwd.carrd.co|itwd.carrd.co|
-|DMI Store|dmistore.mux8.com|dmistore.gumroad.com|
-|DM Merch|dm.mux8.com/page/merch|dewanmukto.myspreadshop.com|
-
 # Subdomains
 
-|Link Title/Purpose|Current URL|Permanent URL|
-|:---|:---|:---|
-|Medium|dewanmukto.medium.com|dewanmukto.medium.com|
-|Hashnode|dewanmukto.hashnode.dev|dewanmukto.hashnode.dev|
-|Substack|dewanmukto.substack.com|dewanmukto.substack.com|
-|Itch.io|dewanmukto.itch.io|dewanmukto.itch.io|
-|Bandcamp|mukto.bandcamp.com|mukto.bandcamp.com|
-|Wordpress|dewanmukto.wordpress.com|dewanmukto.wordpress.com|
-|Tumblr|muktodmi.tumblr.com|muktodmi.tumblr.com|
-|GitHub|dwmk.github.io|dwmk.github.io|
-
+|Link Title/Purpose|Permanent URL|
+|:---|:---|
+|Medium|dewanmukto.medium.com|
+|Hashnode|dewanmukto.hashnode.dev|
+|Substack|dewanmukto.substack.com|
+|Itch.io|dewanmukto.itch.io|
+|Bandcamp|mukto.bandcamp.com|
+|Wordpress|dewanmukto.wordpress.com|
+|Tumblr|muktodmi.tumblr.com|
+|GitHub|dwmk.github.io|
 
 <p id="social"></p>
 
@@ -128,6 +100,6 @@ Social platform accounts managed by Dewan Mukto:
 |<i class="fas fa-quote-right"></i> Spillwords|@dewanmukto|spillwords.com/author/dewanmukto/|
 |<i class="fab fa-orcid"></i> ORCID|Dewan Maksudul Islam Mukto|orcid.org/0009-0005-3998-9252|
 |<i class="fas fa-sun"></i> MuxDay|@dm|muxday.vercel.app/profile/dm|
-|<i class="fas fa-dragon"></i> Liaoverse|@dm|liaoverse.xyz/?user=dm|
+|<i class="fas fa-dragon"></i> Liaoverse|@dm|liaoverse.vercel.app/?user=dm|
 
 There could be more, but likely to be abandoned. If any account/profile is not on this list, consider it to be a crime of misrepresentation.
