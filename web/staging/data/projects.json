@@ -296,7 +296,7 @@
       "Python"
     ],
     "type": "Desktop app",
-    "icon": "https://cdn.mux8.com/images/ogimage-muxrepeat.ico",
+    "icon": "https://huanmux.github.io/cdn/images/ogimage-muxrepeat.ico",
     "repo": "https://github.com/dewanmukto/universal-macro-automation",
     "url": null,
     "problem_solved": "All your repetitive works performed by the machine while you relax and focus on the better things in life",
@@ -384,7 +384,7 @@
       "PeerJS"
     ],
     "type": "Webapp",
-    "icon": "https://dmkto.mux8.com/asset/images/muxwow.png",
+    "icon": "https://dmkto.dewanmukto.com/asset/images/muxwow.png",
     "repo": "https://github.com/dewanmukto/p2p-video-meetings",
     "url": null,
     "problem_solved": "Conduct virtual conferences while keeping intruders out or scratching their heads",
@@ -399,7 +399,7 @@
       "JS"
     ],
     "type": "Webapp",
-    "icon": "https://apps.mux8.com/paint/favicon.png",
+    "icon": "https://apps.dewanmukto.com/paint/favicon.png",
     "repo": "https://github.com/dewanmukto/online-whiteboard",
     "url": "https://dewanmukto.github.io/web/paint/",
     "problem_solved": "Instantly begin annotating or sketching in case your regular whiteboard breaks down",
@@ -427,7 +427,7 @@
       "LeafletJS"
     ],
     "type": "Webapp",
-    "icon": "https://apps.mux8.com/metrobus/favicon.png",
+    "icon": "https://apps.dewanmukto.com/metrobus/favicon.png",
     "repo": "https://github.com/dewanmukto/metrobus-tracker",
     "url": "https://dewanmukto.github.io/web/metrobus-tracker",
     "problem_solved": "Decide for the fastest route by locating the bus nearest to your stop",

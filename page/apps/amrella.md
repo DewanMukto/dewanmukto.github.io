@@ -5,7 +5,7 @@ description: A new social media/networking platform
 permalink: /apps/amrella
 ---
 
-<iframe src="https://apps.mux8.com/amrella" width="100%" height="600px"></iframe>
+<iframe src="https://apps.dewanmukto.com/amrella" width="100%" height="600px"></iframe>
 
 ## Info
 

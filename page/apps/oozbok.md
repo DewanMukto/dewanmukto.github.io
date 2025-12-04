@@ -15,4 +15,4 @@ permalink: /apps/oozbok
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cPSwh2Tfhhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Download/Use
-From the [website](https://oozbok.mux8.com/)
+From the [website](https://oozbok.dewanmukto.com/)
