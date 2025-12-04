@@ -36,6 +36,23 @@ body {
   overflow: hidden;
   font-family: 'Courier New', monospace;
   color: #00ffff;
+  position: relative; /* Ensure children absolute positioning works relative to body if needed */
+}
+
+/* --- Background Image Layer --- */
+#bg-image-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Behind everything */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none; /* Let clicks pass through */
 }
 
 /* --- Header Glitch Text --- */
@@ -138,10 +155,22 @@ body {
   left: 50%;
   transform: translate(-50%, 50%); /* Push it slightly down */
   display: flex;
-  gap: 20px;
+  flex-direction: column; /* Stack rows vertically */
+  gap: 15px;
   z-index: 100;
-  width: 100%;
+  /* Width is determined by content, ensuring alignment */
+  align-items: stretch; 
+}
+
+.ui-row {
+  display: flex;
+  gap: 20px;
   justify-content: center;
+}
+
+/* Ensure top buttons share space equally if needed, or just naturally sit */
+.ui-row .neon-btn {
+  flex: 1;
 }
 
 .neon-btn {
@@ -159,6 +188,10 @@ body {
   box-shadow: 0 0 5px rgba(0, 255, 255, 0.2);
   backdrop-filter: blur(2px);
   white-space: nowrap;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .neon-btn:hover {
@@ -241,6 +274,9 @@ body {
 </head>
 <body>
 
+  <!-- Background Image Layer -->
+  <div id="bg-image-layer"></div>
+
   <!-- Glitch Header -->
   <div id="header-container">
     <div id="glitch-text"></div>
@@ -257,8 +293,13 @@ body {
       
       <!-- Buttons -->
       <div class="ui-container">
-        <a href="https://dm.mux8.com/v2/" target="_blank" class="neon-btn">Introduction</a>
-        <a href="https://liaoverse.mux8.com/?user=dm" target="_blank" class="neon-btn">Activity</a>
+        <!-- Top Row -->
+        <div class="ui-row">
+          <a href="https://dm.mux8.com/v2/" target="_blank" class="neon-btn" data-bg="https://mux8.com/assets/image/dm-wallp01.jpg">Introduction</a>
+          <a href="https://liaoverse.mux8.com/?user=dm" target="_blank" class="neon-btn" data-bg="https://mux8.com/assets/image/dm-wallp02.jpg">Activity</a>
+        </div>
+        <!-- Bottom Full Width Button -->
+        <a href="https://muktoverse.mux8.com/public/" target="_blank" class="neon-btn" data-bg="https://mux8.com/assets/image/dm-wallp03.jpg">Explore the Muktoverse</a>
       </div>
     </div>
   </div>
@@ -348,6 +389,35 @@ body {
     
     a.appendChild(i);
     socialBar.appendChild(a);
+  });
+
+  // --- 4. Background Hover Logic ---
+  const bgLayer = document.getElementById('bg-image-layer');
+  const buttons = document.querySelectorAll('.neon-btn');
+
+  // Preload images to prevent lag
+  const imageUrls = [
+    "https://mux8.com/assets/image/dm-wallp01.jpg",
+    "https://mux8.com/assets/image/dm-wallp02.jpg",
+    "https://mux8.com/assets/image/dm-wallp03.jpg"
+  ];
+  imageUrls.forEach(url => {
+    const img = new Image();
+    img.src = url;
+  });
+
+  buttons.forEach(btn => {
+    btn.addEventListener('mouseenter', () => {
+      const bgUrl = btn.getAttribute('data-bg');
+      if (bgUrl) {
+        bgLayer.style.backgroundImage = `url('${bgUrl}')`;
+        bgLayer.style.opacity = 0.5;
+      }
+    });
+
+    btn.addEventListener('mouseleave', () => {
+      bgLayer.style.opacity = 0;
+    });
   });
   </script>
 </body>
