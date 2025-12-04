@@ -1,628 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Dewan Mukto</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Dewan Mukto ✦ Website</title>
+<meta name="description" content="Welcome to the Muktoverse, formed by a virtuous man of etiquette, an online icon of netiquette, living in a modern vignette, on behalf of Dewan Mukto's signet." />
+    <meta name="keywords" content="dewanmukto, asenturisk, bangladesh, dewan mukto, dewan mukto co, muktoverse, the muktoverse, dewan maksudul islam mukto, dewan mukto & co, dmca" />
+  <meta name="author" content="Dewan Mukto" />
+  <meta property="og:title" content="Muktoverse" />
+  <meta property="og:description" content="Welcome to the Muktoverse, formed by a virtuous man of etiquette, an online icon of netiquette, living in a modern vignette, on behalf of Dewan Mukto's signet." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dm.mux8.com/" />
+  <meta property="og:image" content="https://dewanmukto.github.io/asset/images/dewanmuktodomination.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Muktoverse" />
+  <meta name="twitter:description" content="Welcome to the Muktoverse, formed by a virtuous man of etiquette, an online icon of netiquette, living in a modern vignette, on behalf of Dewan Mukto's signet." />
+  <meta name="twitter:image" content="https://dewanmukto.github.io/asset/images/dewanmuktodomination.png" />
+  <meta name="twitter:site" content="@DEWAN_MUKTO" />
+  <link rel="canonical" href="https://dewanmukto.github.io/" />
+  <meta name="robots" content="index, follow" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
-
-/* Animated background */
 body {
-  background: linear-gradient(45deg, #ff0a45 0%, #e91e63 25%, #ad1457 50%, #c2185b 75%, #ff0a45 100%);
-  background-size: 400% 400%;
-  animation: gradientShift 8s ease infinite;
-  position: relative;
+  margin: 0;
+  height: 100vh;
+  height: 100dvh; /* Mobile viewport fix */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(circle at center, #000010 0%, #000 100%);
   overflow: hidden;
+  font-family: 'Courier New', monospace;
+  color: #00ffff;
 }
 
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+/* --- Header Glitch Text --- */
+#header-container {
+  padding-top: 20px;
+  z-index: 100;
+  text-align: center;
+  height: 60px; /* fixed height to prevent layout shift */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Tessellated wordmark background */
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 200%;
-  height: 200%;
-  background-image: url('https://dewanmukto.github.io/asset/images/wordmark_logo.png');
-  background-size: 80px 80px;
-  background-repeat: repeat;
-  opacity: 0.18;
-  z-index: -1;
-  animation: tessellateMove var(--move-duration) linear infinite;
-  transform: rotate(25deg);
+#glitch-text {
+  font-family: 'Kode Mono', monospace;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 5vw, 2.5rem); /* Responsive font size */
+  letter-spacing: 0.1em;
+  color: #00ffff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+  white-space: nowrap;
 }
 
-@keyframes tessellateMove {
-  0% { transform: rotate(25deg) translate(0, 0); }
-  100% { transform: rotate(25deg) translate(var(--move-x), var(--move-y)); }
-}
-
-/* Shine effect for buttons */
-.shine-button {
+/* --- 3D Scene --- */
+#scene-wrapper {
   position: relative;
-  overflow: hidden;
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
 }
-.shine-button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -75%;
-  width: 50%;
+
+#scene {
+  /* Use vmin to keep it square and fitting within the smallest dimension */
+  width: clamp(300px, 60vmin, 600px); 
+  height: clamp(300px, 60vmin, 600px);
+  perspective: 1200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#camera {
+  position: relative;
+  width: 100%;
   height: 100%;
-  background: linear-gradient(
-    120deg,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0.5) 50%,
-    rgba(255, 255, 255, 0.2) 100%
-  );
-  transform: skewX(-20deg);
+  transform-style: preserve-3d;
+  transform: rotateX(10deg) rotateY(10deg);
+  animation: hover 6s ease-in-out infinite alternate;
 }
-.shine-button:hover::before {
-  animation: shine 0.75s forwards;
+
+#ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: spin 30s linear infinite;
 }
-@keyframes shine {
-  0% { left: -75%; }
-  100% { left: 125%; }
+
+#ring span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: center center;
+  font-size: clamp(2rem, 3vmin, 5em); /* Scale text with ring size */
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff, 0 0 25px #00ffff;
+  opacity: 0.7;
+  white-space: nowrap;
+  /* TranslateZ needs to be proportional to width. Approx 30% of width works well for circles */
+  transform: rotateY(calc(var(--i) * var(--angle))) translateZ(clamp(140px, 28vmin, 280px));
+  animation: glow 3s ease-in-out infinite;
+}
+
+#center-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* 44% of parent width */
+  width: 44%;
+  height: 44%;
+  transform: translate(-50%, -50%) translateZ(0);
+  animation: float 5s ease-in-out infinite alternate;
+}
+
+#center-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* --- UI Buttons --- */
+.ui-container {
+  /* Position relative to the scene wrapper so it stays near the ring */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%); /* Push it slightly down */
+  display: flex;
+  gap: 20px;
+  z-index: 100;
+  width: 100%;
+  justify-content: center;
+}
+
+.neon-btn {
+  text-decoration: none;
+  color: #00ffff;
+  background: rgba(0, 20, 20, 0.4);
+  border: 1px solid #00ffff;
+  padding: 10px 20px;
+  font-size: clamp(0.8rem, 2.5vw, 1.1em);
+  font-weight: bold;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  white-space: nowrap;
+}
+
+.neon-btn:hover {
+  background: #00ffff;
+  color: #000;
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+  transform: scale(1.05);
+}
+
+/* --- Social Icons --- */
+#social-bar {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  z-index: 100;
+  width: 100%;
+  max-width: 800px;
+  background: linear-gradient(to top, #000 0%, transparent 100%);
+}
+
+.social-link {
+  color: rgba(0, 255, 255, 0.6);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #00ffff;
+  transform: translateY(-3px) scale(1.1);
+  background: rgba(0, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+/* --- Animations --- */
+@keyframes spin {
+  from { transform: rotateY(360deg); }
+  to   { transform: rotateY(0deg); }
+}
+
+@keyframes hover {
+  0%,100% { transform: rotateX(10deg) rotateY(10deg) translateY(0); }
+  50% { transform: rotateX(10deg) rotateY(10deg) translateY(-20px); }
+}
+
+@keyframes glow {
+  0%,100% {
+    text-shadow: 0 0 8px #00ffff, 0 0 25px #00ffff;
+    opacity: 0.6;
+  }
+  50% {
+    text-shadow: 0 0 20px #00ffff, 0 0 50px #00ffff;
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%,100% { transform: translate(-50%, -50%) translateZ(0) scale(1); opacity: 0.9; }
+  50% { transform: translate(-50%, -52%) translateZ(15px) scale(1.05); opacity: 1; }
+}
+
+/* --- Media Queries for Mobile Fine-Tuning --- */
+@media (max-height: 700px) {
+  /* For landscape mobile or small screens, compact the layout */
+  #header-container { padding-top: 10px; }
+  .ui-container { bottom: -20px; }
+  #social-bar { padding-bottom: 10px; }
+  #scene { width: 50vmin; height: 50vmin; }
 }
 </style>
 </head>
-<body class="overflow-hidden" id="main-body">
-<div id="webcrumbs">
-<div class="p-4 md:p-8 max-w-7xl mx-auto">
+<body>
 
-<!-- Intro overlay -->
-<div id="intro" class="fixed flex justify-center items-center h-screen w-screen top-0 left-0 bg-black z-50 animate-fadeOut" style="animation-delay:3s;animation-duration:1s;animation-fill-mode:forwards">
-  <img src="https://dewanmukto.github.io/asset/images/wordmark_logo.png" alt="Dewan Mukto Logo" class="w-64 animate-pulse" style="animation-duration:2s"/>
-</div>
-
-<!-- Top row -->
-<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
-  <!-- Merch -->
-  <div class="md:col-span-8 lg:col-span-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl shadow-lg overflow-hidden group transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
-    <a href="https://dewanmukto.github.io/page/merch" class="block p-8 h-full">
-      <div class="flex flex-col h-full justify-between">
-        <div class="flex items-center justify-between">
-          <h2 class="text-3xl font-bold text-white">Explore Merch</h2>
-          <span class="text-white text-2xl group-hover:translate-x-2 transition-transform duration-300">►</span>
-        </div>
-        <div class="mt-4">
-          <div class="grid grid-cols-2 gap-4 mt-6">
-            <div class="bg-white/20 p-4 rounded-lg backdrop-blur-sm">
-              <span class="material-symbols-outlined text-4xl text-white mb-2">verified</span>
-              <p class="text-white text-sm font-medium">Durable Materials</p>
-            </div>
-            <div class="bg-white/20 p-4 rounded-lg backdrop-blur-sm">
-              <span class="material-symbols-outlined text-4xl text-white mb-2">style</span>
-              <p class="text-white text-sm font-medium">Timeless Designs</p>
-            </div>
-            <div class="bg-white/20 p-4 rounded-lg backdrop-blur-sm">
-              <span class="material-symbols-outlined text-4xl text-white mb-2">shopping_bag</span>
-              <p class="text-white text-sm font-medium">30-Day Returns</p>
-            </div>
-            <div class="bg-white/20 p-4 rounded-lg backdrop-blur-sm">
-              <span class="material-symbols-outlined text-4xl text-white mb-2">local_shipping</span>
-              <p class="text-white text-sm font-medium">Worldwide Shipping</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </a>
+  <!-- Glitch Header -->
+  <div id="header-container">
+    <div id="glitch-text"></div>
   </div>
 
-  <!-- Services -->
-  <div class="md:col-span-4 lg:col-span-4 bg-neutral-800 rounded-xl shadow-lg overflow-hidden group transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl relative min-h-[380px]">
-    <a href="https://dewanmukto.github.io/v2">
-    <div class="block p-8 h-full grayscale">
-      <div class="flex flex-col h-full justify-between">
-        <div class="flex items-center justify-between">
-          <h2 class="text-3xl font-bold text-white">Hire Services</h2>
-          <span class="text-white text-2xl group-hover:translate-x-2 transition-transform duration-300">►</span>
-        </div>
-        <div class="mt-4">
-          <div class="grid grid-cols-1 gap-4 mt-6">
-            <div class="bg-white/20 p-4 rounded-lg backdrop-blur-sm">
-              <span class="material-symbols-outlined text-4xl text-white mb-2">code</span>
-              <p class="text-white text-sm font-medium">Development</p>
-            </div>
-            <div class="bg-white/20 p-4 rounded-lg backdrop-blur-sm">
-              <span class="material-symbols-outlined text-4xl text-white mb-2">design_services</span>
-              <p class="text-white text-sm font-medium">Design</p>
-            </div>
-          </div>
+  <div id="scene-wrapper">
+    <div id="scene">
+      <div id="camera">
+        <div id="ring"></div>
+        <div id="center-logo">
+          <img src="https://dewanmukto.github.io/asset/logos/logo.png" alt="Dewan Mukto Logo">
         </div>
       </div>
-    </div>
-    <!-- <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 cursor-not-allowed">
-      <div class="bg-black/80 text-white px-4 py-2 rounded-lg text-sm font-medium">Coming soon</div>
-    </div> -->
-  </a>
-  </div>
-</div>
-
-<!-- ====== Store row (Featured 30% / Products 70%) ====== -->
-<section id="store-products" class="mt-6 grid grid-cols-1 md:grid-cols-12 gap-6">
-
-  <!-- Featured Product (left panel; 30%) -->
-  <aside id="featured-container" class="md:col-span-4 bg-neutral-800 rounded-xl shadow-md p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
-    <h3 class="text-2xl font-bold text-white">Featured product</h3>
-    <p class="text-xs text-gray-300">With a discounted deal, for you</p>
-    <div id="featured" class="mt-4 animate-fadeIn">
-      <!-- Filled by JS -->
-      <div class="w-full aspect-square bg-white/60 rounded-xl animate-pulse"></div>
-      <div class="mt-3 h-5 w-2/3 bg-white/70 rounded"></div>
-      <div class="mt-2 h-4 w-1/2 bg-white/60 rounded"></div>
-    </div>
-  </aside>
-
-  <!-- Products (right panel; 70%) -->
-  <div class="md:col-span-8 bg-neutral-800 rounded-xl shadow-md p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
-
-    <!-- Header: title, search (always visible), reset -->
-    <div class="flex items-center justify-between gap-3">
-      <div class="flex items-center gap-2">
-        <button id="reset-btn" class="px-3 py-1 rounded-full bg-white shadow hover:shadow-md transition active:scale-95" title="Reset to categories">✕</button>
-        <div class="flex items-center gap-2">
-          <span class="material-symbols-outlined text-2xl text-white">checkroom</span>
-          <h2 class="text-2xl font-bold text-white">Clothing</h2>
-        </div>
-      </div>
-      <div class="relative w-full max-w-sm">
-        <input id="search-box" type="text" placeholder="Search products…" class="w-full border border-gray-200 bg-white rounded-full pl-4 pr-9 py-2 focus:outline-none focus:ring focus:ring-primary-300 transition">
-        <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">search</span>
+      
+      <!-- Buttons -->
+      <div class="ui-container">
+        <a href="https://dm.mux8.com/v2/" target="_blank" class="neon-btn">Introduction</a>
+        <a href="https://liaoverse.mux8.com/?user=dm" target="_blank" class="neon-btn">Activity</a>
       </div>
     </div>
-    <p class="text-xs text-gray-300 mt-1">Find your fit, make every look hit!</p>
-
-    <!-- Category stage -->
-    <div id="category-stage" class="mt-5 animate-fadeIn">
-      <h3 class="text-lg font-semibold text-center text-white">What are you looking for?</h3>
-      <div id="category-pills" class="mt-4 flex flex-wrap justify-center gap-2">
-        <!-- Pills injected here -->
-      </div>
-    </div>
-
-    <!-- Product grid -->
-    <div id="product-grid" class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 hidden">
-      <!-- Cards injected here -->
-    </div>
-
-    <!-- Empty state -->
-    <div id="empty-state" class="mt-8 hidden text-center text-sm text-gray-300">No products matched your filters.</div>
   </div>
-</section>
 
-<!-- Socials -->
-<div class="md:col-span-12 bg-neutral-100 rounded-xl shadow-md p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg mt-6">
-  <div class="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
-    <a href="https://facebook.com/dewanmukto" target="_blank" rel="noopener noreferrer" class="p-3 bg-white rounded-full shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1" aria-label="Facebook"><i class="fa-brands fa-facebook text-2xl text-blue-600"></i></a>
-    <a href="https://instagram.com/dewanmukto" target="_blank" rel="noopener noreferrer" class="p-3 bg-white rounded-full shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1" aria-label="Instagram"><i class="fa-brands fa-instagram text-2xl text-pink-600"></i></a>
-    <a href="https://threads.net/dewanmukto" target="_blank" rel="noopener noreferrer" class="p-3 bg-white rounded-full shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1" aria-label="Threads"><i class="fa-brands fa-threads text-2xl text-black"></i></a>
-    <a href="https://tiktok.com/@dewanmukto" target="_blank" rel="noopener noreferrer" class="p-3 bg-white rounded-full shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1" aria-label="TikTok"><i class="fa-brands fa-tiktok text-2xl text-black"></i></a>
-    <a href="https://www.youtube.com/@Dewan-Mukto/" target="_blank" rel="noopener noreferrer" class="p-3 bg-white rounded-full shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1" aria-label="YouTube"><i class="fa-brands fa-youtube text-2xl text-red-600"></i></a>
-  </div>
-</div>
-<div class="mt-4 flex flex-wrap items-center justify-between text-xs text-gray-200 max-w-7xl mx-auto">
-  <span>© 2025 Dewan Mukto Co.</span>
-  <div class="flex flex-wrap gap-4">
-    <a href="https://service.spreadshirt.com/hc/en-us/articles/115000991325-Terms-Conditions?platform=na&shop_id=1912153&shop_name=dewanmukto" target="_blank" rel="noopener noreferrer" class="hover:text-primary-400 transition-colors">Terms of Service</a> |
-    <a href="https://service.spreadshirt.com/hc/en-us/articles/115000978409-Privacy?platform=na&shop_id=1912153&shop_name=dewanmukto" target="_blank" rel="noopener noreferrer" class="hover:text-primary-400 transition-colors">Privacy Policy</a> |
-    <a href="https://service.spreadshirt.com/hc/en-us/articles/115000993925-Shipping-Times-and-Costs?platform=na&shop_id=1912153&shop_name=dewanmukto" target="_blank" rel="noopener noreferrer" class="hover:text-primary-400 transition-colors">Shipping Costs/Time</a> |
-    <a href="https://service.spreadshirt.com/hc/en-us/?shop_name=dewanmukto&shop_id=1912153&platform=na" target="_blank" rel="noopener noreferrer" class="hover:text-primary-400 transition-colors">Customer Support/FAQ</a>
-  </div>
-</div>
+  <!-- Social Media Footer -->
+  <div id="social-bar"></div>
 
-</div>
-</div>
+  <script>
+  // --- 1. Ring Text Logic ---
+  const phrase = "• Dewan Mukto • Muktoverse ";
+  const text = phrase.repeat(2);
+  const chars = text.split("");
+  const ring = document.getElementById("ring");
+  const angle = 360 / chars.length;
 
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-tailwind.config = {
-  content:["./src/**/*.{html,js}"],
-  theme:{
-    name:"Dark",
-    fontFamily:{
-      sans:["Oswald","ui-sans-serif","system-ui","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"]
-    },
-    extend:{
-      fontFamily:{
-        title:["Open Sans","ui-sans-serif","system-ui","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"],
-        body:["Oswald","ui-sans-serif","system-ui","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"]
-      },
-      colors:{
-        neutral:{50:"#1D232A",100:"#1C2229",200:"#1B2127",300:"#1A2026",400:"#1A1F25",500:"#191E24",600:"#0C0E11",700:"#090B0D",800:"#060708",900:"#030304",DEFAULT:"#1D232A"},
-        primary:{50:"#F1F2FF",100:"#EAECFF",200:"#D4D7FF",300:"#747FFF",400:"#6872E6",500:"#5D66CC",600:"#575FBF",700:"#464C99",800:"#343973",900:"#292C59",DEFAULT:"#747FFF"}
-      },
-      keyframes:{
-        fadeOut:{'0%':{opacity:'1'},'100%':{opacity:'0',display:'none'}},
-        fadeIn:{'0%':{opacity:'0',transform:'translateY(6px)'},'100%':{opacity:'1',transform:'translateY(0)'}},
-        slideUp:{'0%':{transform:'translateY(12px)',opacity:'0'},'100%':{transform:'translateY(0)',opacity:'1'}},
-        pop:{'0%':{transform:'scale(.98)'},'100%':{transform:'scale(1)'}}
-      },
-      animation:{
-        fadeOut:'fadeOut 1s ease-in-out forwards',
-        fadeIn:'fadeIn .4s ease-out both',
-        slideUp:'slideUp .35s ease-out both',
-        pop:'pop .15s ease-out'
+  ring.innerHTML = chars.map((ch, i) => {
+    const s = document.createElement("span");
+    s.textContent = ch;
+    s.style.setProperty("--i", i);
+    s.style.setProperty("--angle", angle + "deg");
+    return s.outerHTML;
+  }).join("");
+
+  // --- 2. Glitch Header Logic ---
+  const headerEl = document.getElementById('glitch-text');
+  const WORDS = ['DEWANMUKTO', 'ASENTURISK', 'BANGLADESH'];
+  const GLITCH_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()';
+  let currentWordIndex = 0;
+
+  function runGlitchEffect() {
+    const targetWord = WORDS[currentWordIndex];
+    let iterations = 0;
+    
+    const interval = setInterval(() => {
+      headerEl.innerText = targetWord
+        .split("")
+        .map((letter, index) => {
+          if (index < iterations) {
+            return targetWord[index];
+          }
+          return GLITCH_CHARS[Math.floor(Math.random() * GLITCH_CHARS.length)];
+        })
+        .join("");
+
+      if (iterations >= targetWord.length) {
+        clearInterval(interval);
+        // Wait before starting next word
+        setTimeout(() => {
+          currentWordIndex = (currentWordIndex + 1) % WORDS.length;
+          runGlitchEffect();
+        }, 2000); 
       }
-    },
-    fontSize:{
-      xs:["13.5px",{lineHeight:"21.6px"}],
-      sm:["15.75px",{lineHeight:"23.625px"}],
-      base:["18px",{lineHeight:"28.8px"}],
-      lg:["20.25px",{lineHeight:"30.375px"}],
-      xl:["22.5px",{lineHeight:"31.5px"}],
-      "2xl":["27px",{lineHeight:"35.1px"}],
-      "3xl":["33.75px",{lineHeight:"40.5px"}],
-      "4xl":["40.5px",{lineHeight:"46.575px"}],
-      "5xl":["54px",{lineHeight:"59.4px"}],
-      "6xl":["67.5px",{lineHeight:"74.25px"}],
-      "7xl":["81px",{lineHeight:"85.05px"}],
-      "8xl":["108px",{lineHeight:"113.4px"}],
-      "9xl":["144px",{lineHeight:"151.2px"}]
-    },
-    borderRadius:{none:"0px",sm:"2px",DEFAULT:"4px",md:"6px",lg:"8px",xl:"12px","2xl":"16px","3xl":"24px",full:"9999px"},
-    spacing:{0:"0px",1:"4px",2:"8px",3:"12px",4:"16px",5:"20px",6:"24px",7:"28px",8:"32px",9:"36px",10:"40px",11:"44px",12:"48px",14:"56px",16:"64px",20:"80px",24:"96px",28:"112px",32:"128px",36:"144px",40:"160px",44:"176px",48:"192px",52:"208px",56:"224px",60:"240px",64:"256px",72:"288px",80:"320px",96:"384px",px:"1px",0.5:"2px",1.5:"6px",2.5:"10px",3.5:"14px"}
-  },
-  plugins:[],
-  important:"#webcrumbs"
-}
-</script>
 
-<script>
-// Set up random background animation direction
-const directions = [
-  { x: '120px', y: '-120px' }, // top-right
-  { x: '-120px', y: '120px' },  // bottom-left
-  { x: '-120px', y: '-120px' }, // top-left
-  { x: '120px', y: '120px' }    // bottom-right
-];
-const randomDirection = directions[Math.floor(Math.random() * directions.length)];
-const randomDuration = 15 + Math.random() * 10; // 15-25 seconds
-
-document.documentElement.style.setProperty('--move-x', randomDirection.x);
-document.documentElement.style.setProperty('--move-y', randomDirection.y);
-document.documentElement.style.setProperty('--move-duration', `${randomDuration}s`);
-
-document.getElementById('intro').addEventListener('animationend',function(){
-  this.style.display='none';
-  this.style.pointerEvents='none';
-  document.getElementById('main-body').classList.remove('overflow-hidden');
-  document.body.style.overflow = 'auto'; // Explicitly restore scrolling
-});
-</script>
-
-<script>
-/* ====== Dynamic Store UI ====== */
-document.addEventListener("DOMContentLoaded", () => {
-  const feedUrl = "https://dewanmukto.myspreadshop.com/1912153/products.rss?pushState=false&targetPlatform=facebook";
-  const GNS = "http://base.google.com/ns/1.0";
-
-  // UI nodes
-  const featuredBox = document.getElementById("featured");
-  const productGrid = document.getElementById("product-grid");
-  const categoryStage = document.getElementById("category-stage");
-  const categoryPills = document.getElementById("category-pills");
-  const emptyState = document.getElementById("empty-state");
-  const searchBox = document.getElementById("search-box");
-  const resetBtn = document.getElementById("reset-btn");
-
-  // Data
-  let groups = [];                 // [{id,title,price,desc,gender,categoryLabel,variants:[{color,image,link}]}]
-  let byCategory = {};             // { [categoryLabel]: [group,...] }
-  let currentCategory = null;
-  let currentSearch = "";
-  let sessionFeaturedProduct = null; // Store featured product for the session
-
-  // Friendly labels: prefer keyword inference; a small map for known Google IDs
-  const TAXONOMY_MAP = {
-    "639": "Aprons"                 // sample file shows 639 for aprons
-    // If you want to add: "4054":"Hats & Caps", "5608":"Bags", etc.
-  };
-
-  // Enhanced color mapping with better fallback colors
-  const NAMED_COLORS = {
-    black:"#1a1a1a", white:"#f8f9fa", red:"#dc2626", blue:"#2563eb", "royal blue":"#1e40af",
-    navy:"#1e3a8a", khaki:"#a3a047", burgundy:"#7f1d1d", "forest green":"#166534",
-    green:"#16a34a", yellow:"#eab308", orange:"#ea580c", purple:"#9333ea", pink:"#ec4899",
-    gray:"#6b7280", charcoal:"#374151", brown:"#92400e", tan:"#d97706", cream:"#fef3c7",
-    maroon:"#7f1d1d", olive:"#65a30d", teal:"#0d9488", indigo:"#4338ca", violet:"#8b5cf6",
-    lime:"#84cc16", cyan:"#06b6d4", rose:"#f43f5e", amber:"#f59e0b", emerald:"#10b981"
-  };
-  
-  function hashHue(str){let h=0;for(let i=0;i<str.length;i++){h=(h*31+str.charCodeAt(i))>>>0;}return h%360;}
-  
-  function colorToHex(name){
-    if(!name) return "#6b7280";
-    const key = name.trim().toLowerCase();
-    
-    // Exact match first
-    if (NAMED_COLORS[key]) return NAMED_COLORS[key];
-    
-    // Try partial matches
-    for (const [colorKey, hex] of Object.entries(NAMED_COLORS)) {
-      if (key.includes(colorKey) || colorKey.includes(key)) {
-        return hex;
-      }
-    }
-    
-    // Try CSS color by removing spaces and special characters
-    const cssName = key.replace(/[^a-z]/g, '');
-    const testEl = document.createElement('div');
-    testEl.style.color = cssName;
-    if (testEl.style.color && testEl.style.color !== '') {
-      return cssName;
-    }
-    
-    // Fallback to stable HSL based on name hash
-    const hue = hashHue(key);
-    const saturation = 60 + (hashHue(key + 'sat') % 30); // 60-90%
-    const lightness = 35 + (hashHue(key + 'light') % 25); // 35-60%
-    return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+      iterations += 1 / 3; // Speed of decoding
+    }, 30);
   }
 
-  // Helper function to parse price and calculate discount
-  function calculateDiscountPrice(originalPrice) {
-    if (!originalPrice) return { original: '', discounted: '', fake: '' };
+  // Start the glitch effect
+  runGlitchEffect();
+
+
+  // --- 3. Social Media Icons Logic ---
+  const socials = [
+    { name: 'GitHub', username: 'dwmk', url: 'https://github.com/dwmk', icon: 'fab fa-github' },
+    { name: 'Instagram', username: 'dewanmukto', url: 'https://www.instagram.com/dewanmukto/', icon: 'fab fa-instagram' },
+    { name: 'Twitter X', username: 'DEWAN_MUKTO', url: 'https://x.com/DEWAN_MUKTO', icon: 'fab fa-twitter' },
+    { name: 'YouTube', username: 'Dewan Mukto', url: 'https://www.youtube.com/@Dewan-Mukto', icon: 'fab fa-youtube' },
+    { name: 'Facebook', username: 'Dewan Mukto', url: 'https://www.facebook.com/dewanmukto/', icon: 'fab fa-facebook' },
+    { name: 'TikTok', username: 'dewanmukto', url: 'https://www.tiktok.com/@dewanmukto', icon: 'fab fa-tiktok' },
+    { name: 'CodePen', username: 'distil', url: 'https://codepen.io/distil', icon: 'fab fa-codepen' },
+    { name: 'Dribbble', username: 'dmkto', url: 'https://dribbble.com/dmkto', icon: 'fab fa-dribbble' },
+    { name: 'Behance', username: 'dmkto', url: 'https://www.behance.net/dmkto', icon: 'fab fa-behance' },
+    { name: 'LinkedIn', username: 'dewanmukto', url: 'https://www.linkedin.com/in/dewanmukto/', icon: 'fab fa-linkedin' }
+  ];
+
+  const socialBar = document.getElementById('social-bar');
+
+  socials.forEach(social => {
+    const a = document.createElement('a');
+    a.href = social.url;
+    a.target = '_blank';
+    a.className = 'social-link';
+    a.title = `${social.name} (${social.username})`;
     
-    // Extract numeric value from price string
-    const match = originalPrice.match(/[\d.,]+/);
-    if (!match) return { original: originalPrice, discounted: originalPrice, fake: originalPrice };
+    const i = document.createElement('i');
+    i.className = social.icon;
     
-    const numericValue = parseFloat(match[0].replace(',', '.'));
-    if (isNaN(numericValue)) return { original: originalPrice, discounted: originalPrice, fake: originalPrice };
-    
-    const fakePrice = numericValue * 1.2; // 20% higher
-    const currency = originalPrice.replace(/[\d.,]/g, '').trim();
-    
-    return {
-      original: originalPrice,
-      discounted: originalPrice,
-      fake: `${currency}${fakePrice.toFixed(2)}`
-    };
-  }
-
-  // Derive friendly category from title + gender + taxonomy ID
-  function deriveCategoryLabel(title, gender, taxId){
-    const t = (title||"").toLowerCase();
-    if (/apron/.test(t)) return "Aprons";
-    if (/(bag|backpack|tote|duffel)/.test(t)) return "Bags";
-    if (/(hat|cap|beanie|bucket)/.test(t)) return "Hats & Caps";
-    if (/(mug|cup|bottle|drinkware)/.test(t)) return "Drinkware";
-    if (/(sticker|decal)/.test(t)) return "Stickers";
-    if (/(poster|print)/.test(t)) return "Wall Art";
-    if (gender && /female|women/.test(gender.toLowerCase())) return "Women's Clothing";
-    if (gender && /male|men/.test(gender.toLowerCase())) return "Men's Clothing";
-    if (TAXONOMY_MAP[taxId]) return TAXONOMY_MAP[taxId];
-    // catch-alls
-    if (/(hoodie|sweatshirt|crewneck)/.test(t)) return "Hoodies & Sweatshirts";
-    if (/(tee|t-shirt|shirt|tank|long sleeve)/.test(t)) return "Tops";
-    return "Apparel & Accessories";
-  }
-
-  // Parse & group by item_group_id so each product has multiple color variants
-  fetch(feedUrl)
-    .then(r => { if(!r.ok) throw new Error("HTTP "+r.status); return r.text(); })
-    .then(xml => new DOMParser().parseFromString(xml, "application/xml"))
-    .then(doc => {
-      const items = Array.from(doc.getElementsByTagName("item"));
-      const grouped = {};
-      items.forEach(item => {
-        const gid = item.getElementsByTagNameNS(GNS,"item_group_id")[0]?.textContent?.trim();
-        const title = item.getElementsByTagNameNS(GNS,"title")[0]?.textContent?.trim() || "";
-        const desc = item.getElementsByTagNameNS(GNS,"description")[0]?.textContent?.trim() || "";
-        const price = item.getElementsByTagNameNS(GNS,"price")[0]?.textContent?.trim() || "";
-        const link = item.getElementsByTagNameNS(GNS,"link")[0]?.textContent?.trim() || "#";
-        const image = item.getElementsByTagNameNS(GNS,"image_link")[0]?.textContent?.trim() || "";
-        const color = item.getElementsByTagNameNS(GNS,"color")[0]?.textContent?.trim() || "";
-        const gender = item.getElementsByTagNameNS(GNS,"gender")[0]?.textContent?.trim() || "";
-        const taxId = item.getElementsByTagNameNS(GNS,"google_product_category")[0]?.textContent?.trim() || "";
-
-        if(!gid) return;
-        if(!grouped[gid]){
-          grouped[gid] = {
-            id: gid, title, price, desc, gender,
-            taxonomyId: taxId,
-            categoryLabel: deriveCategoryLabel(title, gender, taxId),
-            variants: []
-          };
-        }
-        grouped[gid].variants.push({ color, image, link });
-      });
-
-      groups = Object.values(grouped).map(g => {
-        // ensure deterministic first image
-        if (g.variants.length>1){
-          g.variants.sort((a,b)=> (a.color||"").localeCompare(b.color||""));
-        }
-        return g;
-      });
-
-      // build category map
-      byCategory = groups.reduce((acc,g)=>{
-        (acc[g.categoryLabel] ||= []).push(g);
-        return acc;
-      },{});
-
-      renderCategoryPills();
-      // Set session featured product (stays the same throughout session)
-      if (groups.length && !sessionFeaturedProduct) {
-        sessionFeaturedProduct = randomFrom(groups);
-      }
-      updateFeatured(sessionFeaturedProduct, randomVariantOf);
-    })
-    .catch(err => {
-      console.error("Feed error:", err);
-      featuredBox.innerHTML = `<div class="text-sm text-red-400">Failed to load products. <a class="underline" href="https://dewanmukto.myspreadshop.com/" target="_blank" rel="noopener noreferrer">Visit the store</a>.</div>`;
-    });
-
-  // Helpers
-  function randomFrom(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
-  function randomVariantOf(prod){ return prod.variants[Math.floor(Math.random()*prod.variants.length)]; }
-
-  function renderCategoryPills(){
-    categoryPills.innerHTML = "";
-    const cats = Object.keys(byCategory).sort((a,b)=>a.localeCompare(b));
-    cats.forEach(cat=>{
-      const btn = document.createElement("button");
-      btn.className = "px-4 py-2 rounded-full bg-primary-500 text-white text-sm hover:bg-primary-600 transition animate-pop";
-      btn.textContent = cat;
-      btn.addEventListener("click", ()=>{
-        currentCategory = cat;
-        showProducts();
-      });
-      categoryPills.appendChild(btn);
-    });
-
-    // Also add an "All" pill
-    const allBtn = document.createElement("button");
-    allBtn.className = "px-4 py-2 rounded-full bg-white text-gray-700 border hover:bg-gray-50 transition animate-pop shine-button";
-    allBtn.textContent = "All";
-    allBtn.addEventListener("click", ()=>{
-      currentCategory = null;      // means all
-      showProducts();
-    });
-    categoryPills.prepend(allBtn);
-  }
-
-  // Main rendering
-  function showProducts(){
-    categoryStage.classList.add("hidden");
-    productGrid.classList.remove("hidden");
-    renderProducts();
-  }
-
-  function getFilteredGroups(){
-    const pool = currentCategory ? (byCategory[currentCategory] || []) : groups;
-    if (!currentSearch) return pool;
-    const q = currentSearch.toLowerCase();
-    return pool.filter(g => {
-      const inTitle = g.title.toLowerCase().includes(q);
-      const inVariants = g.variants.some(v => (v.color||"").toLowerCase().includes(q));
-      const inCat = g.categoryLabel.toLowerCase().includes(q);
-      return inTitle || inVariants || inCat;
-    });
-  }
-
-  function renderProducts(){
-    const list = getFilteredGroups();
-    productGrid.innerHTML = "";
-    emptyState.classList.toggle("hidden", list.length>0);
-
-    const frag = document.createDocumentFragment();
-
-    list.forEach(prod=>{
-      const first = prod.variants[0];
-      const card = document.createElement("article");
-      card.className = "product-card bg-white rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col animate-slideUp";
-      card.dataset.productId = prod.id;
-
-      // swatches with improved colors
-      const swatchBtns = prod.variants.map((v,idx)=> {
-        const bg = colorToHex(v.color);
-        const ring = idx===0 ? "ring-2 ring-primary-400" : "ring-0";
-        return `<button type="button" class="swatch w-6 h-6 rounded-full border-2 border-white shadow-md ${ring}" title="${v.color||'Color'}"
-                  data-image="${encodeURI(v.image)}" data-link="${encodeURI(v.link)}"
-                  style="background:${bg}"></button>`;
-      }).join("");
-
-      card.innerHTML = `
-        <div class="bg-gray-50 border rounded-lg overflow-hidden">
-          <img class="product-image w-full h-44 object-contain transition" src="${first.image}" alt="${prod.title}" loading="lazy">
-        </div>
-        <h4 class="mt-3 font-semibold text-gray-900 text-sm leading-tight">${prod.title}</h4>
-        <div class="mt-2 flex flex-wrap gap-1">${swatchBtns}</div>
-        <div class="mt-3 flex items-center justify-between">
-          <span class="text-base font-bold text-gray-900">${prod.price}</span>
-          <a class="view-btn shine-button px-3 py-2 rounded-lg bg-primary-500 hover:bg-primary-600 text-white text-sm font-medium transition-colors"
-             href="${first.link}" target="_blank" rel="noopener noreferrer">View</a>
-        </div>
-      `;
-
-      // swatch behavior: update image + view link
-      card.addEventListener("click", (e)=>{
-        const btn = e.target.closest(".swatch");
-        if(!btn) return;
-        e.preventDefault();
-        const img = card.querySelector(".product-image");
-        const view = card.querySelector(".view-btn");
-        // clear ring on siblings
-        card.querySelectorAll(".swatch").forEach(s=> s.classList.remove("ring-2","ring-primary-400"));
-        btn.classList.add("ring-2","ring-primary-400");
-        img.src = decodeURI(btn.dataset.image);
-        view.href = decodeURI(btn.dataset.link);
-      });
-
-      frag.appendChild(card);
-    });
-
-    productGrid.appendChild(frag);
-  }
-
-  function updateFeatured(prod, pickVariantFn){
-    if(!prod){ featuredBox.innerHTML = ""; return; }
-    const variant = pickVariantFn(prod);
-    const colorName = variant.color || "Color";
-    const btnHref = variant.link || "#";
-    const prices = calculateDiscountPrice(prod.price);
-    
-    featuredBox.innerHTML = `
-      <div class="bg-white border rounded-xl overflow-hidden">
-        <img src="${variant.image}" alt="${prod.title}" class="w-full object-contain max-h-[360px] mx-auto">
-      </div>
-      <h4 class="mt-4 text-xl font-bold text-white">${prod.title}</h4>
-      <p class="text-sm text-gray-300 mt-1">${prod.desc || ""}</p>
-      <div class="mt-3 flex items-center gap-2">
-        <span class="text-sm text-gray-300">Color:</span>
-        <span class="inline-flex items-center gap-2">
-          <span class="w-4 h-4 rounded-full border-2 border-white shadow" style="background:${colorToHex(colorName)}"></span>
-          <span class="text-sm text-gray-200">${colorName}</span>
-        </span>
-      </div>
-      <div class="mt-3 flex items-center justify-between">
-        <div class="flex flex-col">
-          <span class="text-sm text-gray-400 line-through">${prices.fake}</span>
-          <span class="text-lg font-bold text-green-400">${prices.discounted}</span>
-        </div>
-        <a href="${btnHref}" target="_blank" rel="noopener noreferrer"
-           class="flex items-center gap-2 px-4 py-2 rounded-lg bg-green-500 hover:bg-green-600 text-white text-sm font-medium transition-colors shine-button">
-          <span class="material-symbols-outlined text-sm">local_offer</span>
-          Claim Offer
-        </a>
-      </div>
-    `;
-  }
-
-  // Live search (always visible)
-  searchBox.addEventListener("input", () => {
-    currentSearch = searchBox.value.trim();
-    if (currentSearch || currentCategory !== null){
-      // ensure grid stage is visible once user searches
-      categoryStage.classList.add("hidden");
-      productGrid.classList.remove("hidden");
-    }
-    renderProducts();
+    a.appendChild(i);
+    socialBar.appendChild(a);
   });
-
-  // Reset: back to category stage + clear search + clear category
-  resetBtn.addEventListener("click", () => {
-    currentCategory = null;
-    currentSearch = "";
-    searchBox.value = "";
-    productGrid.classList.add("hidden");
-    categoryStage.classList.remove("hidden");
-  });
-});
-</script>
-
+  </script>
 </body>
 </html>
