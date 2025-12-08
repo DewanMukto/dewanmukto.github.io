@@ -72,7 +72,7 @@ Social platform accounts managed by Dewan Mukto:
 |<i class="fab fa-goodreads"></i> GoodReads|[@Dewan_Mukto](https://www.goodreads.com/author/show/45565659.Dewan_Mukto)|
 |<i class="fas fa-book"></i> WattPad|[@d1stil](https://www.wattpad.com/user/d1stil)|
 |<i class="fas fa-book"></i> WebNovel|[Distil](https://www.webnovel.com/profile/4322246237)|
-|<i class="fas fa-book-open"></i> Webtoon|[MuktoDMI](https://www.webtoons.com/p/community/en/u/b6mkv)|
+|<i class="fas fa-book-open"></i> Webtoon|[MuktoDMI](https://www.webtoons.com/p/community/en/u/mukto)|
 |<i class="fab fa-google-play"></i> Google Play|[@Dewan_Mukto](https://play.google.com/store/info/name/Dewan_Mukto?id=11krcftmvn)|
 |<i class="fab fa-spotify"></i> Spotify|[Dewan Mukto](https://open.spotify.com/artist/5dASeJomHYQXfo9ij70zjQ)|
 |<i class="fab fa-soundcloud"></i> SoundCloud|[@dewanmukto](https://soundcloud.com/dewanmukto)|
