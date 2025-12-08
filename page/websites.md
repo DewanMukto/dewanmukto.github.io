@@ -89,7 +89,6 @@ Social platform accounts managed by Dewan Mukto:
 |<i class="fab fa-hashnode"></i> Hashnode|[@dewanmukto](https://hashnode.com/@dewanmukto)|
 |<i class="fab fa-paypal"></i> PayPal|[@dmukto](https://paypal.me/dmukto)|
 |<i class="fab fa-patreon"></i> Patreon|[@muktodmi](https://patreon.com/muktodmi)|
-|<i class="fas fa-sailboat"></i> OpenSea|[@muktodmi](https://opensea.io/muktodmi)|
 |<i class="fab fa-steam"></i> Steam|[@diztil](https://steamcommunity.com/id/diztil)|
 |<i class="fas fa-cube"></i> Roblox|[@DewanMukto](https://www.roblox.com/users/4463653477/profile)|
 |<i class="fas fa-newspaper"></i> Substack|[@dewanmukto](https://substack.com/@dewanmukto)|
@@ -103,4 +102,4 @@ Social platform accounts managed by Dewan Mukto:
 |<i class="fab fa-orcid"></i> ORCID|[Dewan Maksudul Islam Mukto](https://orcid.org/0009-0005-3998-9252)|
 |<i class="fas fa-dragon"></i> Liaoverse|[@dm](https://liaoverse.vercel.app/?user=dm)|
 
-There could be more, but likely to be abandoned. If any account/profile is not on this list, consider it to be a crime of misrepresentation.
+There could be more, but likely to be abandoned. If any account/profile is not on this list, consider it to be either an alternative account or a crime of misrepresentation.
