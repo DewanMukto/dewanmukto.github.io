@@ -30,7 +30,7 @@
       "html2canvas"
     ],
     "type": "Webapp",
-    "repo": "https://github.com/s2bd/mizu-cv-builder",
+    "repo": "https://github.com/kdue/mizu-cv-builder",
     "url": "https://dewanmukto.github.io/web/mizu-cv/",
     "icon": "https://mi2u.pages.dev/brax/images/furina-genshin-icon.jpg",
     "problem_solved": "Accessible CV/resume creation for everyone",
