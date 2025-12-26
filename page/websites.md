@@ -61,7 +61,7 @@ Social platform accounts managed by Dewan Mukto:
 |<i class="fab fa-github"></i> GitHub|[@dwmk](https://github.com/dwmk)|
 |<i class="fab fa-instagram"></i> Instagram|[@dewanmukto](https://www.instagram.com/dewanmukto)|
 |<i class="fab fa-x-twitter"></i> X|[@DEWAN_MUKTO](https://x.com/DEWAN_MUKTO)|
-|<i class="fab fa-youtube"></i> YouTube|[@Dewan-Mukto](https://www.youtube.com/@Dewan-Mukto)|
+|<i class="fab fa-youtube"></i> YouTube|[@DewanMukto](https://www.youtube.com/@DewanMukto)|
 |<i class="fab fa-facebook"></i> Facebook|[@dewanmukto](https://www.facebook.com/dewanmukto)|
 |<i class="fab fa-tiktok"></i> TikTok|[@dewanmukto](https://www.tiktok.com/@dewanmukto)|
 |<i class="fab fa-codepen"></i> CodePen|[@distil](https://codepen.io/distil)|
