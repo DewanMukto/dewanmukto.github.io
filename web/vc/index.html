@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeerVoice - P2P Audio</title>
+    <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --primary: #38bdf8;
+            --accent: #22c55e;
+            --text: #f8fafc;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .header { text-align: center; margin-bottom: 2rem; }
+        
+        .setup-box {
+            background: var(--card);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        input {
+            background: #0f172a;
+            border: 1px solid #334155;
+            color: white;
+            padding: 0.6rem;
+            border-radius: 6px;
+            outline: none;
+        }
+
+        button {
+            background: var(--primary);
+            border: none;
+            color: #0f172a;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        button:hover { opacity: 0.9; }
+
+        /* User Grid */
+        #user-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 1.5rem;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .user-card {
+            background: var(--card);
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .user-card.talking {
+            border-color: var(--accent);
+            box-shadow: 0 0 20px var(--accent);
+            transform: scale(1.05);
+        }
+
+        .user-card .avatar {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        .user-card .peer-id {
+            font-size: 0.8rem;
+            color: #94a3b8;
+            max-width: 120px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .status { font-size: 0.7rem; margin-top: 10px; color: var(--accent); }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>PeerVoice</h1>
+        <p>Your ID: <strong id="my-id">...</strong></p>
+    </div>
+
+    <div class="setup-box">
+        <input type="text" id="remote-id" placeholder="Enter Peer ID to Call">
+        <button onclick="makeCall()">Connect</button>
+    </div>
+
+    <div id="user-grid">
+        </div>
+
+    <script>
+        const userGrid = document.getElementById('user-grid');
+        const myIdDisplay = document.getElementById('my-id');
+        const remoteIdInput = document.getElementById('remote-id');
+        
+        let localStream;
+        let peer;
+        let audioContext;
+
+        // 1. Initialize Audio and Peer
+        async function init() {
+            try {
+                localStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                
+                // Initialize PeerJS
+                peer = new Peer();
+
+                peer.on('open', (id) => {
+                    myIdDisplay.innerText = id;
+                    createUserCard(id, true); // Create local user card
+                    monitorVoice(localStream, id);
+                });
+
+                // Handle incoming calls
+                peer.on('call', (call) => {
+                    call.answer(localStream);
+                    handleCall(call);
+                });
+
+            } catch (err) {
+                console.error("Failed to get local stream", err);
+                alert("Please allow microphone access.");
+            }
+        }
+
+        // 2. Make an outgoing call
+        function makeCall() {
+            const destId = remoteIdInput.value;
+            if (!destId) return;
+
+            const call = peer.call(destId, localStream);
+            handleCall(call);
+            remoteIdInput.value = "";
+        }
+
+        // 3. Handle Call Events
+        function handleCall(call) {
+            call.on('stream', (remoteStream) => {
+                // Check if card already exists (to prevent duplicates)
+                if (!document.getElementById(`card-${call.peer}`)) {
+                    createUserCard(call.peer);
+                    const audio = new Audio();
+                    audio.srcObject = remoteStream;
+                    audio.play();
+                    
+                    monitorVoice(remoteStream, call.peer);
+                }
+            });
+
+            call.on('close', () => {
+                removeUserCard(call.peer);
+            });
+        }
+
+        // 4. UI: Create a User Card
+        function createUserCard(id, isLocal = false) {
+            const card = document.createElement('div');
+            card.id = `card-${id}`;
+            card.className = 'user-card';
+            card.innerHTML = `
+                <div class="avatar">${isLocal ? '👤' : '📞'}</div>
+                <div class="peer-id">${id} ${isLocal ? '(You)' : ''}</div>
+                <div class="status">${isLocal ? 'Live' : 'Connected'}</div>
+            `;
+            userGrid.appendChild(card);
+        }
+
+        function removeUserCard(id) {
+            const card = document.getElementById(`card-${id}`);
+            if (card) card.remove();
+        }
+
+        // 5. Voice Activity Detection (The "Talking" Indicator)
+        function monitorVoice(stream, peerId) {
+            if (!audioContext) audioContext = new AudioContext();
+            
+            const source = audioContext.createMediaStreamSource(stream);
+            const analyser = audioContext.createAnalyser();
+            analyser.fftSize = 512;
+            source.connect(analyser);
+
+            const dataArray = new Uint8Array(analyser.frequencyBinCount);
+            const card = document.getElementById(`card-${peerId}`);
+
+            function checkVolume() {
+                analyser.getByteFrequencyData(dataArray);
+                let sum = 0;
+                for (let i = 0; i < dataArray.length; i++) {
+                    sum += dataArray[i];
+                }
+                let average = sum / dataArray.length;
+
+                // Threshold for "talking"
+                if (average > 15) {
+                    card.classList.add('talking');
+                } else {
+                    card.classList.remove('talking');
+                }
+                requestAnimationFrame(checkVolume);
+            }
+            checkVolume();
+        }
+
+        init();
+    </script>
+</body>
+</html>
