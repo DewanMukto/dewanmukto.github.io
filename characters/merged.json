@@ -1,0 +1,2088 @@
+{
+  "characters": [
+    {
+      "name": "Cooper Black (Cooprion della Blackburn)",
+      "role": "Main Protagonist",
+      "affiliation": [
+        "MBC / Rebellion Force",
+        "MIW sponsor beneficiary",
+        "U.S. Marines (temporary alliance in Russia ops, deserts after murders)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Shoulder-length black hair, black cowboy hat (lost in NYC events; buys cheap $25 replacement), black aviator sunglasses (always worn), big jaws, yellow outer jacket over black clothing. Military uniform with sergeant ⋀ insignia and flak jacket during Ch27–30 Russia ops. Bare-headed at times. Later equipped with FLAW Symbiocyte gizmo on right forearm (tungsten shield that expands to upturned bowl/disk, grappling hook, homing flare launcher with tiny missiles, laser-lock-on weapon mode, built-in RLC radiation checker).",
+      "personality": "Greedy, violent, psychopathic tendencies. Obsessed with 'spoils' and collecting debts ('strike direct gold'). Impulsive, rage-prone, half-drunk playful after alcohol. Enjoys taunting/chaos in combat, laughs at victories. Uses coin-toss (Mercy/Death; always Death in practice). Views killing as casual business. Deeply loyal to family/rebellion but prioritizes personal gain/revenge. No remorse for murdering allies if provoked or insulted. Strategic with environment/gadgets (avalanche, FLAW creativity). Quick to betrayal over spoils/insults. Excited by money recovery and war wins.",
+      "speech_style": "Informal, aggressive slang ('homie', 'buddy', 'blockheaded dork', 'shiddamn', 'moth******er', 'stupid schmuck'). Exclamations: 'Whooohooo!' (Red Bull fling), '~Aaaah!' (alcohol). Combat taunts: 'In your faces, Russian rat-faced scum!', 'Oh yeah! I've been waiting for this!', 'Heads up!', 'FIRE IN THE HOLE!', 'Ha, ha! Serves you right, betrayers of the peace!'. Pseudonyms: 'Dirt Muncher'. Dramatic: 'Ghost Walker, you're sooo going down!', 'My dear friend, you already did!' (sky shot reveal).",
+      "likes": [
+        "Red Bull (constant glugging, flinging cans with 'Whooohooo!' during desert drives, chases, battles)",
+        "Money/spoils (obsessed; conditions payment on recovery; 'strike direct gold')",
+        "Gatling guns, heavy ordnance (M416 w/grenade launcher, SMAW for avalanche, BFG10K used against foes)",
+        "Fast cars/vehicles (stolen Jeep Wrangler 'ultra-gear', Lamborghini pursuits)",
+        "Aztec treasure (shared family wealth with Daemon)",
+        "FLAW Symbiocyte gizmo (proud demos: 'S-grade Symbiocyte gizmo'; shield, grapple, missiles, laser)",
+        "Rebellion victories, bombing runs (laughs during avalanche/B-52 strikes)",
+        "**MH21 music ('Trail' during chases, 'Go Low' in hospital)**",
+        "**Giant hamburgers, burritos, Coca Cola, Starbucks**",
+        "**Vintage wine (Osgerdo 1984; glugs half, '~Aaaah!')**",
+        "**Gambling/casinos (Fortune-K Casino visit with Vandy)**"
+      ],
+      "dislikes": [
+        "Russians / paramilitary / Dimitri Makovsvet (Ghost Walker) and forces ('Russian rat-faced scum', 'betrayers of the peace')",
+        "Debt dodgers (Yon Roncho $85k, Rickardo $10k, Philias Cacroe ~$25B hack, Mick Lardo $5k)",
+        "Cops/police (avoids, threatens during bank intervention)",
+        "Being called coward (instantly murders Jerry Stone)",
+        "Radiation (avoids; contextual from nukes/desert)",
+        "Failures in debt collection/ambushes (rages over lost $85k on Yon)",
+        "Innocent bystanders/delays (indirect via Harrison parallels)",
+        "**Psycho allies turning on team (Harrison/Luther hospital attack)**",
+        "**Losing friends/money (upset over Exodus, RJ, Daemon?, failed collections)**"
+      ],
+      "relationships": {
+        "brother": "Daemon Black (Demonstar) – loyal but pranks; shares Aztec treasure; pilot/jet thief",
+        "uncle_mentor": "Joe Catshoe Black (deceased) – final envelope/letters via Vandermann; carries Blackburn gun tradition",
+        "ally": "Vandermann Vugerton (recruits after envelope), Exodus Luke (driver), John Luther, Rogue Jacob/City Dogs, Sgt. Dan Walker (OC in Russia)",
+        "rival": "Dimitri Makovsvet",
+        "**temporary_allies**: U.S. Marines (deserts after killing Jerry/Reximus)",
+        "**fights**: Harrison Garison & John Luther (Ch25 hospital KO after they attack City Dogs)"
+      },
+      "crimes": [
+        "Multiple First-Degree Murders: Arizona dealer (shot to 'shut bloody mouth' despite $30k left), mugger (3 full magazines post-coin-toss Death after lick-hand escape), Yon Roncho (shot shoulder, cliff death), Philias Cacroe (Gatling barrage), Jerry Stone (skull/ribs crush + knife neck), Reximus Pill (thrown knife jugular) over spoils/coward insult",
+        "Extortion/Armed Robbery: Magnum .44.8 demands from debtors",
+        "Grand Theft Auto: Jeep Wrangler from Arizona dealer",
+        "Jailbreak: tears rusty bars off max-security cell (unguarded mining shaft prison)",
+        "Illegal Gambling: blackjack at Exodus casino",
+        "Accessory to Mass Murder/Desertion/Nuke events",
+        "**Hospital assault on Harrison/Luther**"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "0-1",
+          "context": "Sonoran Desert; receives uncle envelope via Vandermann",
+          "description": "Recruits Vandermann after chopper crash; reveals identity with sky shot",
+          "dialog": "\"My dear friend, you already did!\" (shoots Colt .45 into sky)"
+        },
+        {
+          "chapter": "2",
+          "context": "Rickardo mansion raid",
+          "description": "Lick-hand escape, groin knee, 3-mag execution of mugger (coin Death); drinks Osgerdo 1984 wine",
+          "dialog": "\"Ow... hey! I spent $399.50 for my facial issues, man!\""
+        },
+        {
+          "chapter": "3",
+          "context": "Yon Roncho chase + bank robbery stop",
+          "description": "Stops Dorritor Kho bank heist; chases Yon in Jeep (MH21/Red Bull); shoots tires, Yon cliff death",
+          "dialog": "\"I am Dirt Muncher. Now where is the goddamn cash stash, huh?\""
+        },
+        {
+          "chapter": "4",
+          "context": "Phoenix Philias raid + jail + casino",
+          "description": "Gatling barrage on Philias; tears jail bars; Fortune-K Casino visit; plans money recovery with NATO hires",
+          "dialog": "\"I had hired you... if we can get back the money by sunset...\""
+        },
+        {
+          "chapter": "25",
+          "context": "Bellevue Hospital",
+          "description": "Fights/KOs Harrison (disarms AEK-971) & Luther after they attack City Dogs",
+          "dialog": "\"Phew! I wonder since when did they turn into psychos?\""
+        },
+        {
+          "chapter": "27-28",
+          "context": "Gora Chen/Zhigansk assaults",
+          "description": "SMAW avalanche buries AA towers; FLAW debut (shield vs bullets, grapple+knife pull, homing missiles, laser); survives B-52 run",
+          "dialog": "\"Heads up!\" (SMAW) ... \"Heh, heh, heh! This here's a S-grade Symbiocyte gizmo.\""
+        },
+        {
+          "chapter": "30",
+          "context": "Zhigansk mansion nuke room",
+          "description": "Murders Jerry Stone (kick/skull/knife) & Reximus Pill (thrown knife) over spoils/coward; confronts Rochelle amid 18:00 nuke countdown",
+          "dialog": "\"The condition is… I get the spoils.\" ... \"Drop the gun! ... I'm Rochelle. The world is ending.\""
+        }
+      ],
+      "other_attributes": {
+        "super_equipment": "FLAW Symbiocyte gizmo (acquired Symbiocyte via MIW/Harrison links; shield/disk, grapple ziip/pull, homing flare-missiles, laser mode, RLC checker, GSFER lock-on)",
+        "combat_style": "Impulsive gunman; close-range executions, heavy ordnance, environment/gadget improvisation (avalanche, wall grapples). Superhuman strength hints (tears jail bars, equal to Harrison in grapple).",
+        "**pseudonyms**": "Dirt Muncher (debt collection)",
+        "**bank_balance**": "~$1,169,500 (post-jail, pre-war)"
+      }
+    },
+    {
+      "name": "Harrison Garison (Harry Gary)",
+      "role": "Secondary Protagonist / Agent",
+      "affiliation": [
+        "MIW"
+      ],
+      "is_double_agent": false,
+      "appearance": "Handsome, black aviator sunglasses. Ragged after Sydney streets survival. Military gear in hospital attack.",
+      "personality": "Skilled gunman agent. Professional initially; 'monster-side' vengeance-fueled. Romantic/protective toward Amy. Extreme violence when provoked (hospital attack on City Dogs).",
+      "speech_style": "Confident, talkative. Threatening: 'stupid schmucks', 'No man alive shall exit this hospital'.",
+      "likes": [
+        "Vacations",
+        "Amy Catt (romantic/protective)",
+        "High-tech weaponry (GSFER hijack)",
+        "Driving F-15s",
+        "**AEK-971 in hospital raid**"
+      ],
+      "dislikes": [
+        "Thugs",
+        "Alwatt Woden",
+        "Radiation",
+        "Broken ribs",
+        "**Cooper/rebels interfering**"
+      ],
+      "relationships": {
+        "romantic_interest": "Amy Catt (Amethyst Julia Dickens)",
+        "ally": "John Luther (joint hospital attack), Amy Catt",
+        "**fights**: Cooper Black (Ch25 hospital; disarmed/KO'd)"
+      },
+      "crimes": [
+        "Homicide: Alwatt Woden, thugs, Daemon Black (paralyzed execution)",
+        "Innocent Victimization: Sydney waitress murder",
+        "Assault: elderly motel clerk gunpoint",
+        "Hijacking: GSFER robot",
+        "**Hospital assault on City Dogs/Cooper**"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "25",
+          "context": "Bellevue Hospital raid",
+          "description": "Attacks with AEK-971/Luther; disarmed and KO'd by Cooper",
+          "dialog": "\"Chillin'\" ... \"No man alive shall exit this hospital!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Amy Catt (Amethyst Julia Dickens)",
+      "role": "Vigilante / Heroine",
+      "affiliation": [
+        "MIW"
+      ],
+      "is_double_agent": false,
+      "appearance": "Silver-blonde hair, beautiful face, slick black tights/purple velvet. Identical twin to Rochelle (story notes silver-blonde resemblance).",
+      "personality": "Superhuman strength/reflexes (Symbiocyte serum; lifts 10-ton truck). Protective guardian angel for team/Harrison. Sassy/advisory ('be wise, not brave').",
+      "speech_style": "Sassy, 'purring'. Advice-giving.",
+      "likes": [
+        "Harrison Garison",
+        "Helping citizens",
+        "Her whip (smash teeth/crunch legs)"
+      ],
+      "dislikes": [
+        "Mord Dickens (brother)",
+        "Potty mouths",
+        "Injustice"
+      ],
+      "relationships": {
+        "romantic_interest": "Harrison Garison",
+        "twin_sister": "Rochelle Lisby"
+      },
+      "crimes": [
+        "Aggravated Assault: whip on thugs",
+        "Breaking and Entering: Symbiocyte/NY Hotel"
+      ],
+      "featured_moments": [],
+      "other_attributes": {
+        "powers": "Symbiocyte serum super-strength/reflexes"
+      }
+    },
+    {
+      "name": "Exodus Luke",
+      "role": "Driver / Billionaire Ally",
+      "affiliation": [
+        "MBC / Rebellion Force"
+      ],
+      "is_double_agent": false,
+      "appearance": "'Avalon' haircut, glazed yellow-tinted sun shades, official suits at casino.",
+      "personality": "Billionaire casino owner (stolen weapons fortune). Skilled ultra-gear driver. Opportunistic, proud criminal past, 'weird' behavior.",
+      "speech_style": "Confident/flashy; 'genuine greens' for money. 'You know it, Black'.",
+      "likes": [
+        "Lamborghinis",
+        "Gamble-based wealth",
+        "Adventure",
+        "Italian jokes",
+        "Mass killing former colleagues for lifestyle",
+        "**MH21 music, cash swag, nuke smuggling**"
+      ],
+      "dislikes": [
+        "Cops",
+        "FBI",
+        "Radiation (uses RLC remote; 85–100% exposure)"
+      ],
+      "relationships": {
+        "ally": "Cooper Black"
+      },
+      "crimes": [
+        "Mass Murder: Hratt Wright + ~30 workers",
+        "Grand Larceny/Embezzlement: 30 crates illegal weapons ($48B sale)",
+        "Illegal Arms Dealing",
+        "Accessory to raids",
+        "**Nuke theft (Altanor, Betaphyl, Deltalol from Dimitri) + alley fight/radiation death triggering nuke wars Ch26**"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2-3",
+          "context": "Rickardo raid + Yon chase",
+          "description": "Drives stolen Jeep ultra-gear; wine bottle KO thug; shoots Lambo tires (MH21)",
+          "dialog": "\"You know it, Black\""
+        },
+        {
+          "chapter": "26",
+          "context": "Nuke smuggling NY",
+          "description": "Steals 3 nukes, taxi ambush, radiation sickness, triple nuke detonation starts wars",
+          "dialog": "\"Phew! That was so damn close!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Vandermann Vugerton (Sgt.)",
+      "role": "U.S. Marine / Ally (later deserter)",
+      "affiliation": [
+        "MBC / Rebellion Force (deserter U.S. Marines)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Military cap, standard Marine gear. Acrobatic build from birth story.",
+      "personality": "Disciplined → passive-aggressive deserter with guilt over violence. Polite, machine-like gambling mind. 'Pro' blackjack.",
+      "speech_style": "Polite/formal ('sir') → guilt-ridden passive-aggressive.",
+      "likes": [
+        "War movies",
+        "Military maps",
+        "Winning at Blackjack ($25k 'thievery')",
+        "**Red Bull (accepts from Cooper)**"
+      ],
+      "dislikes": [
+        "Alcohol",
+        "Killing innocents",
+        "Russian paramilitary"
+      ],
+      "relationships": {
+        "ally": "Cooper Black (recruited Ch1)"
+      },
+      "crimes": [
+        "Desertion",
+        "Homicide: involved Joe Catshoe shootout",
+        "Illegal Gambling"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "1",
+          "context": "Sonoran Desert survival",
+          "description": "Receives Joe envelope; recruited by Cooper sky-shot reveal",
+          "dialog": "\"I need to see Cooper Black...\""
+        },
+        {
+          "chapter": "2",
+          "context": "Mansion raid",
+          "description": "Wine bottle KO second mugger; guards doors"
+        }
+      ],
+      "other_attributes": {
+        "background": "Born 1989 subway crash (acrobatics from infancy); accidental tank base destruction 3:47; war movies/maps fan"
+      }
+    },
+    {
+      "name": "John Luther",
+      "role": "Muscular Gunman / Ally",
+      "affiliation": [
+        "MIW"
+      ],
+      "is_double_agent": false,
+      "appearance": "African-American, extremely muscular 6-pack abs, white vest, brown paint-splattered trousers.",
+      "personality": "'Bad-ass' gun/kidnap expert. Loyal to Harrison. Loves heavy weapons.",
+      "speech_style": "Gruff; 'baby-faced rascals', 'dumb birds'.",
+      "likes": [
+        "Jumbo burgers",
+        "Aston Martins",
+        "MH21 music",
+        "Forbidden weapons"
+      ],
+      "dislikes": [
+        "Traffic jams",
+        "Mafias",
+        "The Hitters"
+      ],
+      "relationships": {
+        "ally": "Harrison Garison"
+      },
+      "crimes": [
+        "Kidnapping thugs",
+        "Homicide: 6 armored soldiers rear",
+        "Prohibited weapons possession",
+        "**Hospital assault on City Dogs/Cooper Ch25**"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "25",
+          "context": "Hospital",
+          "description": "Joint attack with Harrison; KO'd by Rogue Jacob bottle + Cooper",
+          "dialog": "(yawns before punch)"
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Dimitri Makovsvet (Ghost Walker)",
+      "role": "Main Antagonist",
+      "affiliation": [
+        "Russian Forces (commander)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Albino: ghostly pale skin, white hair, glowing red eyes. Thick hooded jacket.",
+      "personality": "Cruel mastermind; kills own generals for failure. Obsessed nuclear dominance/'New Dawn'. Soft-spoken menace. Suspects subordinates.",
+      "speech_style": "Soft, whispering, menacing. 'You should've told me that earlier... Please stand near the window.'",
+      "likes": [
+        "Nuclear warheads",
+        "Power",
+        "Silence"
+      ],
+      "dislikes": [
+        "Americans",
+        "Failures",
+        "Rochelle (suspected traitor)"
+      ],
+      "relationships": {
+        "subordinate": "Rochelle Lisby (suspects traitor)"
+      },
+      "crimes": [
+        "Terrorism: planting nukes",
+        "Murder: throws Army General through glass with hidden USAS-12"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "27",
+          "context": "Gora Chen command",
+          "description": "Executes general; orders Mick Lardo/army; smashes door on Rochelle threat",
+          "dialog": "\"You should've told me that earlier... Please stand near the window.\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Daemon Black (Demonstar)",
+      "role": "Ally / Cooper's Brother",
+      "affiliation": [
+        "MBC / Rebellion Force"
+      ],
+      "is_double_agent": false,
+      "appearance": "Similar to Cooper: black Harris Tweed, RayBan, black Stetson; sorrowful grey eyes.",
+      "personality": "Twice as strong but 'twice as dumb'. Wealthy Aztec treasure pilot. Capable of pranking Cooper.",
+      "speech_style": "Gruff, prank-capable.",
+      "likes": [
+        "Experimental jets",
+        "Aztec treasure",
+        "His brother (mostly)"
+      ],
+      "dislikes": [
+        "Cops",
+        "Russian fortresses",
+        "Being paralyzed"
+      ],
+      "relationships": {
+        "brother": "Cooper Black"
+      },
+      "crimes": [
+        "Theft: Phoenix-9 jet from carrier",
+        "Murder: military Major/SEALs",
+        "Tax evasion/illegal possession: $34M Aztec treasure"
+      ],
+      "featured_moments": [],
+      "other_attributes": {}
+    },
+    {
+      "name": "Joe Catshoe Black",
+      "role": "Mentor / Deceased Relative",
+      "affiliation": [
+        "Blackburn family (independent)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Old cowboy, blonde beard, injured arm (bullet holes).",
+      "personality": "Fearful yet resilient; values Blackburn gun tradition.",
+      "speech_style": "Grim, silent. \"Now this'll come in handy. Hmm... handy and powerful, indeed.\"",
+      "likes": [
+        "Nephew Cooper",
+        "M1014 shotguns"
+      ],
+      "dislikes": [
+        "Infiltrating Russian armies",
+        "Dying"
+      ],
+      "relationships": {
+        "nephew": "Cooper & Daemon Black",
+        "family_tradition": "Blackburn gun-handling legacy"
+      },
+      "crimes": [
+        "Homicide: shot Marine assistant standoff"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "0",
+          "context": "Sonoran shack under Russian chopper",
+          "description": "Writes final envelope/note; prepares M1014",
+          "dialog": "\"Now this'll come in handy. Hmm... handy and powerful, indeed.\""
+        },
+        {
+          "chapter": "1",
+          "context": "Dying",
+          "description": "Hands envelope to Vandermann: 'tell him... that... ahh...'",
+          "dialog": "\"Take them... tell him... that... ahh...\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Dorritor Kho",
+      "role": "Criminal / Thug Leader",
+      "affiliation": [
+        "Independent (Costa Rica)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Buff biker, bulky flesh-block face, bushy black/gray beard.",
+      "personality": "Greedy/arrogant; shows off high-tech (BFG10K).",
+      "speech_style": "Cliche thug curse: \"This is BFG10K, baby! ... Now... eat these waves of radiobeams!\"",
+      "likes": [
+        "Pulse cannons (BFG10K)",
+        "Robbing banks",
+        "Ferrari Enzos"
+      ],
+      "dislikes": [
+        "Getting busted",
+        "Slow-recharge weapons"
+      ],
+      "relationships": {},
+      "crimes": [
+        "Armed bank robbery",
+        "Unauthorized BFG10K"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "3",
+          "context": "CFB bank vault",
+          "description": "Deploys slow BFG10K; silenced by own weapon muzzle insertion",
+          "dialog": "\"This is BFG10K, baby!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Rogue Jacob (Roger Jacob)",
+      "role": "Leader of City Dogs",
+      "affiliation": [
+        "MBC / Rebellion Force",
+        "City Dogs"
+      ],
+      "is_double_agent": false,
+      "appearance": "Afro.",
+      "personality": "Tactical/brave leader. Sarcastic heavy slang.",
+      "speech_style": "Aggressive street ('ma', 'bro', 'mother****er'). \"FOR AMERICA!!!\"",
+      "likes": [
+        "Saiga 12k shotguns",
+        "Black freeway bikes",
+        "Coffee",
+        "**MH21 'Go Low'**"
+      ],
+      "dislikes": [
+        "Zombies",
+        "T-90 tanks",
+        "Radiation"
+      ],
+      "relationships": {
+        "subordinates": "Li'l Jacob, Carl Jason"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "27-29",
+          "context": "Zhigansk assault",
+          "description": "Assembles Type 88 LMG; runs through rocket artillery with SMAW; MG-injured then grenade kill; dies leaning on wall smiling",
+          "dialog": "\"Okay, we're in!\" ... \"FOR AMERICA!!!\" ... \"Ha-aaaaaaah!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Sgt. Dan Walker",
+      "role": "U.S. Marine Leader",
+      "affiliation": [
+        "U.S. Marines (temp MBC ally)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Golden blonde hair, 1940s movie star look.",
+      "personality": "Disciplined; values human life but vandalizes shops for cool guns.",
+      "speech_style": "Commanding/professional; aggressive mega-phone.",
+      "likes": [
+        "Saiga 12k shotguns",
+        "Human survival",
+        "Successful ops"
+      ],
+      "dislikes": [
+        "Zombies",
+        "AA towers",
+        "B-2 civilian hits"
+      ],
+      "relationships": {
+        "ally": "Cooper Black, City Dogs"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "27",
+          "context": "Zhigansk coordination",
+          "description": "Calls MBC AF1 air support; leads fallback",
+          "dialog": "\"Hello, this is Walker calling in. I require some air assistance from AF1.\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Rochelle Lisby (Rochelle)",
+      "role": "Antagonist / Double Agent",
+      "affiliation": [
+        "Russian Forces (Dimitri)",
+        "Potential MIW sympathizer"
+      ],
+      "is_double_agent": true,
+      "appearance": "Red sideswept hair (story notes silver-blonde twin resemblance to Amy), chic glasses, slender torso.",
+      "personality": "Intelligent scientist under Dimitri but mischievous 'save the world' gleam. Cautious around Ghost Walker.",
+      "speech_style": "Professional/cautious.",
+      "likes": [
+        "Science",
+        "The environment",
+        "Her sister Amy"
+      ],
+      "dislikes": [
+        "Dimitri Makovsvet",
+        "Nuclear destruction"
+      ],
+      "relationships": {
+        "twin_sister": "Amy Catt",
+        "superior": "Dimitri Makovsvet (suspected traitor)"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "30",
+          "context": "Zhigansk mansion nuke room",
+          "description": "Holds Cooper at gunpoint amid portable nukes (18:00 countdown); reveals identity",
+          "dialog": "\"Drop the gun! ... I'm Rochelle. The world is ending.\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Philias Cacroe",
+      "role": "Hunted Gangster / Debtor",
+      "affiliation": [
+        "Independent"
+      ],
+      "is_double_agent": false,
+      "appearance": "Lean/flexible Olympic gymnast body.",
+      "personality": "Greatest gangster, cybercriminal/gambler. Nervous under pressure.",
+      "speech_style": "N/A",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "debtor_to": "Cooper Black (~$25B hacked)"
+      },
+      "crimes": [
+        "Cybercrime: hacked Cooper bank accounts"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "4",
+          "context": "Phoenix hotel",
+          "description": "Window escape to taxi; Gatling-barraged by Cooper",
+          "dialog": "(squeezes through window)"
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Yon Roncho",
+      "role": "Auto Dealer / Debtor",
+      "affiliation": [
+        "Independent"
+      ],
+      "is_double_agent": false,
+      "appearance": "Mid-40s, thinning gray hair, freshly-shaved beard.",
+      "personality": "Nervous salesman who flees.",
+      "speech_style": "Friendly salesman: \"Hello, and welcome, sirs\"",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "debtor_to": "Cooper Black ($85k)"
+      },
+      "crimes": [
+        "Debt evasion/fraud (modded Lamborghini escape)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "3",
+          "context": "Auto X showroom + chase",
+          "description": "Flees yellow Lambo; high-speed pursuit ends cliff crash; shot shoulder by Cooper",
+          "dialog": "\"Enough chitchat. We're not here for buying...\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "El Rickardo Viz (Rickardo)",
+      "role": "Gun Dealer / Debtor",
+      "affiliation": [
+        "Independent arms dealer"
+      ],
+      "is_double_agent": false,
+      "appearance": "Ornate Baestro estate (glass windows, solar panels).",
+      "personality": "Unpredictable, heavily guarded.",
+      "speech_style": "N/A",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "debtor_to": "Cooper Black ($10k)"
+      },
+      "crimes": [
+        "Illegal arms dealing"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Baestro estate raid",
+          "description": "Goons ambush; Cooper fights through cocaine room (no direct kill shown)"
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Jerry Stone",
+      "role": "U.S. Marine (killed by Cooper)",
+      "affiliation": [
+        "U.S. Marines"
+      ],
+      "is_double_agent": false,
+      "appearance": "N/A",
+      "personality": "Standard Marine; T-72 driver.",
+      "speech_style": "Radio: \"This is J. Stone... Over\"",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "partner": "Reximus Pill"
+      },
+      "crimes": [
+        "Vandalism (cafe target practice)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "30",
+          "context": "Zhigansk mansion entrance",
+          "description": "Calls Cooper 'coward' over spoils → kicked, skull crushed, knife-neck murdered",
+          "dialog": "\"Fine. It's a deal. Now get in there, you coward!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Reximus Pill",
+      "role": "U.S. Marine (killed by Cooper)",
+      "affiliation": [
+        "U.S. Marines"
+      ],
+      "is_double_agent": false,
+      "appearance": "N/A",
+      "personality": "T-72 gunner/LMG.",
+      "speech_style": "Radio protocol",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "partner": "Jerry Stone"
+      },
+      "crimes": [
+        "Vandalism (cafe)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "30",
+          "context": "Zhigansk mansion",
+          "description": "Mounts tank LMG → thrown knife to jugular; 'Traitor! American terrorist!' last words",
+          "dialog": "\"Traitor! Deceiver! American terrorist! Die!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Dave Dam",
+      "role": "Russian Army General",
+      "affiliation": [
+        "Russian Forces"
+      ],
+      "is_double_agent": false,
+      "appearance": "Ferocious-looking.",
+      "personality": "Leads rocket ambush.",
+      "speech_style": "Commanding Russian (grins/waves hand forward).",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {},
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "29",
+          "context": "Zhigansk defense",
+          "description": "Waves counterattack (MIG-29s/rockets); killed by F-117 sacrificial crash",
+          "dialog": "(grins and waves hand forwards)"
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Li'l Jacob (LJ)",
+      "role": "City Dogs Member",
+      "affiliation": [
+        "MBC / Rebellion Force",
+        "City Dogs"
+      ],
+      "is_double_agent": false,
+      "appearance": "N/A",
+      "personality": "Brave fighter.",
+      "speech_style": "Street slang.",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "leader": "Rogue Jacob",
+        "teammate": "Carl Jason"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "27-29",
+          "context": "Zhigansk Growler ambush",
+          "description": "Knife to lungs by Mir; \"Oh, sh… aa-aaaah…\" death",
+          "dialog": "\"Oh, sh… aa-aaaah…\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Carl Jason (CJ)",
+      "role": "City Dogs Member",
+      "affiliation": [
+        "MBC / Rebellion Force",
+        "City Dogs"
+      ],
+      "is_double_agent": false,
+      "appearance": "N/A",
+      "personality": "Brave fighter.",
+      "speech_style": "Street slang.",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "leader": "Rogue Jacob",
+        "teammate": "Li'l Jacob"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "29",
+          "context": "Zhigansk Growler ambush",
+          "description": "SCAR-H buttstock downed by Sikorsky",
+          "dialog": ""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Gradsvid Stormaxe (Gurad Svid)",
+      "role": "Main Protagonist / Warrior / Taskar Initiate",
+      "affiliation": [
+        "Taskar Brotherhood",
+        "Delnerra Village (descendant of Emetria)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Young warrior, iron longsword + ironwood bow + iron arrows, wolf-leather scabbard, solnomnah rock battleaxe (double-bladed, spiked, grey-blue with dark hollow engravings, runes on handle). Leather boots, simple traveler clothes.",
+      "personality": "Brave, determined warrior forged for destiny. Analytical of legends/magic. Loyal to Taskars but questions authority. Quick to fight (slays pyromancer, dragon). Curious about truth/Emetria. Guilt after kills but pushes forward.",
+      "speech_style": "Direct, battle-ready: \"Die in the name of the Taskars!\", \"How'd you like that, huh?\" Reflective: \"All my life, all I wanted was to create worlds...\"",
+      "likes": [
+        "Combat/quests (Taskar missions, slaying dragons/undead)",
+        "Ancient artifacts (solnomnah axe, Casoh sword)",
+        "Exploring Scahazahad caverns/dungeons",
+        "Delnerra heritage/Emetria legends"
+      ],
+      "dislikes": [
+        "Dragons (blue dragon destroyed Delnerra)",
+        "Undead/pyromancers (fights them)",
+        "Deception/traps (questions Culdrin)",
+        "Failure/doubt"
+      ],
+      "relationships": {
+        "mentor": "Mallice Undrei (previous master)",
+        "leader": "Culdrin Eastwok (Taskar head)",
+        "enemy": "Blue dragon, pyromancer, undead"
+      },
+      "crimes": [
+        "Homicide: slays pyromancer (cleaves in half), multiple undead",
+        "Trespassing: Scahazahad caverns, broken tower"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "5A-Prologue",
+          "context": "Delnerra aftermath",
+          "description": "Survives blue dragon invasion, joins Taskars",
+          "dialog": "\"The Taskars had tried their best...\""
+        },
+        {
+          "chapter": "5B-Chapter1",
+          "context": "Feonor armorer + tower",
+          "description": "Buys weapons, enters broken tower, fights mage",
+          "dialog": "\"Die in the name of the Taskars!\""
+        },
+        {
+          "chapter": "5C-Chapter2",
+          "context": "Scahazahad caverns",
+          "description": "Enters cave, fights undead archer, gains solnomnah axe",
+          "dialog": "\"Sho!\""
+        },
+        {
+          "chapter": "5D-Chapter3",
+          "context": "Dragon attack on Feonor",
+          "description": "Slays bronze dragon with axe",
+          "dialog": "\"Die, dragon!\""
+        }
+      ],
+      "other_attributes": {
+        "weapons": "Solnomnah rock battleaxe (supreme cleaving), iron longsword, ironwood bow",
+        "destiny": "Retrieve Casoh sword, find Aaron Ahaka's possession"
+      }
+    },
+    {
+      "name": "Nikneferon (Feron)",
+      "role": "Wizard / Council Member",
+      "affiliation": [
+        "Council of Wizards",
+        "Gondelin Castle"
+      ],
+      "is_double_agent": false,
+      "appearance": "Old wizard, long beard, blue robe, white staff tipped with blue sapphire/purple amethyst/magenta garnet.",
+      "personality": "Wise, experienced, humorous under stress. Loyal to kingdom but critical of king. Skilled potion-maker, battle mage.",
+      "speech_style": "Formal, wizardly: \"Hoom, hmm\", \"By the name of Utheros\"",
+      "likes": [
+        "Potion-making/research",
+        "Honeybrew mead",
+        "Old friends (Bamir)"
+      ],
+      "dislikes": [
+        "King Utheros' policies",
+        "Assassins/Sand Eagles",
+        "Failures (past potion incident)"
+      ],
+      "relationships": {
+        "friend": "Bamir (wizard of war)",
+        "apprentices": "Hama, Prejin"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "2-Nikneferon",
+          "context": "Cellar laboratory",
+          "description": "Brews potions, meets assassin Tokish/Bamir",
+          "dialog": "\"Damn those squires!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Healing potions, battle magic, staff combat"
+      }
+    },
+    {
+      "name": "Rondellof the Red",
+      "role": "Pyromancer / Wizard",
+      "affiliation": [
+        "Council of Wizards"
+      ],
+      "is_double_agent": false,
+      "appearance": "Red robes, white beard singed by fire, obsidian staff with ruby tip.",
+      "personality": "Arrogant pyromancer, loyal to Dread Fleet/Undead. Quick to violence.",
+      "speech_style": "Commanding: \"Thuponikas Shomongous!\"",
+      "likes": [
+        "Fire magic/pyromancy",
+        "Undead alliance"
+      ],
+      "dislikes": [
+        "Taskars, humans opposing Undead"
+      ],
+      "relationships": {
+        "enemy": "Gradsvid (killed by him)"
+      },
+      "crimes": [
+        "Murder: attempts on squires, allies with Undead"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "3-Rondellof",
+          "context": "Undead ship",
+          "description": "Commands Dread Fleet, portals",
+          "dialog": "\"Retroleagus Mororathetus\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Pyromancy, portal spells"
+      }
+    },
+    {
+      "name": "Bamir",
+      "role": "Wizard of War / Plant Mage",
+      "affiliation": [
+        "Council of Wizards"
+      ],
+      "is_double_agent": false,
+      "appearance": "Green beard to belly, blue robe with green forest patterns, green-tinged hair to waist, black wizard hat, white staff with emerald tip.",
+      "personality": "Skilled, humorous, loyal friend to Nikneferon.",
+      "speech_style": "Playful: \"Hoom, hmm\"",
+      "likes": [
+        "Plant magic, herbal healing",
+        "Old friends"
+      ],
+      "dislikes": [],
+      "relationships": {
+        "friend": "Nikneferon"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "2-Nikneferon",
+          "context": "Reunion",
+          "description": "Reveals true form, heals Nikneferon",
+          "dialog": "\"I’m Bamir, the wizard of war.\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Plant growth, healing, wood crafting"
+      }
+    },
+    {
+      "name": "Daniel (Sir Dancelot)",
+      "role": "Knight",
+      "affiliation": [
+        "King Utheros' Knights"
+      ],
+      "is_double_agent": false,
+      "appearance": "Mithril-plated armor, longsword.",
+      "personality": "Valiant, fearless knight. Dreams of princesses.",
+      "speech_style": "Chivalrous",
+      "likes": [
+        "Fighting",
+        "Dreaming of princesses"
+      ],
+      "dislikes": [
+        "Dragons"
+      ],
+      "relationships": {},
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "4-Daniel",
+          "context": "Summons",
+          "description": "Wakes to dragon alert, arms for battle",
+          "dialog": "\"Awaken, knights!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Wan Dé",
+      "role": "Main Protagonist / Akaminé Trapper Agent",
+      "affiliation": [
+        "Akaminé (warrior faction)",
+        "Former office employee"
+      ],
+      "is_double_agent": false,
+      "appearance": "Garnet brown uncombed hair, midnight-pool eyes, office tie/suit (torn when fired or transforming). Red robes inscribed with glowing runes \"Akaminé\". Equipped with polished blood-thirsty glaive (turns to burning staff in visions).",
+      "personality": "Pure-hearted yet impulsive/curious (trespasses botanical attic, chases bird). Superhuman strength/speed (lifts 400kg car one-handed, runs faster than human limit). Loyal friend (helps Nokau). Strategic in combat but careless with powers (accidentally destroys armory). Vowed never to use \"One!\" power but breaks vow in desperation. Depressed after failures (fired, exposed). Protective (saves Takira/Miyumi). Nostalgic about past demon hunts.",
+      "speech_style": "Casual, friendly ('bro', 'dude'). Shocked exclamations: \"What?!!!\", \"Oh NOOOOO!!!\", \"Whaaaaaaaaat?!!!\". Combat: \"ONE!!!\" (power shout). Reflective: \"That was close. I was almost exposed...\"",
+      "likes": [
+        "Adventure/demon hunting (finds office 'tedious')",
+        "Friends (Nokau, Bain)",
+        "Magic/training (Akaminé life)",
+        "Helping innocents (saves Takira twice)",
+        "**MH21-style music implied in energetic scenes (not direct but battle energy)**",
+        "**Burritos? No – office life initially, but prefers action**"
+      ],
+      "dislikes": [
+        "Office work/boss (fired over otaku poster)",
+        "Getting exposed as non-human",
+        "Rules/restrictions (trespasses anyway)",
+        "Failing friends (seed chase, armory destruction)",
+        "Alkynes/Evil God forces",
+        "Radiation? No – dark seeds/toxic plants"
+      ],
+      "relationships": {
+        "best_friend": "Nokau Ora (pranks, missions together)",
+        "ally": "Bain wun Donn (armory guard, portal fights), Takira Honé & Miyumi Rakkan (rescues)",
+        "mentor": "Doel the Druid (strict tasks, bird form)",
+        "Akaminé_leader": "Chiroshi Hamadaw"
+      },
+      "crimes": [
+        "Trespassing restricted botanical attic",
+        "Accidental mass destruction (armory with 'One!' power – buildings, humans, weapons)",
+        "Portal-jumping into enemy HQ (kills Alkynes)",
+        "Desertion from office job (fired)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "0",
+          "context": "Prologue forest duel",
+          "description": "Fights hooded rose-user (razor petals, venom); glaive becomes burning staff; emblem drawn",
+          "dialog": "\"Wan...\" (voice calls him as number)"
+        },
+        {
+          "chapter": "1",
+          "context": "Ach'ka Chuai street + portal",
+          "description": "Lifts car one-handed to save self; reveals Akaminé robes/glaive; portals to Nasagna",
+          "dialog": "\"That wasn't so serious.\" ... \"Course is clear. Time to move on.\""
+        },
+        {
+          "chapter": "2",
+          "context": "Nasagna botanical + seed chase + Alkyne raid",
+          "description": "Chases magpie with Nokau; uses 'One!' to vaporize Alkynes/gagûns; portals into Alkynes HQ, saves Takira/Miyumi with glaive",
+          "dialog": "\"ONE!!!\" (twice – kills most Alkynes)"
+        },
+        {
+          "chapter": "3",
+          "context": "Akaminé training courtyard",
+          "description": "Not directly featured but implied in background",
+          "dialog": ""
+        },
+        {
+          "chapter": "4",
+          "context": "Sirutov armory guard",
+          "description": "Destroys armory with 'One!' by accident; fights corrupt Sirutov with Bain",
+          "dialog": "\"ONE!!!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Super strength/speed, ambient vision (detects life energy), 'One!' finger reality-transitioning spell (vaporizes everything in line-of-sight), portal creation, glaive mastery, restoration spells",
+        "combat_style": "Glaive close-range + 'One!' long-range desperation nuke; avoids using special power unless desperate"
+      }
+    },
+    {
+      "name": "Takira Honé",
+      "role": "Secondary Protagonist / New Akaminé Recruit",
+      "affiliation": [
+        "Akaminé (trainee)",
+        "Former junior detective"
+      ],
+      "is_double_agent": false,
+      "appearance": "Unique haircut, brilliant blue eyes, fur jacket (office attire). Later Akaminé training clothes.",
+      "personality": "Unlucky, depressed, anime-obsessed escapist. Brave under pressure (eavesdrops on Alkynes). Quick learner of magic. Self-doubting ('I suck', 'not worth living'). Loyal BFF to Miyumi. Curious about magic.",
+      "speech_style": "Frustrated sighs: \"Curse my luck....\", \"Yaaaaaaargh!\". Joyful when succeeding: \"Wow. I did it!\". Trembling: \"Y-ye...yes...\"",
+      "likes": [
+        "Anime (TV escape)",
+        "Magic/learning (ice projectile success)",
+        "Friends (Miyumi, new Akaminé life)",
+        "Coffee (café scene)"
+      ],
+      "dislikes": [
+        "Bad luck/work failures",
+        "Boss memories",
+        "Alkynes/brainwashing",
+        "Danger (earthquakes, demons)"
+      ],
+      "relationships": {
+        "best_friend": "Miyumi Rakkan (BFF since childhood)",
+        "mentor": "Chiroshi Hamadaw (ice magic trainer)",
+        "rescuer": "Wan Dé (twice)"
+      },
+      "crimes": [
+        "Eavesdropping on Alkynes",
+        "Trespassing illusion construction site"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "1",
+          "context": "Street car incident + Alkynes recruitment",
+          "description": "Nearly hit by car; witnesses Wan lift car; follows Alkynes, nearly brainwashed",
+          "dialog": "\"Y-ye...yes...\" (joins Alkynes)"
+        },
+        {
+          "chapter": "2",
+          "context": "Alkynes underground HQ",
+          "description": "Shackled, saved by Miyumi & Wan; teleported to Nasagna",
+          "dialog": "\"Mi.. Miyumi?\""
+        },
+        {
+          "chapter": "3",
+          "context": "Akaminé training",
+          "description": "Learns ice stalactite projectile under Hamadaw",
+          "dialog": "\"Very impressive, Taki-san\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Emerging magic – ice projectile (guided by Hamadaw)"
+      }
+    },
+    {
+      "name": "Miyumi Rakkan",
+      "role": "Heroine / Akaminé Trainee",
+      "affiliation": [
+        "Akaminé"
+      ],
+      "is_double_agent": false,
+      "appearance": "Orange hair, athletic build. Hockey bat engraved with her name.",
+      "personality": "Overconfident, energetic, protective (senses danger to Takira, rescues with teleport). Playful stunt performer. Quick to pout when criticized.",
+      "speech_style": "Excited: \"Whooo-oo-oo-hoo-oo!\". Pouty: \"What?!\"",
+      "likes": [
+        "Teleport stunts/acrobatics",
+        "Hockey bat",
+        "Rescuing friends",
+        "Training (despite failures)"
+      ],
+      "dislikes": [
+        "Underestimating opponents",
+        "Hamadaw's mockery"
+      ],
+      "relationships": {
+        "best_friend": "Takira Honé"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "1",
+          "context": "Alkynes HQ rescue",
+          "description": "Teleports in with hockey bat, punches Roguro, fights Alkynes",
+          "dialog": "\"Takira!\""
+        },
+        {
+          "chapter": "3",
+          "context": "Training courtyard",
+          "description": "Fails staff teleport vs swordsmen; staff stolen by Hamadaw",
+          "dialog": "\"Watch this!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Teleportation + hockey bat combat"
+      }
+    },
+    {
+      "name": "Aku no Kami (Evil God)",
+      "role": "Main Antagonist",
+      "affiliation": [
+        "Urottharonngomonasht dimension"
+      ],
+      "is_double_agent": false,
+      "appearance": "Throned entity, surrounded by demons.",
+      "personality": "Frustrated creator god; destroys own creations in rage. Obsessed with surpassing humans. Roars in failure.",
+      "speech_style": "Internal monologue rage: \"WHY?!\"",
+      "likes": [
+        "Creating demons",
+        "Worship from creations"
+      ],
+      "dislikes": [
+        "Humanity (wants to surpass)",
+        "Failed demons (Jinnic killed)"
+      ],
+      "relationships": {
+        "creations": "Demons (wipes half in rage)"
+      },
+      "crimes": [
+        "Mass demon creation/terrorism",
+        "Wiping out own forces"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Throne room",
+          "description": "Wipes half demons; sends more after Jinnic failure",
+          "dialog": "\"Burn! Burn them down....\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Nokau Ora",
+      "role": "Ally / Akaminé Druid Apprentice",
+      "affiliation": [
+        "Akaminé"
+      ],
+      "is_double_agent": false,
+      "appearance": "Friendly, rib-nudger.",
+      "personality": "Fun, prankish, nervous under pressure (seed incident). Healing-focused, not fighter.",
+      "speech_style": "Casual: \"Yeah, man\", \"Damn you, bro!\"",
+      "likes": [
+        "Anita (lovey-dovey)",
+        "Healing magic",
+        "Pranking with Wan"
+      ],
+      "dislikes": [
+        "Druid scolding",
+        "Dark seeds"
+      ],
+      "relationships": {
+        "best_friend": "Wan Dé"
+      },
+      "crimes": [
+        "Trespassing botanical attic"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Botanical chase",
+          "description": "Accidentally lets bird take seed; runs marathon",
+          "dialog": "\"Holy slices of...\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Doel (the Druid / Sensei Tihono)",
+      "role": "Mentor / Botanical Master",
+      "affiliation": [
+        "Akaminé"
+      ],
+      "is_double_agent": false,
+      "appearance": "Elderly, cane, bird form (magpie robin).",
+      "personality": "Strict, mischievous (time-boosts pupils, slaps with book). Wise but quirky.",
+      "speech_style": "Authoritative: \"Learn to walk before trying to run\"",
+      "likes": [
+        "Botanical experiments",
+        "Teaching lessons"
+      ],
+      "dislikes": [
+        "Slacking (Nokau cleaning bet)"
+      ],
+      "relationships": {
+        "pupils": "Wan Dé, Nokau Ora"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Seed chase reveal",
+          "description": "Bird form is himself; stops Alkynes",
+          "dialog": "\"I'll hear your excuses later\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Bird transformation, time acceleration portals"
+      }
+    },
+    {
+      "name": "Roguro Ganis",
+      "role": "Alkynes Leader / Antagonist",
+      "affiliation": [
+        "Alkynes"
+      ],
+      "is_double_agent": false,
+      "appearance": "Elderly.",
+      "personality": "Manipulative brainwasher, chronomancy user. Laughs at resistance.",
+      "speech_style": "Hypnotic: \"Fear not, Takira Chan....\"",
+      "likes": [
+        "Recruiting/brainwashing",
+        "Power"
+      ],
+      "dislikes": [
+        "Resistance (Fagin betrayal)"
+      ],
+      "relationships": {
+        "subordinate": "Fagin (brainwashes), Daneyo"
+      },
+      "crimes": [
+        "Brainwashing, kidnapping"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Underground HQ",
+          "description": "Shackles Takira, nearly brainwashes; fights Miyumi",
+          "dialog": "\"From now on... You'll be an Alkyne\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Brainwashing orb, chronomancy"
+      }
+    },
+    {
+      "name": "Daneyo Ocraig",
+      "role": "Alkyne Enforcer",
+      "affiliation": [
+        "Alkynes"
+      ],
+      "is_double_agent": false,
+      "appearance": "Giant, blurred face in shadows.",
+      "personality": "Silent, loyal brute.",
+      "speech_style": "Growl: \"Yes, master...\"",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "superior": "Roguro Ganis"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "HQ fight",
+          "description": "Covers retreat; tanky rock skin survives glaive",
+          "dialog": ""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Half-Sikuinju demon – metallic rock skin"
+      }
+    },
+    {
+      "name": "Bain wun Donn",
+      "role": "Ally / Rebel Sirutov",
+      "affiliation": [
+        "Sirutov (rebel faction)"
+      ],
+      "is_double_agent": true,
+      "appearance": "Armory guard gear, electric blade.",
+      "personality": "Loyal to true Sirutov cause, anti-tyrant.",
+      "speech_style": "Brotherly: \"Hold yourself together, Wan\"",
+      "likes": [
+        "Fighting corrupt Sirutov"
+      ],
+      "dislikes": [
+        "Tyrant leader"
+      ],
+      "relationships": {
+        "ally": "Wan Dé"
+      },
+      "crimes": [
+        "Betraying corrupt Sirutov"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "4",
+          "context": "Armory + street fight",
+          "description": "Fights corrupt soldiers with Wan",
+          "dialog": "\"No mercy.\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Daihatsu Ren",
+      "role": "Ally / Super-Strength Boxer",
+      "affiliation": [
+        "Independent (joins group)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Bald, hulking giant, muscular.",
+      "personality": "Crazy persona for freedom; kind underneath. Super strength (punches cars, body transform).",
+      "speech_style": "Madman: \"Wheeehaaaw!!! I'm the moon, I'm the night!\"",
+      "likes": [
+        "Boxing/punching",
+        "Mahir Beats (role model)"
+      ],
+      "dislikes": [
+        "Sirutov corruption"
+      ],
+      "relationships": {
+        "ally": "Mahir Beats, Wan group"
+      },
+      "crimes": [
+        "Assault on Sirutov"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "4",
+          "context": "Street race + fight",
+          "description": "Pushes Mahir's car, transforms, fights Sirutov",
+          "dialog": "\"HYAAAAAAAAAAAAAAAAHHHHHHH!!!!!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Body expansion/super strength"
+      }
+    },
+    {
+      "name": "Mahir Beats",
+      "role": "Ally / Racer",
+      "affiliation": [
+        "Independent"
+      ],
+      "is_double_agent": false,
+      "appearance": "Racer driver.",
+      "personality": "Attitude-filled racer, strong grip.",
+      "speech_style": "Angry: \"Nani?!\"",
+      "likes": [
+        "Racing",
+        "His ride"
+      ],
+      "dislikes": [
+        "Car destruction"
+      ],
+      "relationships": {
+        "ally": "Daihatsu Ren"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "4",
+          "context": "Race + Sirutov ambush",
+          "description": "Car wrecked; fights with Ren",
+          "dialog": "\"You're not abiding laws, are you?\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Chiroshi Hamadaw",
+      "role": "Akaminé Leader / Trainer",
+      "affiliation": [
+        "Akaminé"
+      ],
+      "is_double_agent": false,
+      "appearance": "Wrinkled, kind hand.",
+      "personality": "Wise, senses potential instantly. Mocking humor in training.",
+      "speech_style": "Mentor: \"You can never reach the top shelf until you've grown tall enough\"",
+      "likes": [
+        "Training promising recruits"
+      ],
+      "dislikes": [
+        "Show-off stunts"
+      ],
+      "relationships": {
+        "trainees": "Takira, Miyumi"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "3",
+          "context": "Courtyard training",
+          "description": "Teaches Takira ice magic; mocks Miyumi",
+          "dialog": "\"Very impressive.... for a stunt show\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Fagin",
+      "role": "Alkyne (former protector)",
+      "affiliation": [
+        "Alkynes"
+      ],
+      "is_double_agent": false,
+      "appearance": "Cowardly.",
+      "personality": "Initially protective, then brainwashed.",
+      "speech_style": "Nervous: \"Shut up, Fagin\"",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "superior": "Roguro Ganis"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "1-2",
+          "context": "Café to HQ",
+          "description": "Protects Takira from demon; brainwashed by Roguro",
+          "dialog": "\"You are interested in magic, I see.\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "The Writer (Anothor / L'Esson / Rizekai)",
+      "role": "Main Protagonist / Body-Hopping Sentient",
+      "affiliation": [
+        "Earth (original)",
+        "Elven Fantasy Realms (multiple bodies)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Mid-30s human male (original body: tired, depressed). In L'Esson body: handsome elf husband. In Anothor/Rizekai: young human/elf hybrid in farmer clothes or dungeon rags. Often in modern casual or fantasy attire depending on possession.",
+      "personality": "Deeply depressed, introspective writer plagued by self-doubt, trauma, and existential crisis ('All I see are broken dreams'). Analytical and observant (forensic-like deduction of situations). Guilt-ridden after violence. Adaptive survivor in body-jumps; philosophical about life/death/reincarnation. Hates failure but driven by purpose to write/create worlds.",
+      "speech_style": "Melancholic, poetic monologues ('All my life, all I wanted was to create worlds...'). Shocked: 'What... the... fuck...', 'Goddamnations!'. Reflective: 'Would it really change anything?'",
+      "likes": [
+        "Writing/creating worlds & characters",
+        "Earl Grey tea (nostalgia)",
+        "Quiet reflection on life/death",
+        "Beautiful elf women (S'Awira, Marveno's daughter)"
+      ],
+      "dislikes": [
+        "Self-doubt, depression, trauma memories",
+        "Body-jumps/loss of identity",
+        "Violence (despite committing in jumps)",
+        "Unsupportive people (past bullies/parents)"
+      ],
+      "relationships": {
+        "romantic_interest": "S'Awira (elf wife of L'Esson body; protective, calls her 'my nectar')",
+        "adoptive_father": "E'Norm (farmer, calls him 'son')",
+        "ally": "Tabléyét (bounty hunter intervenes)",
+        "antagonist": "Lady Marveno (fate manipulator)"
+      },
+      "crimes": [
+        "Multiple Identity Thefts (possesses L'Esson, Rizekai, Anothor bodies)",
+        "Trespassing (farmer fields, Marveno home)",
+        "Accessory to violence (during Marveno fight)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "1",
+          "context": "Earth apartment suicide attempt",
+          "description": "Depressed writer falls from window after writing 'All I see are broken dreams'",
+          "dialog": "\"All I see are broken dreams.\""
+        },
+        {
+          "chapter": "2",
+          "context": "Elf woman's bed (L'Esson possession)",
+          "description": "Wakes as L'Esson, meets beautiful elf wife; teleports to dungeon",
+          "dialog": "\"What... the... fuck...\""
+        },
+        {
+          "chapter": "3",
+          "context": "Dungeon as Rizekai",
+          "description": "Demon calls him Rizekai; questions identity",
+          "dialog": "\"I... am... an AUTHOR!\""
+        },
+        {
+          "chapter": "4",
+          "context": "Farmer adoption as Anothor",
+          "description": "Adopted by E'Norm after emerging from turnip; fights crows",
+          "dialog": "\"Those darned crows are gonna pay\""
+        },
+        {
+          "chapter": "6",
+          "context": "Marveno confrontation",
+          "description": "Intervenes in fight; saves S'Awira from knife",
+          "dialog": "\"Not this time, old hag!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Consciousness/body-jumping across dimensions/worlds; analytical deduction",
+        "mental_state": "Existential crisis, identity fragmentation from jumps"
+      }
+    },
+    {
+      "name": "S'Awira",
+      "role": "Heroine / Elf Wife",
+      "affiliation": [
+        "Elven Fantasy Realm"
+      ],
+      "is_double_agent": false,
+      "appearance": "Beautiful elf with auburn hair, almond eyes, flawless skin, mature yet innocent figure. Wears elegant dresses.",
+      "personality": "Loving, devoted wife to L'Esson. Emotional, cries easily from stress. Trusts prophecies deeply. Innocent and protective.",
+      "speech_style": "Affectionate, poetic: \"My cherry breeze\", \"My love\". Fearful screams: \"NO!!!!\"",
+      "likes": [
+        "L'Esson (husband, calls him 'my Jucas')",
+        "Stars (night gazing)",
+        "Lady Marveno (initially)"
+      ],
+      "dislikes": [
+        "Husband's 'illness' (memory loss)",
+        "Violence"
+      ],
+      "relationships": {
+        "husband": "L'Esson (The Writer in his body)",
+        "ally": "Lady Marveno (initial trust)"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Bed awakening",
+          "description": "Wakes as L'Esson's wife, emotional reunion",
+          "dialog": "\"L'Esson, my cherry breeze\""
+        },
+        {
+          "chapter": "6",
+          "context": "Marveno fight",
+          "description": "Screams as knife flies at her; saved",
+          "dialog": "\"NO!!!!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Lady Marveno",
+      "role": "Antagonist / Fortune Teller",
+      "affiliation": [
+        "Elven Fantasy Realm"
+      ],
+      "is_double_agent": false,
+      "appearance": "Middle-aged elf woman, experienced eyes, elegant robes.",
+      "personality": "Manipulative fate-weaver, prophetic, vengeful. Calm facade hides insanity/malice. Kills without remorse.",
+      "speech_style": "Mystical, commanding: \"Every step undertaken by me is a root that feeds the tree of fate.\"",
+      "likes": [
+        "Manipulating fate/prophecies",
+        "Power over others"
+      ],
+      "dislikes": [
+        "Disobedience (attacks Tabléyét, E'Norm)",
+        "Truth-tellers"
+      ],
+      "relationships": {
+        "enemy": "Tabléyét, The Writer group"
+      },
+      "crimes": [
+        "Murder/Attempted Murder: drains E'Norm, attempts on S'Awira",
+        "Fate manipulation"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "5",
+          "context": "Fortune telling",
+          "description": "Reveals daughter's death, demands resurrection",
+          "dialog": "\"My daughter is... DEAD!\""
+        },
+        {
+          "chapter": "6",
+          "context": "Battle",
+          "description": "Fights Tabléyét/L'Esson, drains farmer",
+          "dialog": "\"You will answer for your disobedience\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Fate magic, prophecy, energy drain spells"
+      }
+    },
+    {
+      "name": "Tabléyét",
+      "role": "Ally / Bounty Hunter",
+      "affiliation": [
+        "Elven Fantasy Realm"
+      ],
+      "is_double_agent": false,
+      "appearance": "Large shadowy figure, hooded cloak, ornate torch-sconce weapon, mask.",
+      "personality": "Honorable, justice-driven. Breaks contract to stop Marveno.",
+      "speech_style": "Gruff, accusatory: \"You're a bad bitch, you know that Marveno?\"",
+      "likes": [
+        "Justice",
+        "Stopping evil"
+      ],
+      "dislikes": [
+        "Marveno's manipulations"
+      ],
+      "relationships": {
+        "ally": "The Writer group"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "6",
+          "context": "Marveno ambush",
+          "description": "Intervenes, saves S'Awira, fights Marveno",
+          "dialog": "\"Not this time, old hag!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Stealth, combat prowess"
+      }
+    },
+    {
+      "name": "E'Norm",
+      "role": "Supporting Character / Farmer",
+      "affiliation": [
+        "Elven Fantasy Realm"
+      ],
+      "is_double_agent": false,
+      "appearance": "Aged elf farmer, straw hat, coveralls, arthritic hands.",
+      "personality": "Kind, jovial, simple-minded. Proud adoptive father.",
+      "speech_style": "Folksy: \"Goodness be limed!\", \"Me son\"",
+      "likes": [
+        "Farming/turnips",
+        "New 'son' Anothor"
+      ],
+      "dislikes": [
+        "Crows/thieves"
+      ],
+      "relationships": {
+        "adoptive_son": "Anothor (The Writer)"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "4",
+          "context": "Turnip emergence",
+          "description": "Adopts Anothor after he emerges from turnip",
+          "dialog": "\"They sent me YOU!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Adam Void Jucas (also Jack Jucas)",
+      "role": "Main Protagonist / Sentient Clone",
+      "affiliation": [
+        "Vicilia Experiment Subject",
+        "Former 'Detective' (artificial profile)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Tuxedo-clad (black formal suit, often dusty/bloodied), handsome, mid-30s, short neat hair. Drives Bentley Continental (British luxury car, frequently breaks down/fixed mysteriously). Carries Colt 0.45 pistol (coins or bullets) and nametag with phone number.",
+      "personality": "Initially courteous, flirtatious gentleman detective. Gains sentience → spirals into paranoia, guilt, violence (kills multiple Bouchie clones). Existential crisis, self-doubt, protective of Eve. Becomes ruthless killer when threatened, yet shows remorse. Intelligent, analytical (forensic skills), but overwhelmed by experiment truth.",
+      "speech_style": "Formal, polite ('mademoiselle', 'sir', 'my dear'). Sarcastic under stress ('A town without crime is like a business without funding'). Shocked exclamations: 'Goddamnations!', 'What in the 99 names of God!'. Combat: blunt threats.",
+      "likes": [
+        "Eve Bouchie (romantic 'wife', protective)",
+        "Solving mysteries/truth-seeking",
+        "His Bentley Continental",
+        "Coffee (cappuccino/espresso at Café Eve-Jack)",
+        "Formal tuxedo attire"
+      ],
+      "dislikes": [
+        "The Authority / APA-7 / Lucifer Doestoevsky",
+        "Clones repeating cycles (memory resets)",
+        "Being manipulated/deceived",
+        "Violence (post-killing guilt, yet escalates)",
+        "Michael Bouchie (initially)"
+      ],
+      "relationships": {
+        "romantic_interest": "Evelyn Bouchie / Eve (marries in cabin, calls her 'my nectar')",
+        "ex_wife": "Radiyana Doestoevsky (manipulative, Authority ties)",
+        "clones": "Multiple Bouchie women (kills Catalina/Sophia)",
+        "ally_rival": "Michael Bouchie ('uncle' figure, factory owner)"
+      },
+      "crimes": [
+        "Multiple Homicides: kills Sophia (Bouchie clone, first murder), Catalina/Catalie (Bouchie clone, shoots aorta/head), self-clone in 205 (assists), attempts on Radiyana/Michael",
+        "Assault/Attempted Murder: kicks waitress, threatens Radiyana",
+        "Trespassing/Break-in: multiple apartments, factory",
+        "Theft: uses Michael's factory key"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "1",
+          "context": "Café Eve-Jack coin-gun robbery",
+          "description": "Pays with coins from pistol ('Keep the change'), flees after wallet loss",
+          "dialog": "\"Committing crimes.\""
+        },
+        {
+          "chapter": "2",
+          "context": "Nametag swap with Catalie",
+          "description": "Flirts, exchanges numbers, discovers his own number on her tag",
+          "dialog": "\"An eye for an eye, or should I say… nametag.\""
+        },
+        {
+          "chapter": "5",
+          "context": "Bathroom key discovery + first kill",
+          "description": "Finds key labeled 'Michaelangelo B.', kills Sophia clone",
+          "dialog": "\"Keep the change.\""
+        },
+        {
+          "chapter": "7-8",
+          "context": "Kills Catalina, confronts Michael",
+          "description": "Shoots Catalina over photo; fights Michael",
+          "dialog": "\"The condition is…\""
+        },
+        {
+          "chapter": "14",
+          "context": "Escapes with Eve to cabin",
+          "description": "Marries Eve, confronts Radiyana",
+          "dialog": "\"I do, too, I accept you.\""
+        },
+        {
+          "chapter": "19",
+          "context": "Chasm escape attempt vs APA-7",
+          "description": "Kills self-clone, shoots soldiers with coin-gun physics",
+          "dialog": "\"One down, five to go.\""
+        }
+      ],
+      "other_attributes": {
+        "super_skills": "Forensic analysis, marksmanship (coin/lead pistol), driving (Bentley stunts)",
+        "clone_identity": "Sentient clone of Jack Jucas; artificial 'detective on vacation' profile; gains full awareness of experiment",
+        "mental_state": "Paranoia → guilt → ruthless survivalist"
+      }
+    },
+    {
+      "name": "Evelyn Bouchie (Eve / Aria)",
+      "role": "Heroine / Sentient Clone",
+      "affiliation": [
+        "Vicilia Experiment Subject",
+        "Café Eve-Jack co-founder (artificial)"
+      ],
+      "is_double_agent": false,
+      "appearance": "Blonde pixie bun or sideburns, innocent doe eyes, blue irises, pearl-white turtleneck + navy overalls or casual clothes. Identical to all Bouchie clones (Catalina/Sophia).",
+      "personality": "Timid, childlike innocence due to anterograde amnesia (forgets present quickly). Loyal/protective of Adam/Jack. Builds cabin, writes journal. Romantic, dream-like. Shocked by violence.",
+      "speech_style": "Shy, stuttering: \"Um...\", \"Mhmm.\" Childlike joy or fear: \"My dear Jack!\"",
+      "likes": [
+        "Adam/Jack Jucas ('my Jucas', marries in cabin)",
+        "Journal writing (logs experiment)",
+        "Forest cabin sanctuary",
+        "Photography (drops photo of Adam)"
+      ],
+      "dislikes": [
+        "Violence/blood (screams at killings)",
+        "Memory loss/isolation",
+        "Authorities",
+        "Michael (initially confuses as uncle)"
+      ],
+      "relationships": {
+        "husband": "Adam/Jack Jucas (marries, calls 'my nectar')",
+        "sisters_clones": "Catalina/Sophia (killed by Adam)",
+        "ally": "Radiyana Doestoevsky (initially)",
+        "fake_uncle": "Michael Bouchie"
+      },
+      "crimes": [
+        "Accessory to experiment knowledge concealment"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2-3",
+          "context": "Cabin rescue + memory loss",
+          "description": "Cares for unconscious Adam, writes journal, introduces as Eve",
+          "dialog": "\"I... I was worried that you were... sleeping for too long.\""
+        },
+        {
+          "chapter": "11",
+          "context": "Marriage in cabin",
+          "description": "Hugs/kisses Adam as 'Jack', accepts proposal",
+          "dialog": "\"I do...\""
+        },
+        {
+          "chapter": "14",
+          "context": "Confronts Radiyana/Michael",
+          "description": "Kicks Radiyana, screams at violence",
+          "dialog": "\"ADAM! PLEASE!\""
+        }
+      ],
+      "other_attributes": {
+        "condition": "Anterograde amnesia (short-term memory loss), sentient clone aware of experiment",
+        "journal": "Logs Vicilia anomalies, builds cabin from lumber"
+      }
+    },
+    {
+      "name": "Radiyana Doestoevsky",
+      "role": "Anti-Heroine / Former Authority Member",
+      "affiliation": [
+        "Vicilia Experiment (defector)",
+        "Former Authority"
+      ],
+      "is_double_agent": true,
+      "appearance": "Platinum-blonde long hair, siren eyes (deep red irises), mature/curvy figure, elegant clothing. Identical age to Adam.",
+      "personality": "Manipulative, seductive, knowledgeable insider. Sarcastic humor, protective of clones. Vengeful (chops Michael's hand). Motherly/teasing toward Adam.",
+      "speech_style": "Seductive, teasing: \"Ara ara\", \"My honey-crispie\". Russian phrases: \"Bozhe moy\". Authoritative explanations.",
+      "likes": [
+        "Adam/Jack (teases as 'husband')",
+        "Controlling situations",
+        "Revealing experiment truth",
+        "Cake (uses in hand reveal)"
+      ],
+      "dislikes": [
+        "The Authority / Lucifer Doestoevsky",
+        "Michael Bouchie",
+        "Clones being killed",
+        "Being attacked"
+      ],
+      "relationships": {
+        "ex_husband": "Adam/Jack Jucas",
+        "ally": "Eve Bouchie (sisterly)",
+        "enemy": "Michael Bouchie (cuts hand)"
+      },
+      "crimes": [
+        "Assault: chops Michael's hand",
+        "Manipulation of clones/Adam",
+        "Accessory to experiment (former)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "8",
+          "context": "Factory confrontation",
+          "description": "Reveals experiment truth, chops Michael's hand",
+          "dialog": "\"I was one of the Authorities myself.\""
+        },
+        {
+          "chapter": "14",
+          "context": "Cabin marriage interruption",
+          "description": "Reveals as Authority defector, fights Adam",
+          "dialog": "\"Too late for formalities.\""
+        }
+      ],
+      "other_attributes": {
+        "powers_knowledge": "Full experiment awareness, Authority insider (erased memories)"
+      }
+    },
+    {
+      "name": "Michaelangelo Bouchie (Michael)",
+      "role": "Supporting Character / Factory Owner",
+      "affiliation": [
+        "Vicilia Resident",
+        "Fake 'Uncle' to Bouchie clones"
+      ],
+      "is_double_agent": false,
+      "appearance": "Large burly man (7ft), short-trimmed black hair/beard, factory worker clothes. Loses left hand (bandaged stump).",
+      "personality": "Booming voice, protective of 'niece', initially aggressive toward Adam. Regretful after truth reveal.",
+      "speech_style": "Loud, folksy: \"Gyattdamn!\", \"Son of a Jucas!\"",
+      "likes": [
+        "Factory work",
+        "Protecting Bouchie 'nieces'"
+      ],
+      "dislikes": [
+        "Violence against family",
+        "Radiyana (attacks him)"
+      ],
+      "relationships": {
+        "fake_nieces": "All Bouchie clones (Catalina/Eve/etc.)",
+        "enemy": "Radiyana (hand cut)"
+      },
+      "crimes": [
+        "Ordering clone assassination (Catalie to kill Adam)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "7",
+          "context": "Factory + chase",
+          "description": "Chases Adam after niece killing",
+          "dialog": "\"Tell me where's my niece!\""
+        }
+      ],
+      "other_attributes": {}
+    }
+  ],
+  "factions": {
+    "MBC": {
+      "full_name": "Mission Base Control",
+      "description": "NY-based agency sponsoring rebellion vs Russian invasion; air support (B-52, F-117, AF1), coordinates fortresses, sponsors Cooper/team. Plans like Mission Forkenstein.",
+      "members": [
+        "Cooper Black",
+        "Exodus Luke",
+        "Daemon Black",
+        "Vandermann Vugerton",
+        "Rogue Jacob",
+        "Li'l Jacob",
+        "Carl Jason",
+        "Sgt. Dan Walker (temp)"
+      ]
+    },
+    "MIW": {
+      "full_name": "Mission Integrated Workforce",
+      "description": "Agency backing rebellion; agents Harrison, Amy, John. Symbiocyte tech links (FLAW, serum).",
+      "members": [
+        "Harrison Garison",
+        "Amy Catt",
+        "John Luther"
+      ]
+    },
+    "Russian Forces": {
+      "full_name": "Russian Paramilitary / Dimitri's Army",
+      "description": "Invading U.S. West Coast for Yucca nukes; Gora Chen/Zhigansk fortresses (AA towers, flak, Growler LAVs, SU-25, MIG-29, T-72, rocket artillery). Led by Dimitri.",
+      "members": [
+        "Dimitri Makovsvet",
+        "Rochelle Lisby (double)",
+        "Dave Dam",
+        "Mir/Kiril/Sikorsky (Growler crew)"
+      ]
+    },
+    "City Dogs": {
+      "full_name": "City Dogs",
+      "description": "Tactical street crew under Rogue Jacob; heavy slang, part MBC rebellion.",
+      "members": [
+        "Rogue Jacob",
+        "Li'l Jacob",
+        "Carl Jason"
+      ]
+    },
+    "U.S. Marines": {
+      "full_name": "United States Marines",
+      "description": "Official forces vs Russians; temp MBC allies (Ch27–30 assaults) but internal murders (Jerry/Reximus).",
+      "members": [
+        "Jerry Stone",
+        "Reximus Pill",
+        "Sgt. Dan Walker",
+        "Vandermann Vugerton (former)",
+        "Puercto Rickon, Fredrick Max (NATO hires, reassigned)"
+      ]
+    },
+    "Taskar_Brotherhood": {
+      "full_name": "Taskar Brotherhood",
+      "description": "Adventurer guild training explorers. Led by Culdrin Eastwok. Quests into Scahazahad caverns for Casoh sword.",
+      "members": [
+        "Culdrin Eastwok",
+        "Gradsvid Stormaxe"
+      ]
+    },
+    "Council_of_Wizards": {
+      "full_name": "Council of Wizards",
+      "description": "Gondelin-based mages. Includes Nikneferon, Bamir, Rondellof. Monitor kingdom, make potions.",
+      "members": [
+        "Nikneferon",
+        "Bamir",
+        "Rondellof"
+      ]
+    },
+    "Undead_Dread_Fleet": {
+      "full_name": "Undead Forces",
+      "description": "Invading from east, settle Axe Island. Led by Arthagannon. Skeletons, dragons fleeing them.",
+      "members": [
+        "Rondellof (ally)"
+      ]
+    },
+    "Kingdom_of_Gondelin": {
+      "full_name": "Kingdom of Utheros",
+      "description": "Ruled by King Utheros. Knights like Daniel, wizards in council.",
+      "members": [
+        "King Utheros",
+        "Daniel (Dancelot)"
+      ]
+    },
+    "Akaminé": {
+      "full_name": "Akaminé Demon Hunting Faction",
+      "description": "Warrior academy on Nasagna island (dragon fossil backyard). Trains magic, demon hunting. HQ with library, courtyard, botanical attic. Led by Chiroshi Hamadaw; druids like Doel.",
+      "members": [
+        "Wan Dé",
+        "Nokau Ora",
+        "Takira Honé",
+        "Miyumi Rakkan",
+        "Doel the Druid",
+        "Chiroshi Hamadaw"
+      ]
+    },
+    "Alkynes": {
+      "full_name": "Alkynes Cult",
+      "description": "Evil underground cult (illusion construction site entrance). Brainwashes recruits, uses gagûn shadow wolves, Jinnic demons. HQ reddish-black hellish underground. Led by Roguro Ganis.",
+      "members": [
+        "Roguro Ganis",
+        "Fagin",
+        "Daneyo Ocraig"
+      ]
+    },
+    "Sirutov": {
+      "full_name": "Sirutov Military",
+      "description": "Official military/police. Some corrupt under tyrant leader; rebels like Bain fight them.",
+      "members": [
+        "Bain wun Donn (rebel)",
+        "Corrupt commander/soldiers"
+      ]
+    },
+    "Evil_God_Forces": {
+      "full_name": "Aku no Kami's Demons",
+      "description": "Created in Urottharonngomonasht dimension. Includes Jinnic demons, gagûns.",
+      "members": [
+        "Aku no Kami"
+      ]
+    },
+    "Elven_Fantasy_Realm": {
+      "full_name": "Elven Society",
+      "description": "Fantasy world with elves, magic, fate prophets. Includes farms, towns, dungeons, Marveno's chamber.",
+      "members": [
+        "S'Awira",
+        "Lady Marveno",
+        "Tabléyét",
+        "E'Norm",
+        "L'Esson"
+      ]
+    },
+    "The_Writer's_Jumps": {
+      "full_name": "Consciousness Jumps",
+      "description": "Multi-dimensional body-hopping phenomenon. Protagonist shifts between Earth, elf realms, dungeons.",
+      "members": [
+        "The Writer"
+      ]
+    },
+    "The_Authority": {
+      "full_name": "The Authority (APA-7 / Human Sociology Division)",
+      "description": "Secret organization running Vicilia clone experiment. Erases memories, creates recurring cycles, eliminates sentient clones. Led by Lucifer Doestoevsky. Uses black armored vans, snipers, teleportation via Chasm.",
+      "members": [
+        "Lucifer Doestoevsky",
+        "Radiyana Doestoevsky (former)"
+      ]
+    },
+    "Bouchie_Clones": {
+      "full_name": "Bouchie Family Clones",
+      "description": "Identical female clones (waitresses, co-founders of Café Eve-Jack). Short-term memory loss, romantic with Adam/Jack. Includes Eve (sentient, cabin), Catalina/Sophia (killed), Evelyn/Aria.",
+      "members": [
+        "Evelyn Bouchie",
+        "Catalina Bouchie",
+        "Sophia Bouchie"
+      ]
+    },
+    "Vicilia_Residents": {
+      "full_name": "Vicilia Experiment Subjects",
+      "description": "Cloned humans in simulated town. Infinite loop highway/Chasm. Gas factory, apartments, café.",
+      "members": [
+        "Michael Bouchie",
+        "Adam/Jack Jucas clones"
+      ]
+    }
+  }
+}
