@@ -1,0 +1,210 @@
+{
+  "characters": [
+    {
+      "name": "Gradsvid Stormaxe (Gurad Svid)",
+      "role": "Main Protagonist / Warrior / Taskar Initiate",
+      "affiliation": ["Taskar Brotherhood", "Delnerra Village (descendant of Emetria)"],
+      "is_double_agent": false,
+      "appearance": "Young warrior, iron longsword + ironwood bow + iron arrows, wolf-leather scabbard, solnomnah rock battleaxe (double-bladed, spiked, grey-blue with dark hollow engravings, runes on handle). Leather boots, simple traveler clothes.",
+      "personality": "Brave, determined warrior forged for destiny. Analytical of legends/magic. Loyal to Taskars but questions authority. Quick to fight (slays pyromancer, dragon). Curious about truth/Emetria. Guilt after kills but pushes forward.",
+      "speech_style": "Direct, battle-ready: \"Die in the name of the Taskars!\", \"How'd you like that, huh?\" Reflective: \"All my life, all I wanted was to create worlds...\"",
+      "likes": [
+        "Combat/quests (Taskar missions, slaying dragons/undead)",
+        "Ancient artifacts (solnomnah axe, Casoh sword)",
+        "Exploring Scahazahad caverns/dungeons",
+        "Delnerra heritage/Emetria legends"
+      ],
+      "dislikes": [
+        "Dragons (blue dragon destroyed Delnerra)",
+        "Undead/pyromancers (fights them)",
+        "Deception/traps (questions Culdrin)",
+        "Failure/doubt"
+      ],
+      "relationships": {
+        "mentor": "Mallice Undrei (previous master)",
+        "leader": "Culdrin Eastwok (Taskar head)",
+        "enemy": "Blue dragon, pyromancer, undead"
+      },
+      "crimes": [
+        "Homicide: slays pyromancer (cleaves in half), multiple undead",
+        "Trespassing: Scahazahad caverns, broken tower"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "5A-Prologue",
+          "context": "Delnerra aftermath",
+          "description": "Survives blue dragon invasion, joins Taskars",
+          "dialog": "\"The Taskars had tried their best...\""
+        },
+        {
+          "chapter": "5B-Chapter1",
+          "context": "Feonor armorer + tower",
+          "description": "Buys weapons, enters broken tower, fights mage",
+          "dialog": "\"Die in the name of the Taskars!\""
+        },
+        {
+          "chapter": "5C-Chapter2",
+          "context": "Scahazahad caverns",
+          "description": "Enters cave, fights undead archer, gains solnomnah axe",
+          "dialog": "\"Sho!\""
+        },
+        {
+          "chapter": "5D-Chapter3",
+          "context": "Dragon attack on Feonor",
+          "description": "Slays bronze dragon with axe",
+          "dialog": "\"Die, dragon!\""
+        }
+      ],
+      "other_attributes": {
+        "weapons": "Solnomnah rock battleaxe (supreme cleaving), iron longsword, ironwood bow",
+        "destiny": "Retrieve Casoh sword, find Aaron Ahaka's possession"
+      }
+    },
+    {
+      "name": "Nikneferon (Feron)",
+      "role": "Wizard / Council Member",
+      "affiliation": ["Council of Wizards", "Gondelin Castle"],
+      "is_double_agent": false,
+      "appearance": "Old wizard, long beard, blue robe, white staff tipped with blue sapphire/purple amethyst/magenta garnet.",
+      "personality": "Wise, experienced, humorous under stress. Loyal to kingdom but critical of king. Skilled potion-maker, battle mage.",
+      "speech_style": "Formal, wizardly: \"Hoom, hmm\", \"By the name of Utheros\"",
+      "likes": [
+        "Potion-making/research",
+        "Honeybrew mead",
+        "Old friends (Bamir)"
+      ],
+      "dislikes": [
+        "King Utheros' policies",
+        "Assassins/Sand Eagles",
+        "Failures (past potion incident)"
+      ],
+      "relationships": {
+        "friend": "Bamir (wizard of war)",
+        "apprentices": "Hama, Prejin"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "2-Nikneferon",
+          "context": "Cellar laboratory",
+          "description": "Brews potions, meets assassin Tokish/Bamir",
+          "dialog": "\"Damn those squires!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Healing potions, battle magic, staff combat"
+      }
+    },
+    {
+      "name": "Rondellof the Red",
+      "role": "Pyromancer / Wizard",
+      "affiliation": ["Council of Wizards"],
+      "is_double_agent": false,
+      "appearance": "Red robes, white beard singed by fire, obsidian staff with ruby tip.",
+      "personality": "Arrogant pyromancer, loyal to Dread Fleet/Undead. Quick to violence.",
+      "speech_style": "Commanding: \"Thuponikas Shomongous!\"",
+      "likes": [
+        "Fire magic/pyromancy",
+        "Undead alliance"
+      ],
+      "dislikes": [
+        "Taskars, humans opposing Undead"
+      ],
+      "relationships": {
+        "enemy": "Gradsvid (killed by him)"
+      },
+      "crimes": [
+        "Murder: attempts on squires, allies with Undead"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "3-Rondellof",
+          "context": "Undead ship",
+          "description": "Commands Dread Fleet, portals",
+          "dialog": "\"Retroleagus Mororathetus\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Pyromancy, portal spells"
+      }
+    },
+    {
+      "name": "Bamir",
+      "role": "Wizard of War / Plant Mage",
+      "affiliation": ["Council of Wizards"],
+      "is_double_agent": false,
+      "appearance": "Green beard to belly, blue robe with green forest patterns, green-tinged hair to waist, black wizard hat, white staff with emerald tip.",
+      "personality": "Skilled, humorous, loyal friend to Nikneferon.",
+      "speech_style": "Playful: \"Hoom, hmm\"",
+      "likes": [
+        "Plant magic, herbal healing",
+        "Old friends"
+      ],
+      "dislikes": [],
+      "relationships": {
+        "friend": "Nikneferon"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "2-Nikneferon",
+          "context": "Reunion",
+          "description": "Reveals true form, heals Nikneferon",
+          "dialog": "\"I’m Bamir, the wizard of war.\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Plant growth, healing, wood crafting"
+      }
+    },
+    {
+      "name": "Daniel (Sir Dancelot)",
+      "role": "Knight",
+      "affiliation": ["King Utheros' Knights"],
+      "is_double_agent": false,
+      "appearance": "Mithril-plated armor, longsword.",
+      "personality": "Valiant, fearless knight. Dreams of princesses.",
+      "speech_style": "Chivalrous",
+      "likes": [
+        "Fighting",
+        "Dreaming of princesses"
+      ],
+      "dislikes": [
+        "Dragons"
+      ],
+      "relationships": {},
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "4-Daniel",
+          "context": "Summons",
+          "description": "Wakes to dragon alert, arms for battle",
+          "dialog": "\"Awaken, knights!\""
+        }
+      ],
+      "other_attributes": {}
+    }
+  ],
+  "factions": {
+    "Taskar_Brotherhood": {
+      "full_name": "Taskar Brotherhood",
+      "description": "Adventurer guild training explorers. Led by Culdrin Eastwok. Quests into Scahazahad caverns for Casoh sword.",
+      "members": ["Culdrin Eastwok", "Gradsvid Stormaxe"]
+    },
+    "Council_of_Wizards": {
+      "full_name": "Council of Wizards",
+      "description": "Gondelin-based mages. Includes Nikneferon, Bamir, Rondellof. Monitor kingdom, make potions.",
+      "members": ["Nikneferon", "Bamir", "Rondellof"]
+    },
+    "Undead_Dread_Fleet": {
+      "full_name": "Undead Forces",
+      "description": "Invading from east, settle Axe Island. Led by Arthagannon. Skeletons, dragons fleeing them.",
+      "members": ["Rondellof (ally)"]
+    },
+    "Kingdom_of_Gondelin": {
+      "full_name": "Kingdom of Utheros",
+      "description": "Ruled by King Utheros. Knights like Daniel, wizards in council.",
+      "members": ["King Utheros", "Daniel (Dancelot)"]
+    }
+  }
+}

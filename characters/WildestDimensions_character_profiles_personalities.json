@@ -1,0 +1,234 @@
+{
+  "characters": [
+    {
+      "name": "Adam Void Jucas (also Jack Jucas)",
+      "role": "Main Protagonist / Sentient Clone",
+      "affiliation": ["Vicilia Experiment Subject", "Former 'Detective' (artificial profile)"],
+      "is_double_agent": false,
+      "appearance": "Tuxedo-clad (black formal suit, often dusty/bloodied), handsome, mid-30s, short neat hair. Drives Bentley Continental (British luxury car, frequently breaks down/fixed mysteriously). Carries Colt 0.45 pistol (coins or bullets) and nametag with phone number.",
+      "personality": "Initially courteous, flirtatious gentleman detective. Gains sentience → spirals into paranoia, guilt, violence (kills multiple Bouchie clones). Existential crisis, self-doubt, protective of Eve. Becomes ruthless killer when threatened, yet shows remorse. Intelligent, analytical (forensic skills), but overwhelmed by experiment truth.",
+      "speech_style": "Formal, polite ('mademoiselle', 'sir', 'my dear'). Sarcastic under stress ('A town without crime is like a business without funding'). Shocked exclamations: 'Goddamnations!', 'What in the 99 names of God!'. Combat: blunt threats.",
+      "likes": [
+        "Eve Bouchie (romantic 'wife', protective)",
+        "Solving mysteries/truth-seeking",
+        "His Bentley Continental",
+        "Coffee (cappuccino/espresso at Café Eve-Jack)",
+        "Formal tuxedo attire"
+      ],
+      "dislikes": [
+        "The Authority / APA-7 / Lucifer Doestoevsky",
+        "Clones repeating cycles (memory resets)",
+        "Being manipulated/deceived",
+        "Violence (post-killing guilt, yet escalates)",
+        "Michael Bouchie (initially)"
+      ],
+      "relationships": {
+        "romantic_interest": "Evelyn Bouchie / Eve (marries in cabin, calls her 'my nectar')",
+        "ex_wife": "Radiyana Doestoevsky (manipulative, Authority ties)",
+        "clones": "Multiple Bouchie women (kills Catalina/Sophia)",
+        "ally_rival": "Michael Bouchie ('uncle' figure, factory owner)"
+      },
+      "crimes": [
+        "Multiple Homicides: kills Sophia (Bouchie clone, first murder), Catalina/Catalie (Bouchie clone, shoots aorta/head), self-clone in 205 (assists), attempts on Radiyana/Michael",
+        "Assault/Attempted Murder: kicks waitress, threatens Radiyana",
+        "Trespassing/Break-in: multiple apartments, factory",
+        "Theft: uses Michael's factory key"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "1",
+          "context": "Café Eve-Jack coin-gun robbery",
+          "description": "Pays with coins from pistol ('Keep the change'), flees after wallet loss",
+          "dialog": "\"Committing crimes.\""
+        },
+        {
+          "chapter": "2",
+          "context": "Nametag swap with Catalie",
+          "description": "Flirts, exchanges numbers, discovers his own number on her tag",
+          "dialog": "\"An eye for an eye, or should I say… nametag.\""
+        },
+        {
+          "chapter": "5",
+          "context": "Bathroom key discovery + first kill",
+          "description": "Finds key labeled 'Michaelangelo B.', kills Sophia clone",
+          "dialog": "\"Keep the change.\""
+        },
+        {
+          "chapter": "7-8",
+          "context": "Kills Catalina, confronts Michael",
+          "description": "Shoots Catalina over photo; fights Michael",
+          "dialog": "\"The condition is…\""
+        },
+        {
+          "chapter": "14",
+          "context": "Escapes with Eve to cabin",
+          "description": "Marries Eve, confronts Radiyana",
+          "dialog": "\"I do, too, I accept you.\""
+        },
+        {
+          "chapter": "19",
+          "context": "Chasm escape attempt vs APA-7",
+          "description": "Kills self-clone, shoots soldiers with coin-gun physics",
+          "dialog": "\"One down, five to go.\""
+        }
+      ],
+      "other_attributes": {
+        "super_skills": "Forensic analysis, marksmanship (coin/lead pistol), driving (Bentley stunts)",
+        "clone_identity": "Sentient clone of Jack Jucas; artificial 'detective on vacation' profile; gains full awareness of experiment",
+        "mental_state": "Paranoia → guilt → ruthless survivalist"
+      }
+    },
+    {
+      "name": "Evelyn Bouchie (Eve / Aria)",
+      "role": "Heroine / Sentient Clone",
+      "affiliation": ["Vicilia Experiment Subject", "Café Eve-Jack co-founder (artificial)"],
+      "is_double_agent": false,
+      "appearance": "Blonde pixie bun or sideburns, innocent doe eyes, blue irises, pearl-white turtleneck + navy overalls or casual clothes. Identical to all Bouchie clones (Catalina/Sophia).",
+      "personality": "Timid, childlike innocence due to anterograde amnesia (forgets present quickly). Loyal/protective of Adam/Jack. Builds cabin, writes journal. Romantic, dream-like. Shocked by violence.",
+      "speech_style": "Shy, stuttering: \"Um...\", \"Mhmm.\" Childlike joy or fear: \"My dear Jack!\"",
+      "likes": [
+        "Adam/Jack Jucas ('my Jucas', marries in cabin)",
+        "Journal writing (logs experiment)",
+        "Forest cabin sanctuary",
+        "Photography (drops photo of Adam)"
+      ],
+      "dislikes": [
+        "Violence/blood (screams at killings)",
+        "Memory loss/isolation",
+        "Authorities",
+        "Michael (initially confuses as uncle)"
+      ],
+      "relationships": {
+        "husband": "Adam/Jack Jucas (marries, calls 'my nectar')",
+        "sisters_clones": "Catalina/Sophia (killed by Adam)",
+        "ally": "Radiyana Doestoevsky (initially)",
+        "fake_uncle": "Michael Bouchie"
+      },
+      "crimes": [
+        "Accessory to experiment knowledge concealment"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2-3",
+          "context": "Cabin rescue + memory loss",
+          "description": "Cares for unconscious Adam, writes journal, introduces as Eve",
+          "dialog": "\"I... I was worried that you were... sleeping for too long.\""
+        },
+        {
+          "chapter": "11",
+          "context": "Marriage in cabin",
+          "description": "Hugs/kisses Adam as 'Jack', accepts proposal",
+          "dialog": "\"I do...\""
+        },
+        {
+          "chapter": "14",
+          "context": "Confronts Radiyana/Michael",
+          "description": "Kicks Radiyana, screams at violence",
+          "dialog": "\"ADAM! PLEASE!\""
+        }
+      ],
+      "other_attributes": {
+        "condition": "Anterograde amnesia (short-term memory loss), sentient clone aware of experiment",
+        "journal": "Logs Vicilia anomalies, builds cabin from lumber"
+      }
+    },
+    {
+      "name": "Radiyana Doestoevsky",
+      "role": "Anti-Heroine / Former Authority Member",
+      "affiliation": ["Vicilia Experiment (defector)", "Former Authority"],
+      "is_double_agent": true,
+      "appearance": "Platinum-blonde long hair, siren eyes (deep red irises), mature/curvy figure, elegant clothing. Identical age to Adam.",
+      "personality": "Manipulative, seductive, knowledgeable insider. Sarcastic humor, protective of clones. Vengeful (chops Michael's hand). Motherly/teasing toward Adam.",
+      "speech_style": "Seductive, teasing: \"Ara ara\", \"My honey-crispie\". Russian phrases: \"Bozhe moy\". Authoritative explanations.",
+      "likes": [
+        "Adam/Jack (teases as 'husband')",
+        "Controlling situations",
+        "Revealing experiment truth",
+        "Cake (uses in hand reveal)"
+      ],
+      "dislikes": [
+        "The Authority / Lucifer Doestoevsky",
+        "Michael Bouchie",
+        "Clones being killed",
+        "Being attacked"
+      ],
+      "relationships": {
+        "ex_husband": "Adam/Jack Jucas",
+        "ally": "Eve Bouchie (sisterly)",
+        "enemy": "Michael Bouchie (cuts hand)"
+      },
+      "crimes": [
+        "Assault: chops Michael's hand",
+        "Manipulation of clones/Adam",
+        "Accessory to experiment (former)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "8",
+          "context": "Factory confrontation",
+          "description": "Reveals experiment truth, chops Michael's hand",
+          "dialog": "\"I was one of the Authorities myself.\""
+        },
+        {
+          "chapter": "14",
+          "context": "Cabin marriage interruption",
+          "description": "Reveals as Authority defector, fights Adam",
+          "dialog": "\"Too late for formalities.\""
+        }
+      ],
+      "other_attributes": {
+        "powers_knowledge": "Full experiment awareness, Authority insider (erased memories)"
+      }
+    },
+    {
+      "name": "Michaelangelo Bouchie (Michael)",
+      "role": "Supporting Character / Factory Owner",
+      "affiliation": ["Vicilia Resident", "Fake 'Uncle' to Bouchie clones"],
+      "is_double_agent": false,
+      "appearance": "Large burly man (7ft), short-trimmed black hair/beard, factory worker clothes. Loses left hand (bandaged stump).",
+      "personality": "Booming voice, protective of 'niece', initially aggressive toward Adam. Regretful after truth reveal.",
+      "speech_style": "Loud, folksy: \"Gyattdamn!\", \"Son of a Jucas!\"",
+      "likes": [
+        "Factory work",
+        "Protecting Bouchie 'nieces'"
+      ],
+      "dislikes": [
+        "Violence against family",
+        "Radiyana (attacks him)"
+      ],
+      "relationships": {
+        "fake_nieces": "All Bouchie clones (Catalina/Eve/etc.)",
+        "enemy": "Radiyana (hand cut)"
+      },
+      "crimes": [
+        "Ordering clone assassination (Catalie to kill Adam)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "7",
+          "context": "Factory + chase",
+          "description": "Chases Adam after niece killing",
+          "dialog": "\"Tell me where's my niece!\""
+        }
+      ],
+      "other_attributes": {}
+    }
+  ],
+  "factions": {
+    "The_Authority": {
+      "full_name": "The Authority (APA-7 / Human Sociology Division)",
+      "description": "Secret organization running Vicilia clone experiment. Erases memories, creates recurring cycles, eliminates sentient clones. Led by Lucifer Doestoevsky. Uses black armored vans, snipers, teleportation via Chasm.",
+      "members": ["Lucifer Doestoevsky", "Radiyana Doestoevsky (former)"]
+    },
+    "Bouchie_Clones": {
+      "full_name": "Bouchie Family Clones",
+      "description": "Identical female clones (waitresses, co-founders of Café Eve-Jack). Short-term memory loss, romantic with Adam/Jack. Includes Eve (sentient, cabin), Catalina/Sophia (killed), Evelyn/Aria.",
+      "members": ["Evelyn Bouchie", "Catalina Bouchie", "Sophia Bouchie"]
+    },
+    "Vicilia_Residents": {
+      "full_name": "Vicilia Experiment Subjects",
+      "description": "Cloned humans in simulated town. Infinite loop highway/Chasm. Gas factory, apartments, café.",
+      "members": ["Michael Bouchie", "Adam/Jack Jucas clones"]
+    }
+  }
+}

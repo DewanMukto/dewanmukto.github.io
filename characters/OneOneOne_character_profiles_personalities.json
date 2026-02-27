@@ -1,0 +1,492 @@
+{
+  "characters": [
+    {
+      "name": "Wan Dé",
+      "role": "Main Protagonist / Akaminé Trapper Agent",
+      "affiliation": ["Akaminé (warrior faction)", "Former office employee"],
+      "is_double_agent": false,
+      "appearance": "Garnet brown uncombed hair, midnight-pool eyes, office tie/suit (torn when fired or transforming). Red robes inscribed with glowing runes \"Akaminé\". Equipped with polished blood-thirsty glaive (turns to burning staff in visions).",
+      "personality": "Pure-hearted yet impulsive/curious (trespasses botanical attic, chases bird). Superhuman strength/speed (lifts 400kg car one-handed, runs faster than human limit). Loyal friend (helps Nokau). Strategic in combat but careless with powers (accidentally destroys armory). Vowed never to use \"One!\" power but breaks vow in desperation. Depressed after failures (fired, exposed). Protective (saves Takira/Miyumi). Nostalgic about past demon hunts.",
+      "speech_style": "Casual, friendly ('bro', 'dude'). Shocked exclamations: \"What?!!!\", \"Oh NOOOOO!!!\", \"Whaaaaaaaaat?!!!\". Combat: \"ONE!!!\" (power shout). Reflective: \"That was close. I was almost exposed...\"",
+      "likes": [
+        "Adventure/demon hunting (finds office 'tedious')",
+        "Friends (Nokau, Bain)",
+        "Magic/training (Akaminé life)",
+        "Helping innocents (saves Takira twice)",
+        "**MH21-style music implied in energetic scenes (not direct but battle energy)**",
+        "**Burritos? No – office life initially, but prefers action**"
+      ],
+      "dislikes": [
+        "Office work/boss (fired over otaku poster)",
+        "Getting exposed as non-human",
+        "Rules/restrictions (trespasses anyway)",
+        "Failing friends (seed chase, armory destruction)",
+        "Alkynes/Evil God forces",
+        "Radiation? No – dark seeds/toxic plants"
+      ],
+      "relationships": {
+        "best_friend": "Nokau Ora (pranks, missions together)",
+        "ally": "Bain wun Donn (armory guard, portal fights), Takira Honé & Miyumi Rakkan (rescues)",
+        "mentor": "Doel the Druid (strict tasks, bird form)",
+        "Akaminé_leader": "Chiroshi Hamadaw"
+      },
+      "crimes": [
+        "Trespassing restricted botanical attic",
+        "Accidental mass destruction (armory with 'One!' power – buildings, humans, weapons)",
+        "Portal-jumping into enemy HQ (kills Alkynes)",
+        "Desertion from office job (fired)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "0",
+          "context": "Prologue forest duel",
+          "description": "Fights hooded rose-user (razor petals, venom); glaive becomes burning staff; emblem drawn",
+          "dialog": "\"Wan...\" (voice calls him as number)"
+        },
+        {
+          "chapter": "1",
+          "context": "Ach'ka Chuai street + portal",
+          "description": "Lifts car one-handed to save self; reveals Akaminé robes/glaive; portals to Nasagna",
+          "dialog": "\"That wasn't so serious.\" ... \"Course is clear. Time to move on.\""
+        },
+        {
+          "chapter": "2",
+          "context": "Nasagna botanical + seed chase + Alkyne raid",
+          "description": "Chases magpie with Nokau; uses 'One!' to vaporize Alkynes/gagûns; portals into Alkynes HQ, saves Takira/Miyumi with glaive",
+          "dialog": "\"ONE!!!\" (twice – kills most Alkynes)"
+        },
+        {
+          "chapter": "3",
+          "context": "Akaminé training courtyard",
+          "description": "Not directly featured but implied in background",
+          "dialog": ""
+        },
+        {
+          "chapter": "4",
+          "context": "Sirutov armory guard",
+          "description": "Destroys armory with 'One!' by accident; fights corrupt Sirutov with Bain",
+          "dialog": "\"ONE!!!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Super strength/speed, ambient vision (detects life energy), 'One!' finger reality-transitioning spell (vaporizes everything in line-of-sight), portal creation, glaive mastery, restoration spells",
+        "combat_style": "Glaive close-range + 'One!' long-range desperation nuke; avoids using special power unless desperate"
+      }
+    },
+    {
+      "name": "Takira Honé",
+      "role": "Secondary Protagonist / New Akaminé Recruit",
+      "affiliation": ["Akaminé (trainee)", "Former junior detective"],
+      "is_double_agent": false,
+      "appearance": "Unique haircut, brilliant blue eyes, fur jacket (office attire). Later Akaminé training clothes.",
+      "personality": "Unlucky, depressed, anime-obsessed escapist. Brave under pressure (eavesdrops on Alkynes). Quick learner of magic. Self-doubting ('I suck', 'not worth living'). Loyal BFF to Miyumi. Curious about magic.",
+      "speech_style": "Frustrated sighs: \"Curse my luck....\", \"Yaaaaaaargh!\". Joyful when succeeding: \"Wow. I did it!\". Trembling: \"Y-ye...yes...\"",
+      "likes": [
+        "Anime (TV escape)",
+        "Magic/learning (ice projectile success)",
+        "Friends (Miyumi, new Akaminé life)",
+        "Coffee (café scene)"
+      ],
+      "dislikes": [
+        "Bad luck/work failures",
+        "Boss memories",
+        "Alkynes/brainwashing",
+        "Danger (earthquakes, demons)"
+      ],
+      "relationships": {
+        "best_friend": "Miyumi Rakkan (BFF since childhood)",
+        "mentor": "Chiroshi Hamadaw (ice magic trainer)",
+        "rescuer": "Wan Dé (twice)"
+      },
+      "crimes": [
+        "Eavesdropping on Alkynes",
+        "Trespassing illusion construction site"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "1",
+          "context": "Street car incident + Alkynes recruitment",
+          "description": "Nearly hit by car; witnesses Wan lift car; follows Alkynes, nearly brainwashed",
+          "dialog": "\"Y-ye...yes...\" (joins Alkynes)"
+        },
+        {
+          "chapter": "2",
+          "context": "Alkynes underground HQ",
+          "description": "Shackled, saved by Miyumi & Wan; teleported to Nasagna",
+          "dialog": "\"Mi.. Miyumi?\""
+        },
+        {
+          "chapter": "3",
+          "context": "Akaminé training",
+          "description": "Learns ice stalactite projectile under Hamadaw",
+          "dialog": "\"Very impressive, Taki-san\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Emerging magic – ice projectile (guided by Hamadaw)"
+      }
+    },
+    {
+      "name": "Miyumi Rakkan",
+      "role": "Heroine / Akaminé Trainee",
+      "affiliation": ["Akaminé"],
+      "is_double_agent": false,
+      "appearance": "Orange hair, athletic build. Hockey bat engraved with her name.",
+      "personality": "Overconfident, energetic, protective (senses danger to Takira, rescues with teleport). Playful stunt performer. Quick to pout when criticized.",
+      "speech_style": "Excited: \"Whooo-oo-oo-hoo-oo!\". Pouty: \"What?!\"",
+      "likes": [
+        "Teleport stunts/acrobatics",
+        "Hockey bat",
+        "Rescuing friends",
+        "Training (despite failures)"
+      ],
+      "dislikes": [
+        "Underestimating opponents",
+        "Hamadaw's mockery"
+      ],
+      "relationships": {
+        "best_friend": "Takira Honé"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "1",
+          "context": "Alkynes HQ rescue",
+          "description": "Teleports in with hockey bat, punches Roguro, fights Alkynes",
+          "dialog": "\"Takira!\""
+        },
+        {
+          "chapter": "3",
+          "context": "Training courtyard",
+          "description": "Fails staff teleport vs swordsmen; staff stolen by Hamadaw",
+          "dialog": "\"Watch this!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Teleportation + hockey bat combat"
+      }
+    },
+    {
+      "name": "Aku no Kami (Evil God)",
+      "role": "Main Antagonist",
+      "affiliation": ["Urottharonngomonasht dimension"],
+      "is_double_agent": false,
+      "appearance": "Throned entity, surrounded by demons.",
+      "personality": "Frustrated creator god; destroys own creations in rage. Obsessed with surpassing humans. Roars in failure.",
+      "speech_style": "Internal monologue rage: \"WHY?!\"",
+      "likes": [
+        "Creating demons",
+        "Worship from creations"
+      ],
+      "dislikes": [
+        "Humanity (wants to surpass)",
+        "Failed demons (Jinnic killed)"
+      ],
+      "relationships": {
+        "creations": "Demons (wipes half in rage)"
+      },
+      "crimes": [
+        "Mass demon creation/terrorism",
+        "Wiping out own forces"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Throne room",
+          "description": "Wipes half demons; sends more after Jinnic failure",
+          "dialog": "\"Burn! Burn them down....\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Nokau Ora",
+      "role": "Ally / Akaminé Druid Apprentice",
+      "affiliation": ["Akaminé"],
+      "is_double_agent": false,
+      "appearance": "Friendly, rib-nudger.",
+      "personality": "Fun, prankish, nervous under pressure (seed incident). Healing-focused, not fighter.",
+      "speech_style": "Casual: \"Yeah, man\", \"Damn you, bro!\"",
+      "likes": [
+        "Anita (lovey-dovey)",
+        "Healing magic",
+        "Pranking with Wan"
+      ],
+      "dislikes": [
+        "Druid scolding",
+        "Dark seeds"
+      ],
+      "relationships": {
+        "best_friend": "Wan Dé"
+      },
+      "crimes": [
+        "Trespassing botanical attic"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Botanical chase",
+          "description": "Accidentally lets bird take seed; runs marathon",
+          "dialog": "\"Holy slices of...\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Doel (the Druid / Sensei Tihono)",
+      "role": "Mentor / Botanical Master",
+      "affiliation": ["Akaminé"],
+      "is_double_agent": false,
+      "appearance": "Elderly, cane, bird form (magpie robin).",
+      "personality": "Strict, mischievous (time-boosts pupils, slaps with book). Wise but quirky.",
+      "speech_style": "Authoritative: \"Learn to walk before trying to run\"",
+      "likes": [
+        "Botanical experiments",
+        "Teaching lessons"
+      ],
+      "dislikes": [
+        "Slacking (Nokau cleaning bet)"
+      ],
+      "relationships": {
+        "pupils": "Wan Dé, Nokau Ora"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Seed chase reveal",
+          "description": "Bird form is himself; stops Alkynes",
+          "dialog": "\"I'll hear your excuses later\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Bird transformation, time acceleration portals"
+      }
+    },
+    {
+      "name": "Roguro Ganis",
+      "role": "Alkynes Leader / Antagonist",
+      "affiliation": ["Alkynes"],
+      "is_double_agent": false,
+      "appearance": "Elderly.",
+      "personality": "Manipulative brainwasher, chronomancy user. Laughs at resistance.",
+      "speech_style": "Hypnotic: \"Fear not, Takira Chan....\"",
+      "likes": [
+        "Recruiting/brainwashing",
+        "Power"
+      ],
+      "dislikes": [
+        "Resistance (Fagin betrayal)"
+      ],
+      "relationships": {
+        "subordinate": "Fagin (brainwashes), Daneyo"
+      },
+      "crimes": [
+        "Brainwashing, kidnapping"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Underground HQ",
+          "description": "Shackles Takira, nearly brainwashes; fights Miyumi",
+          "dialog": "\"From now on... You'll be an Alkyne\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Brainwashing orb, chronomancy"
+      }
+    },
+    {
+      "name": "Daneyo Ocraig",
+      "role": "Alkyne Enforcer",
+      "affiliation": ["Alkynes"],
+      "is_double_agent": false,
+      "appearance": "Giant, blurred face in shadows.",
+      "personality": "Silent, loyal brute.",
+      "speech_style": "Growl: \"Yes, master...\"",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "superior": "Roguro Ganis"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "HQ fight",
+          "description": "Covers retreat; tanky rock skin survives glaive",
+          "dialog": ""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Half-Sikuinju demon – metallic rock skin"
+      }
+    },
+    {
+      "name": "Bain wun Donn",
+      "role": "Ally / Rebel Sirutov",
+      "affiliation": ["Sirutov (rebel faction)"],
+      "is_double_agent": true,
+      "appearance": "Armory guard gear, electric blade.",
+      "personality": "Loyal to true Sirutov cause, anti-tyrant.",
+      "speech_style": "Brotherly: \"Hold yourself together, Wan\"",
+      "likes": [
+        "Fighting corrupt Sirutov"
+      ],
+      "dislikes": [
+        "Tyrant leader"
+      ],
+      "relationships": {
+        "ally": "Wan Dé"
+      },
+      "crimes": [
+        "Betraying corrupt Sirutov"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "4",
+          "context": "Armory + street fight",
+          "description": "Fights corrupt soldiers with Wan",
+          "dialog": "\"No mercy.\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Daihatsu Ren",
+      "role": "Ally / Super-Strength Boxer",
+      "affiliation": ["Independent (joins group)"],
+      "is_double_agent": false,
+      "appearance": "Bald, hulking giant, muscular.",
+      "personality": "Crazy persona for freedom; kind underneath. Super strength (punches cars, body transform).",
+      "speech_style": "Madman: \"Wheeehaaaw!!! I'm the moon, I'm the night!\"",
+      "likes": [
+        "Boxing/punching",
+        "Mahir Beats (role model)"
+      ],
+      "dislikes": [
+        "Sirutov corruption"
+      ],
+      "relationships": {
+        "ally": "Mahir Beats, Wan group"
+      },
+      "crimes": [
+        "Assault on Sirutov"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "4",
+          "context": "Street race + fight",
+          "description": "Pushes Mahir's car, transforms, fights Sirutov",
+          "dialog": "\"HYAAAAAAAAAAAAAAAAHHHHHHH!!!!!\""
+        }
+      ],
+      "other_attributes": {
+        "powers": "Body expansion/super strength"
+      }
+    },
+    {
+      "name": "Mahir Beats",
+      "role": "Ally / Racer",
+      "affiliation": ["Independent"],
+      "is_double_agent": false,
+      "appearance": "Racer driver.",
+      "personality": "Attitude-filled racer, strong grip.",
+      "speech_style": "Angry: \"Nani?!\"",
+      "likes": [
+        "Racing",
+        "His ride"
+      ],
+      "dislikes": [
+        "Car destruction"
+      ],
+      "relationships": {
+        "ally": "Daihatsu Ren"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "4",
+          "context": "Race + Sirutov ambush",
+          "description": "Car wrecked; fights with Ren",
+          "dialog": "\"You're not abiding laws, are you?\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Chiroshi Hamadaw",
+      "role": "Akaminé Leader / Trainer",
+      "affiliation": ["Akaminé"],
+      "is_double_agent": false,
+      "appearance": "Wrinkled, kind hand.",
+      "personality": "Wise, senses potential instantly. Mocking humor in training.",
+      "speech_style": "Mentor: \"You can never reach the top shelf until you've grown tall enough\"",
+      "likes": [
+        "Training promising recruits"
+      ],
+      "dislikes": [
+        "Show-off stunts"
+      ],
+      "relationships": {
+        "trainees": "Takira, Miyumi"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "3",
+          "context": "Courtyard training",
+          "description": "Teaches Takira ice magic; mocks Miyumi",
+          "dialog": "\"Very impressive.... for a stunt show\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Fagin",
+      "role": "Alkyne (former protector)",
+      "affiliation": ["Alkynes"],
+      "is_double_agent": false,
+      "appearance": "Cowardly.",
+      "personality": "Initially protective, then brainwashed.",
+      "speech_style": "Nervous: \"Shut up, Fagin\"",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "superior": "Roguro Ganis"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "1-2",
+          "context": "Café to HQ",
+          "description": "Protects Takira from demon; brainwashed by Roguro",
+          "dialog": "\"You are interested in magic, I see.\""
+        }
+      ],
+      "other_attributes": {}
+    }
+  ],
+  "factions": {
+    "Akaminé": {
+      "full_name": "Akaminé Demon Hunting Faction",
+      "description": "Warrior academy on Nasagna island (dragon fossil backyard). Trains magic, demon hunting. HQ with library, courtyard, botanical attic. Led by Chiroshi Hamadaw; druids like Doel.",
+      "members": ["Wan Dé", "Nokau Ora", "Takira Honé", "Miyumi Rakkan", "Doel the Druid", "Chiroshi Hamadaw"]
+    },
+    "Alkynes": {
+      "full_name": "Alkynes Cult",
+      "description": "Evil underground cult (illusion construction site entrance). Brainwashes recruits, uses gagûn shadow wolves, Jinnic demons. HQ reddish-black hellish underground. Led by Roguro Ganis.",
+      "members": ["Roguro Ganis", "Fagin", "Daneyo Ocraig"]
+    },
+    "Sirutov": {
+      "full_name": "Sirutov Military",
+      "description": "Official military/police. Some corrupt under tyrant leader; rebels like Bain fight them.",
+      "members": ["Bain wun Donn (rebel)", "Corrupt commander/soldiers"]
+    },
+    "Evil_God_Forces": {
+      "full_name": "Aku no Kami's Demons",
+      "description": "Created in Urottharonngomonasht dimension. Includes Jinnic demons, gagûns.",
+      "members": ["Aku no Kami"]
+    }
+  }
+}
