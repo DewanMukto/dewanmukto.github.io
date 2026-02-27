@@ -1,0 +1,705 @@
+{
+  "characters": [
+    {
+      "name": "Cooper Black (Cooprion della Blackburn)",
+      "role": "Main Protagonist",
+      "affiliation": ["MBC / Rebellion Force", "MIW sponsor beneficiary"],
+      "is_double_agent": false,
+      "appearance": "Shoulder-length black hair, black cowboy hat, black aviator sunglasses, yellow outer jacket over black clothing. Often carries a cigarette or a can of Red Bull. Later equipped with FLAW (Fast Light Armor and Weapon) Symbiocyte gizmo on right forearm (tungsten shield, grappling hook, homing flare launcher, laser-lock-on, turns into disk shield or one-handed laser weapon).",
+      "personality": "Greedy, violent, and possesses 'psychopathic' tendencies. Obsessed with 'spoils' and collecting debts. Impulsive and prone to outbursts of rage. Uses coin-toss mechanic (Mercy or Death) for victims, always landing on Death in practice. Views killing as casual business. Deeply loyal to family and rebellion but prioritizes personal gain and revenge. Harbors no remorse for murdering allies if provoked.",
+      "speech_style": "Informal and aggressive, frequently uses slang like 'homie', 'buddy', 'blockheaded dork', 'shiddamn', 'moth******er'. Exclamations like 'Whooohooo!' after drinking Red Bull or '~Aaaah!' after alcohol. Sarcastic and taunting in combat ('In your faces, Russian rat-faced scum!', 'Oh yeah! I've been waiting for this!').",
+      "likes": [
+        "Red Bull (glugs entire cans and flings them away with 'Whooohooo!'; drinks during desert drives and battles)",
+        "Money/Spoils (obsessed with collecting debts and 'striking direct gold')",
+        "Gatling guns and heavy weaponry (M416 with grenade launcher, SMAW, FLAW laser mode)",
+        "Fast cars (stolen Jeep Wrangler, chases in high-speed pursuits)",
+        "Aztec treasure (shared family wealth with brother Daemon)",
+        "Symbiocyte gizmo/FLAW (uses for grappling hooks, shields, homing missiles, and turning the tide in fortress assaults)",
+        "Rebellion victories and bombing runs (laughs during avalanche and B-52 strikes)"
+      ],
+      "dislikes": [
+        "Russians / Russian paramilitary / Dimitri Makovsvet (Ghost Walker) and his forces (primary enemy; calls them 'Russian rat-faced scum' and 'betrayers of the peace')",
+        "Debt dodgers (specifically Yon Roncho, Philias Cacroe, El Rickardo Viz, Mick Lardo)",
+        "Cops / Police (avoids and threatens them during bank robbery intervention)",
+        "Being called a coward (immediately murders Jerry Stone for it)",
+        "Radiation (avoids areas; implied from desert and nuke contexts)",
+        "Failures in debt collection or ambushes (rages when Rickardo's goons attack)",
+        "Innocent bystanders who delay him (indirectly via Harrison parallels)"
+      ],
+      "relationships": {
+        "brother": "Daemon Black (Demonstar) – loyal but pranks each other; shares Aztec treasure wealth",
+        "uncle_mentor": "Joe Catshoe Black (deceased) – received final letters/envelope; carries on Blackburn family gun-handling tradition",
+        "ally": "Vandermann Vugerton, Exodus Luke, John Luther, Rogue Jacob, Sgt. Dan Walker, City Dogs",
+        "rival": "Dimitri Makovsvet"
+      },
+      "crimes": [
+        "Multiple Counts of First-Degree Murder: gunned down Arizona car dealer to 'shut his bloody mouth'; executed surrendering mugger in Rickardo's mansion with three full magazines after coin toss (Death); shot Yon Roncho during chase; murdered Philias Cacroe; killed fellow American soldiers Jerry Stone (skull crushed, knife to neck) and Reximus Pill (thrown knife to jugular) for spoils and being called coward",
+        "Extortion and Armed Robbery: used legendary Magnum .44 to demand cash from debtors",
+        "Grand Theft Auto: stole Jeep Wrangler from Arizona dealer (left $30k but still murdered dealer)",
+        "Jailbreak: tore bars off maximum-security cell",
+        "Illegal Gambling: blackjack at Exodus Luke's casino",
+        "Accessory to Mass Murder and Desertion facilitation"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "0-1",
+          "context": "Sonoran Desert aftermath of Russian invasion; receives uncle's dying envelope via Vandermann",
+          "description": "Recruits Vandermann into rebellion after helicopter crash; reveals himself as Cooper Black",
+          "dialog": "\"My dear friend, you already did!\" (shoots round into sky after Vandermann asks when he meets Cooper)"
+        },
+        {
+          "chapter": "2",
+          "context": "Raiding El Rickardo Viz's mansion for debt collection",
+          "description": "Psychopathic coin-toss execution of mugger after licking hand to escape chokehold; drinks vintage Osgerdo 1984 wine",
+          "dialog": "In his mind, Cooper tossed a coin... the coin landed as Death. ... \"Ow... hey! I spent $399.50 for my facial issues, man!\""
+        },
+        {
+          "chapter": "3",
+          "context": "Yon Roncho chase and bank robbery intervention",
+          "description": "Stops bank robbery led by Dorritor Kho; chases Yon Roncho in Lamborghini pursuit while drinking Red Bull and listening to MH21 music",
+          "dialog": "\"I am Dirt Muncher. Now where is the goddamn cash stash, huh?\""
+        },
+        {
+          "chapter": "27-28",
+          "context": "Gora Chen and Zhigansk fortress assaults",
+          "description": "Uses FLAW gizmo for grappling, shield, and missile barrages; causes avalanche to bury AA towers; survives B-52 bombing run",
+          "dialog": "\"Heads up!\" (fires SMAW for avalanche) ... \"Heh, heh, heh! This here's a S-grade Symbiocyte gizmo.\""
+        },
+        {
+          "chapter": "30",
+          "context": "Inside Dimitri's Zhigansk mansion; encounters Rochelle amid nukes",
+          "description": "Murders Marines Jerry Stone and Reximus Pill over spoils dispute and 'coward' insult; enters mansion alone",
+          "dialog": "\"The condition is… I get the spoils.\" ... (kicks and stabs Jerry; throws knife at Reximus)"
+        }
+      ],
+      "other_attributes": {
+        "super_equipment": "FLAW Symbiocyte gizmo (acquired from Symbiocyte Pharmaceuticals)",
+        "combat_style": "Impulsive gunman; prefers close-range execution and heavy ordnance"
+      }
+    },
+    {
+      "name": "Harrison Garison (Harry Gary)",
+      "role": "Secondary Protagonist / Agent",
+      "affiliation": ["MIW"],
+      "is_double_agent": false,
+      "appearance": "Handsome with black aviator sunglasses. Later described as looking ragged after surviving on the streets of Sydney.",
+      "personality": "Skilled 'gunman agent' for MBC and MIW. Initially professional; harbors a 'monster-side' fueled by vengeance. Romantic toward Amy Catt but prone to extreme violence when provoked.",
+      "speech_style": "Confident and sometimes talkative. Commanding tone when threatening: calls people 'stupid schmucks'.",
+      "likes": [
+        "Vacations",
+        "Amy Catt (romantic interest; protective dynamic)",
+        "High-tech weaponry (GSFER robot hijacking)",
+        "Driving F-15s"
+      ],
+      "dislikes": [
+        "Thugs",
+        "Alwatt Woden",
+        "Radiation",
+        "Broken ribs"
+      ],
+      "relationships": {
+        "romantic_interest": "Amy Catt (Amethyst Julia Dickens)",
+        "ally": "John Luther, Amy Catt"
+      },
+      "crimes": [
+        "Homicide: killed Alwatt Woden, various thugs, and executed Daemon Black while paralyzed",
+        "Innocent Victimization: murdered an innocent waitress in Sydney for saying no hotel room",
+        "Assault with a Deadly Weapon: held elderly motel clerk at gunpoint",
+        "Hijacking: seized control of GSFER robot via smartphone"
+      ],
+      "featured_moments": [],
+      "other_attributes": {}
+    },
+    {
+      "name": "Amy Catt (Amethyst Julia Dickens)",
+      "role": "Vigilante / Heroine",
+      "affiliation": ["MIW"],
+      "is_double_agent": false,
+      "appearance": "Silver-blonde hair, beautiful face, wears slick black tights or purple velvet outfits. Looks identical to twin sister Rochelle.",
+      "personality": "Possesses superhuman strength (lifts 10-tonne truck) and reflexes due to Symbiocyte serum. Protective of Harrison and acts as guardian angel for the team. Sassy and advisory.",
+      "speech_style": "Sassy and 'purring'. Often gives advice to 'be wise, not brave'.",
+      "likes": [
+        "Harrison Garison",
+        "Helping citizens",
+        "Her whip (uses to smash teeth and crunch legs)"
+      ],
+      "dislikes": [
+        "Mord Dickens (her brother)",
+        "Potty mouths",
+        "Injustice"
+      ],
+      "relationships": {
+        "romantic_interest": "Harrison Garison",
+        "twin_sister": "Rochelle Lisby"
+      },
+      "crimes": [
+        "Aggravated Assault: whip attacks on thugs",
+        "Breaking and Entering: infiltrates Symbiocyte Pharmaceuticals and NY Hotel"
+      ],
+      "featured_moments": [],
+      "other_attributes": {
+        "powers": "Symbiocyte serum super-strength and reflexes"
+      }
+    },
+    {
+      "name": "Exodus Luke",
+      "role": "Driver / Billionaire Ally",
+      "affiliation": ["MBC / Rebellion Force"],
+      "is_double_agent": false,
+      "appearance": "Has an 'Avalon' haircut and glazed yellow-tinted sun shades. Often in official suits at his casino.",
+      "personality": "Billionaire casino owner who earned fortune by selling stolen military weapons. Skilled driver but prone to 'weird' behavior. Opportunistic and proud of criminal past.",
+      "speech_style": "Confident and flashy; uses terms like 'genuine greens' for money.",
+      "likes": [
+        "Lamborghinis",
+        "Gamble-based wealth",
+        "Adventure",
+        "Italian jokes",
+        "Mass killing of former colleagues to fund lifestyle"
+      ],
+      "dislikes": [
+        "Cops",
+        "FBI",
+        "Radiation"
+      ],
+      "relationships": {
+        "ally": "Cooper Black"
+      },
+      "crimes": [
+        "Mass Murder and Homicide: murdered former employer Hratt Wright and ~30 workers",
+        "Grand Larceny and Embezzlement: stole 30 crates of illegal weaponry",
+        "Illegal Arms Dealing: sold weapons for $48 billion",
+        "Accessory to Murder: assists Cooper in raids"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2-3",
+          "context": "Rickardo mansion raid and Yon Roncho chase",
+          "description": "Drives stolen Jeep; knocks out thug with wine bottle; shoots Lamborghini tires during high-speed chase while listening to MH21",
+          "dialog": "(drives ultra-gear Jeep) \"You know it, Black\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Vandermann Vugerton (Sgt.)",
+      "role": "U.S. Marine / Ally (later deserter)",
+      "affiliation": ["MBC / Rebellion Force (deserter from U.S. Marines)"],
+      "is_double_agent": false,
+      "appearance": "Wears military cap and standard Marine gear. Known for 'acrobatic stunts' since infancy.",
+      "personality": "Initially disciplined but becomes a deserter to join Cooper's rebellion. Carries deep guilt for group violence. 'Pro' at gambling due to machine-like mind. Polite but grows passive-aggressive.",
+      "speech_style": "Polite and formal initially ('sir'); becomes more passive-aggressive with guilt.",
+      "likes": [
+        "War movies",
+        "Military maps",
+        "Winning at Blackjack"
+      ],
+      "dislikes": [
+        "Alcohol",
+        "Killing innocent people",
+        "Russian paramilitary"
+      ],
+      "relationships": {
+        "ally": "Cooper Black"
+      },
+      "crimes": [
+        "Desertion: abandons military post",
+        "Homicide: involved in shootout killing Joe Catshoe Black",
+        "Illegal Gambling: wins $25,000 at casino (narrator calls it thievery)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "1",
+          "context": "Sonoran Desert survival after helicopter crash",
+          "description": "Receives Joe Catshoe's envelope; recruited by Cooper into rebellion",
+          "dialog": "\"I need to see Cooper Black...\" (shows envelope)"
+        }
+      ],
+      "other_attributes": {
+        "background": "Born in 1989 subway train crash; acrobatic stunts from infancy; destroyed enemy base accidentally with tank in 3:47"
+      }
+    },
+    {
+      "name": "John Luther",
+      "role": "Muscular Gunman / Ally",
+      "affiliation": ["MIW"],
+      "is_double_agent": false,
+      "appearance": "African-American, extremely muscular with 6-pack abs, white vest, and brown paint-splattered trousers.",
+      "personality": "'Bad-ass' buddy exceptional at handling guns and kidnapping thugs. Loyal friend to Harrison. Loves heavy weaponry.",
+      "speech_style": "Heavy, gruff voice; calls friends 'baby-faced rascals' or 'dumb birds'.",
+      "likes": [
+        "Jumbo-sized burgers",
+        "Aston Martins",
+        "MH21 music",
+        "Forbidden weapons"
+      ],
+      "dislikes": [
+        "Traffic jams",
+        "Mafias",
+        "The Hitters"
+      ],
+      "relationships": {
+        "ally": "Harrison Garison"
+      },
+      "crimes": [
+        "Kidnapping: kidnaps thugs at night",
+        "Homicide: kills six armored soldiers from rear",
+        "Possession of Prohibited Weapons: hides forbidden submachine guns"
+      ],
+      "featured_moments": [],
+      "other_attributes": {}
+    },
+    {
+      "name": "Dimitri Makovsvet (Ghost Walker)",
+      "role": "Main Antagonist",
+      "affiliation": ["Russian Forces (commander)"],
+      "is_double_agent": false,
+      "appearance": "Albino with ghostly pale skin, white hair, and glowing red eyes. Wears thick jacket with hood.",
+      "personality": "Cruel, powerful Russian mastermind who kills his own generals for failure. Obsessed with nuclear dominance and the 'New Dawn'.",
+      "speech_style": "Soft, whispering, and menacing.",
+      "likes": [
+        "Nuclear warheads",
+        "Power",
+        "Silence"
+      ],
+      "dislikes": [
+        "Americans",
+        "Failures",
+        "Rochelle (his subordinate)"
+      ],
+      "relationships": {
+        "subordinate": "Rochelle Lisby (suspects traitor)"
+      },
+      "crimes": [
+        "Terrorism: planting nukes",
+        "Murder: throws Army General through glass window"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "27",
+          "context": "Gora Chen fortress command",
+          "description": "Executes Army General for failing to report intruders; orders Mick Lardo and army mobilization",
+          "dialog": "\"You should've told me that earlier... Please stand near the window.\" (shoots with hidden USAS-12)"
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Daemon Black (Demonstar)",
+      "role": "Ally / Cooper's Brother",
+      "affiliation": ["MBC / Rebellion Force"],
+      "is_double_agent": false,
+      "appearance": "Similar outfit to Cooper (black Harris Tweed, RayBan, black Stetson) but with 'sorrowful, understanding grey eyes'.",
+      "personality": "Twice as strong as Cooper but 'twice as dumb'. Wealthy from Aztec treasure; skilled pilot.",
+      "speech_style": "Gruff but capable of 'pranking' Cooper at odd times.",
+      "likes": [
+        "Experimental jets",
+        "Aztec treasure",
+        "His brother (mostly)"
+      ],
+      "dislikes": [
+        "Cops",
+        "Russian fortresses",
+        "Being paralyzed"
+      ],
+      "relationships": {
+        "brother": "Cooper Black"
+      },
+      "crimes": [
+        "Theft of Military Property: stole Phoenix-9 experimental jet from carrier",
+        "Murder: killed military Major and several SEALs",
+        "Tax Evasion/Illegal Possession: hid $34 million Aztec treasure"
+      ],
+      "featured_moments": [],
+      "other_attributes": {}
+    },
+    {
+      "name": "Joe Catshoe Black",
+      "role": "Mentor / Deceased Relative",
+      "affiliation": ["Blackburn family (independent)"],
+      "is_double_agent": false,
+      "appearance": "Old cowboy with a blonde beard and an injured arm.",
+      "personality": "Fearful but resilient; values the 'Blackburn family tree' gun-handling tradition.",
+      "speech_style": "Grim and silent.",
+      "likes": [
+        "His nephew Cooper",
+        "M1014 shotguns"
+      ],
+      "dislikes": [
+        "Infiltrating Russian armies",
+        "Dying"
+      ],
+      "relationships": {
+        "nephew": "Cooper Black (and Daemon Black)",
+        "family_tradition": "Blackburn gun-handling legacy"
+      },
+      "crimes": [
+        "Homicide: shot Marine assistant during standoff"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "0",
+          "context": "Sonoran Desert shack under Russian helicopter threat",
+          "description": "Writes final note/envelope for Cooper; prepares M1014 shotgun as helicopter descends",
+          "dialog": "\"Now this'll come in handy. Hmm... handy and powerful, indeed.\""
+        },
+        {
+          "chapter": "1",
+          "context": "Dying moments",
+          "description": "Hands envelope to Vandermann with final message for Cooper",
+          "dialog": "\"Take them... tell him... that... ahh...\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Dorritor Kho",
+      "role": "Criminal / Thug Leader",
+      "affiliation": ["Independent criminal (Costa Rica origin)"],
+      "is_double_agent": false,
+      "appearance": "Buffed-up biker-type with bulky block of flesh for face, bushy black beard with gray streaks.",
+      "personality": "Greedy and arrogant; loves showing off high-tech weaponry like BFG10K.",
+      "speech_style": "Cliche 'thug' talk, often cursing.",
+      "likes": [
+        "Pulse cannons (BFG10K)",
+        "Robbing banks",
+        "Ferrari Enzos"
+      ],
+      "dislikes": [
+        "Getting busted",
+        "Running out of ammo"
+      ],
+      "relationships": {},
+      "crimes": [
+        "Armed bank robbery",
+        "Public safety violations with unauthorized weaponry (BFG10K pulse cannon)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "3",
+          "context": "CFB bank vault robbery",
+          "description": "Leads thugs; deploys BFG10K but it charges slowly; defeated and silenced by own weapon",
+          "dialog": "\"This is BFG10K, baby! ... Now... eat these waves of radiobeams!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Rogue Jacob (Roger Jacob)",
+      "role": "Leader of City Dogs",
+      "affiliation": ["MBC / Rebellion Force", "City Dogs"],
+      "is_double_agent": false,
+      "appearance": "Wears an afro.",
+      "personality": "Tactical and brave; often leads missions. Sarcastic and heavy slang user.",
+      "speech_style": "Aggressive and 'street' ('ma', 'bro', 'mother****er').",
+      "likes": [
+        "Saiga 12k shotguns",
+        "Black freeway bikes",
+        "Coffee"
+      ],
+      "dislikes": [
+        "Zombies",
+        "T-90 tanks",
+        "Radiation"
+      ],
+      "relationships": {
+        "subordinates": "Li'l Jacob, Carl Jason (City Dogs)"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "27",
+          "context": "Zhigansk fortress assault",
+          "description": "Assembles Type 88 LMG; later injures Russian with grenade before dying",
+          "dialog": "\"Okay, we're in!\" ... \"FOR AMERICA!!!\" (runs through rocket artillery with SMAW)"
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Sgt. Dan Walker",
+      "role": "U.S. Marine Leader",
+      "affiliation": ["U.S. Marines (temporarily allied with MBC)"],
+      "is_double_agent": false,
+      "appearance": "Golden blonde hair, looks like a 1940s movie star.",
+      "personality": "Disciplined Marine Sergeant who values human life but isn't above 'vandalizing' a shop for a cool gun.",
+      "speech_style": "Commanding and professional; uses mega-phones aggressively.",
+      "likes": [
+        "Saiga 12k shotguns",
+        "Human survival",
+        "Successful operations"
+      ],
+      "dislikes": [
+        "Zombies",
+        "AA towers",
+        "B-2 bombers hitting civilians"
+      ],
+      "relationships": {
+        "ally": "Cooper Black, City Dogs"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "27",
+          "context": "Zhigansk assault coordination",
+          "description": "Calls MBC for air support; leads fallback into trees",
+          "dialog": "\"Hello, this is Walker calling in. I require some air assistance from AF1.\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Rochelle Lisby (Rochelle)",
+      "role": "Antagonist / Double Agent",
+      "affiliation": ["Russian Forces (under Dimitri)", "Potential MIW sympathizer"],
+      "is_double_agent": true,
+      "appearance": "Red sideswept hair, Chic glasses, slender torso; looks like Amy Catt's twin.",
+      "personality": "Intelligent scientist working for Dimitri but harbors 'mischievous gleam' suggesting desire to save world. Cautious around Ghost Walker.",
+      "speech_style": "Professional but cautious around Ghost Walker.",
+      "likes": [
+        "Science",
+        "The environment",
+        "Her sister Amy"
+      ],
+      "dislikes": [
+        "Dimitri Makovsvet",
+        "Nuclear destruction"
+      ],
+      "relationships": {
+        "twin_sister": "Amy Catt",
+        "superior": "Dimitri Makovsvet (suspected traitor by him)"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "30",
+          "context": "Zhigansk mansion nuke room confrontation",
+          "description": "Holds Cooper at gunpoint amid ticking portable nukes (18:00 countdown); reveals identity",
+          "dialog": "\"Drop the gun! ... I'm Rochelle. The world is ending.\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Philias Cacroe",
+      "role": "Hunted Gangster / Debtor",
+      "affiliation": ["Independent criminal"],
+      "is_double_agent": false,
+      "appearance": "Not described",
+      "personality": "Greatest gangster; cybercriminal and gambler.",
+      "speech_style": "Not described",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "debtor_to": "Cooper Black ($24,999,000,000 stolen)"
+      },
+      "crimes": [
+        "Cybercrime: hacked Cooper’s bank accounts to steal billions"
+      ],
+      "featured_moments": [],
+      "other_attributes": {}
+    },
+    {
+      "name": "Yon Roncho",
+      "role": "Auto Dealer / Debtor",
+      "affiliation": ["Independent"],
+      "is_double_agent": false,
+      "appearance": "Middle-aged man, mid-40s, thinning gray hair, freshly-shaved beard.",
+      "personality": "Nervous dealer who flees when confronted.",
+      "speech_style": "Friendly salesman initially ('Hello, and welcome, sirs')",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "debtor_to": "Cooper Black ($85,000 owed)"
+      },
+      "crimes": [
+        "Debt evasion / Fraud (fled in modified Lamborghini Murciélago)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "3",
+          "context": "Yon Roncho's Auto X showroom confrontation",
+          "description": "Flees in yellow Lamborghini after Cooper reveals identity; leads high-speed chase ending in cliff crash",
+          "dialog": "\"Enough chitchat. We're not here for buying...\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "El Rickardo Viz (Rickardo)",
+      "role": "Gun Dealer / Debtor",
+      "affiliation": ["Independent arms dealer"],
+      "is_double_agent": false,
+      "appearance": "Not described (estate has ornate glass windows, solar panels)",
+      "personality": "Unpredictable arms supplier; heavily guarded.",
+      "speech_style": "Not described",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "debtor_to": "Cooper Black ($10,000 owed)"
+      },
+      "crimes": [
+        "Illegal arms dealing"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "2",
+          "context": "Rickardo's Baestro estate raid",
+          "description": "Ambush by goons; Cooper fights through cocaine storage room",
+          "dialog": "(mansion sign) \"Rickardo's Baestro\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Jerry Stone",
+      "role": "U.S. Marine (killed by Cooper)",
+      "affiliation": ["U.S. Marines"],
+      "is_double_agent": false,
+      "appearance": "Not described",
+      "personality": "Standard Marine; operates T-72 tank with Reximus Pill.",
+      "speech_style": "Radio protocol ('This is J. Stone... Over')",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "partner": "Reximus Pill"
+      },
+      "crimes": [
+        "Vandalism (prior cafe shooting for target practice)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "30",
+          "context": "Zhigansk mansion entrance",
+          "description": "Killed by Cooper for calling him coward and disputing spoils",
+          "dialog": "\"Fine. It's a deal. Now get in there, you coward!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Reximus Pill",
+      "role": "U.S. Marine (killed by Cooper)",
+      "affiliation": ["U.S. Marines"],
+      "is_double_agent": false,
+      "appearance": "Not described",
+      "personality": "Tank gunner; operates LMG and cannon.",
+      "speech_style": "Radio protocol",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "partner": "Jerry Stone"
+      },
+      "crimes": [
+        "Vandalism (prior cafe shooting)"
+      ],
+      "featured_moments": [
+        {
+          "chapter": "30",
+          "context": "Zhigansk mansion entrance",
+          "description": "Killed by thrown knife to jugular after mounting tank LMG",
+          "dialog": "\"Traitor! Deceiver! American terrorist! Die!\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Dave Dam",
+      "role": "Russian Army General",
+      "affiliation": ["Russian Forces"],
+      "is_double_agent": false,
+      "appearance": "Ferocious-looking",
+      "personality": "Leads rocket artillery ambush.",
+      "speech_style": "Commanding Russian",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {},
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "29",
+          "context": "Zhigansk fortress defense",
+          "description": "Waves forward Russian counterattack with MIG-29s and rocket artillery",
+          "dialog": "(grins and waves hand forwards)"
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Li'l Jacob (LJ)",
+      "role": "City Dogs Member",
+      "affiliation": ["MBC / Rebellion Force", "City Dogs"],
+      "is_double_agent": false,
+      "appearance": "Not described",
+      "personality": "Brave fighter",
+      "speech_style": "Street slang",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "leader": "Rogue Jacob",
+        "teammate": "Carl Jason"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "27-29",
+          "context": "Zhigansk assault",
+          "description": "Killed by Russian knife to lungs during Growler LAV ambush",
+          "dialog": "\"Oh, sh… aa-aaaah…\""
+        }
+      ],
+      "other_attributes": {}
+    },
+    {
+      "name": "Carl Jason (CJ)",
+      "role": "City Dogs Member",
+      "affiliation": ["MBC / Rebellion Force", "City Dogs"],
+      "is_double_agent": false,
+      "appearance": "Not described",
+      "personality": "Brave fighter",
+      "speech_style": "Street slang",
+      "likes": [],
+      "dislikes": [],
+      "relationships": {
+        "leader": "Rogue Jacob",
+        "teammate": "Li'l Jacob"
+      },
+      "crimes": [],
+      "featured_moments": [
+        {
+          "chapter": "29",
+          "context": "Zhigansk Growler ambush",
+          "description": "Downed by Russian SCAR-H buttstock strike",
+          "dialog": ""
+        }
+      ],
+      "other_attributes": {}
+    }
+  ],
+  "factions": {
+    "MBC": {
+      "full_name": "Mission Base Control",
+      "description": "New York-based agency sponsoring rebellion against Russian invasion; provides air support, coordinates fortress assaults, and sponsors Cooper's team.",
+      "members": ["Cooper Black", "Exodus Luke", "Daemon Black", "Vandermann Vugerton", "Rogue Jacob", "Li'l Jacob", "Carl Jason", "Sgt. Dan Walker (temporary ally)"]
+    },
+    "MIW": {
+      "full_name": "Mission Integrated Workforce",
+      "description": "Agency backing the rebellion; agents include Harrison Garison, Amy Catt, John Luther.",
+      "members": ["Harrison Garison", "Amy Catt", "John Luther"]
+    },
+    "Russian Forces": {
+      "full_name": "Russian Paramilitary / Dimitri's Army",
+      "description": "Invading U.S. West Coast for Yucca Mountain nukes; led by Dimitri Makovsvet with fortresses at Gora Chen and Zhigansk.",
+      "members": ["Dimitri Makovsvet", "Rochelle Lisby (double agent)", "Dave Dam", "Mir/Kiril/Sikorsky (Growler crew)"]
+    },
+    "City Dogs": {
+      "full_name": "City Dogs",
+      "description": "Tactical street crew under Rogue Jacob; heavy slang users, part of MBC rebellion.",
+      "members": ["Rogue Jacob", "Li'l Jacob", "Carl Jason"]
+    },
+    "U.S. Marines": {
+      "full_name": "United States Marines",
+      "description": "Official forces fighting Russians; some temporary allies to MBC but Cooper murders Jerry Stone and Reximus Pill.",
+      "members": ["Jerry Stone", "Reximus Pill", "Sgt. Dan Walker", "Vandermann Vugerton (former)"]
+    }
+  }
+}
