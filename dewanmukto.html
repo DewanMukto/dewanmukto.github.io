@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  height: 100dvh; /* Mobile viewport fix */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(circle at center, #000010 0%, #000 100%);
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  color: #00ffff;
+  position: relative; /* Ensure children absolute positioning works relative to body if needed */
+}
+
+/* --- Background Image Layer --- */
+#bg-image-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Behind everything */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none; /* Let clicks pass through */
+}
+
+/* --- Header Glitch Text --- */
+#header-container {
+  padding-top: 20px;
+  z-index: 100;
+  text-align: center;
+  height: 60px; /* fixed height to prevent layout shift */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#glitch-text {
+  font-family: 'Kode Mono', monospace;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 5vw, 2.5rem); /* Responsive font size */
+  letter-spacing: 0.1em;
+  color: #00ffff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+  white-space: nowrap;
+}
+
+/* --- 3D Scene --- */
+#scene-wrapper {
+  position: relative;
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+
+#scene {
+  /* Use vmin to keep it square and fitting within the smallest dimension */
+  width: clamp(300px, 60vmin, 600px); 
+  height: clamp(300px, 60vmin, 600px);
+  perspective: 1200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#camera {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: rotateX(10deg) rotateY(10deg);
+  animation: hover 6s ease-in-out infinite alternate;
+}
+
+#ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: spin 30s linear infinite;
+}
+
+#ring span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: center center;
+  font-size: clamp(2rem, 3vmin, 5em); /* Scale text with ring size */
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff, 0 0 25px #00ffff;
+  opacity: 0.7;
+  white-space: nowrap;
+  /* TranslateZ needs to be proportional to width. Approx 30% of width works well for circles */
+  transform: rotateY(calc(var(--i) * var(--angle))) translateZ(clamp(140px, 28vmin, 280px));
+  animation: glow 3s ease-in-out infinite;
+}
+
+#center-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* 44% of parent width */
+  width: 44%;
+  height: 44%;
+  transform: translate(-50%, -50%) translateZ(0);
+  animation: float 5s ease-in-out infinite alternate;
+}
+
+#center-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* --- UI Buttons --- */
+.ui-container {
+  /* Position relative to the scene wrapper so it stays near the ring */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%); /* Push it slightly down */
+  display: flex;
+  flex-direction: column; /* Stack rows vertically */
+  gap: 15px;
+  z-index: 100;
+  /* Width is determined by content, ensuring alignment */
+  align-items: stretch; 
+}
+
+.ui-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Ensure top buttons share space equally if needed, or just naturally sit */
+.ui-row .neon-btn {
+  flex: 1;
+}
+
+.neon-btn {
+  text-decoration: none;
+  color: #00ffff;
+  background: rgba(0, 20, 20, 0.4);
+  border: 1px solid #00ffff;
+  padding: 10px 20px;
+  font-size: clamp(0.8rem, 2.5vw, 1.1em);
+  font-weight: bold;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  white-space: nowrap;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neon-btn:hover {
+  background: #00ffff;
+  color: #000;
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+  transform: scale(1.05);
+}
+
+/* --- Social Icons --- */
+#social-bar {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  z-index: 100;
+  width: 100%;
+  max-width: 800px;
+  background: linear-gradient(to top, #000 0%, transparent 100%);
+}
+
+.social-link {
+  color: rgba(0, 255, 255, 0.6);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #00ffff;
+  transform: translateY(-3px) scale(1.1);
+  background: rgba(0, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+/* --- Animations --- */
+@keyframes spin {
+  from { transform: rotateY(360deg); }
+  to   { transform: rotateY(0deg); }
+}
+
+@keyframes hover {
+  0%,100% { transform: rotateX(10deg) rotateY(10deg) translateY(0); }
+  50% { transform: rotateX(10deg) rotateY(10deg) translateY(-20px); }
+}
+
+@keyframes glow {
+  0%,100% {
+    text-shadow: 0 0 8px #00ffff, 0 0 25px #00ffff;
+    opacity: 0.6;
+  }
+  50% {
+    text-shadow: 0 0 20px #00ffff, 0 0 50px #00ffff;
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%,100% { transform: translate(-50%, -50%) translateZ(0) scale(1); opacity: 0.9; }
+  50% { transform: translate(-50%, -52%) translateZ(15px) scale(1.05); opacity: 1; }
+}
+
+/* --- Media Queries for Mobile Fine-Tuning --- */
+@media (max-height: 700px) {
+  /* For landscape mobile or small screens, compact the layout */
+  #header-container { padding-top: 10px; }
+  .ui-container { bottom: -20px; }
+  #social-bar { padding-bottom: 10px; }
+  #scene { width: 50vmin; height: 50vmin; }
+}
+</style>
+</head>
+<body>
+
+  <!-- Background Image Layer -->
+  <div id="bg-image-layer"></div>
+
+  <!-- Glitch Header -->
+  <div id="header-container">
+    <div id="glitch-text"></div>
+  </div>
+
+  <div id="scene-wrapper">
+    <div id="scene">
+      <div id="camera">
+        <div id="ring"></div>
+        <div id="center-logo">
+          <img src="https://dewanmukto.vercel.app/asset/logos/logo.png" alt="Logo didn't load">
+        </div>
+      </div>
+      
+      <!-- Buttons -->
+      <div class="ui-container">
+        <!-- Top Row -->
+        <div class="ui-row">
+          <a href="https://dewanmukto.github.io/v2/" target="_blank" class="neon-btn" data-bg="https://huanmux.github.io/assets/image/dm-wallp01.jpg">Introduction</a>
+          <a href="https://muxday.vercel.app/?user=mu" target="_blank" class="neon-btn" data-bg="https://huanmux.github.io/assets/image/dm-wallp02.jpg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 784 1168" style="height: 24px; width: auto; margin-right: 10px; fill: currentColor;">
+        <path d="M403.68 234.366c-3.681 5.618-30.224 30.851-40.724 38.713-25.347 18.983-38.394 24.776-77.79 34.544-23.062 5.718-26.126 6.76-29.666 10.087-7.857 7.384-13.863 11.247-21.384 13.752-9.789 3.259-12.116 5.672-12.116 12.558 0 3.825-.438 5.035-2.25 6.216-2.635 1.716-20.674 9.566-29.076 12.652l-5.825 2.141-2.971-2.116c-9.884-7.038-20.846.73-18.023 12.769 1.281 5.464 4.697 13.648 7.648 18.323 2.003 3.172 3.01 3.922 4.768 3.546 1.226-.263 4.254-.713 6.729-1.001 42.493-4.949 40.864-5.209 23.4 3.732-19.939 10.207-18.133 8.396-15.298 15.335 3.253 7.964 12.604 17.385 20.007 20.156l5.391 2.019.571-3.146c2.04-11.232 8.429-15.14 35.313-21.598l16.883-4.056 13.117 2.49c12.523 2.378 44.627 6.84 45.186 6.281.557-.557-2.339-3.496-10.071-10.22-12.342-10.734-11.967-10.234-8.194-10.934 3.07-.569 13.356.364 24.48 2.221 5.695.951 6.849 1.949 10.602 9.17 8.474 16.302 4.32 33.766-10.663 44.834-12.739 9.412-30.225 15.712-58.895 21.221-41.565 7.986-66.646 14.612-87.823 23.201-38.111 15.456-64.943 39.315-81.349 72.337-25.537 51.399-13.852 115.129 29.49 160.845 11.285 11.904 24.516 22.439 35.558 28.313 9.965 5.301 26.891 11.195 32.681 11.381l4.114.131-3.5.619-3.5.618 4.157 1.262c19.446 5.905 48.822 7.93 69.843 4.814 35.165-5.213 59.534-15.919 91.968-40.404 14.472-10.926 38.359-33.149 60.337-56.135 45.747-47.846 70.153-71.503 80.342-77.878C518.855 595.832 531.512 592 544 592c18.29 0 32.472 6.933 42.959 21 6.102 8.186 10.208 17.124 12.861 28 2.382 9.768 3.878 23.317 2.327 21.069-.752-1.088-1.147-.49-1.65 2.5-1.775 10.54-7.924 25.284-13.676 32.793-8.697 11.352-23.899 22.822-37.247 28.103-13.613 5.385-37.399 10.294-61.035 12.597-27.42 2.671-56.809 7.787-72.039 12.54-28.765 8.977-52.539 27.345-63.932 49.398-14.355 27.783-13.427 60.661 2.466 87.415 5.626 9.47 8.339 12.945 16.466 21.088 6.022 6.035 7.163 6.986 17.716 14.777 18.026 13.307 43.527 22.826 73.017 27.255 13.391 2.011 52.549 2.016 54.558.007.202-.202-2.256-.881-5.462-1.508-14.198-2.779-32.245-10.073-41.829-16.905-15.141-10.793-30.463-25.813-37.688-36.946-2.029-3.126-5.016-7.483-6.638-9.683C416.705 874.014 413 864.636 413 854.684c0-5.65 2.569-16.422 4.312-18.082 9.77-9.301 25.027-16.03 48.822-21.533 64.081-14.82 109.776-51.401 128.122-102.569 3.224-8.992 6.818-27.367 7.726-39.5l.71-9.5.154 9.583c.144 8.953-.301 12.954-2.993 26.917-1.404 7.286-7.125 23.019-11.09 30.5-1.749 3.3-3.649 7.009-4.222 8.242-.572 1.233-1.378 2.246-1.791 2.25s-.75.646-.75 1.425-.357 1.566-.793 1.75-1.887 2.133-3.226 4.333c-2.159 3.55-12.538 16.048-17.218 20.734-3.451 3.456-18.579 15.488-22.376 17.797-2.138 1.3-4.112 2.667-4.387 3.039-.275.371-5.9 3.4-12.5 6.731-16.549 8.351-30.523 13.68-47.732 18.205-2.602.684-4.477 1.656-4.166 2.16.312.503 1.316.689 2.232.412s8.641-1.213 17.166-2.081c40.585-4.13 69.071-9.765 92.5-18.298 15.33-5.583 37.661-18.554 50.945-29.591 10.296-8.554 25.124-24.582 33.34-36.037 3.374-4.704 13.526-23.941 16.397-31.071 2.83-7.028 5.649-16.706 8.011-27.5 1.966-8.988 2.293-13.308 2.27-30-.029-21.817-1.459-32.183-6.545-47.461-4.267-12.818-13.982-32.084-21.064-41.771-7.41-10.137-23.927-26.589-33.354-33.222-15.179-10.682-37.054-20.061-56.5-24.226-13.245-2.836-42.849-2.586-57.5.487-27.999 5.872-54.161 18.066-78.5 36.589-8.789 6.689-30.596 26.259-34.981 31.392-5.122 5.997-38.941 40.833-55.176 56.835-15.863 15.637-22.787 22.017-31.337 28.877-2.742 2.2-5.89 4.829-6.996 5.843-1.105 1.013-6.06 4.488-11.01 7.722s-9.45 6.242-10 6.686c-2.014 1.624-12.507 6.373-19.656 8.896-8.791 3.103-26.867 4.32-35.998 2.425-14.396-2.989-26.608-12.051-32.574-24.172-3.938-8-5.216-13.468-5.248-22.44-.05-14.406 4.83-25.419 16.415-37.046 8.018-8.047 15.344-13.02 27.453-18.636 13.664-6.337 24.699-9.76 68.608-21.281 23.61-6.195 53.403-16.746 65-23.02 37.251-20.151 62.371-49.521 70.969-82.977 3.164-12.312 4.368-32.296 2.62-43.5-2.675-17.153-11.273-37.276-22.004-51.5-10.94-14.501-29.977-30.241-43.244-35.755l-4.987-2.072 5.325-2.166c15.935-6.483 33.215-19.607 42.642-32.385 5.925-8.032 12.007-19.627 10.884-20.751-.359-.358-2.374.874-4.48 2.739-19.929 17.652-32.524 25.61-53.225 33.626-8.739 3.383-30.986 9.264-35.049 9.264-.617 0 2.629-2.521 7.214-5.602 21.853-14.688 39.424-33.648 49.197-53.085 2.254-4.483 7.638-17.828 7.638-18.932 0-1.228-1.997-.034-3.32 1.985m-9.601 249.217c.048 1.165.285 1.402.604.605.289-.722.253-1.585-.079-1.917s-.568.258-.525 1.312m-6.62 20.484c-.363.586-.445 1.281-.183 1.543s.743-.218 1.069-1.067c.676-1.762.1-2.072-.886-.476m207.291 56.656c1.788.222 4.712.222 6.5 0 1.788-.221.325-.403-3.25-.403s-5.038.182-3.25.403m13.333-.362c.23.199 3.117.626 6.417.949 3.811.374 5.27.268 4-.29-1.892-.832-11.303-1.427-10.417-.659M627 564.137c3.575 1.072 7.4 2.351 8.5 2.842 1.1.49 4.025 1.764 6.5 2.83 6.457 2.78 15.574 9.246 22.445 15.918 5.858 5.687 5.899 4.716.055-1.277-3.395-3.481-13.251-11.028-18.5-14.164-4.511-2.696-20.509-8.314-23.33-8.192-1.193.051.755.97 4.33 2.043M283.572 749.028c-2.161 1.635-3.511 2.96-3 2.945.945-.027 8.341-5.92 7.428-5.918-.275 0-2.268 1.338-4.428 2.973M264.5 760.049c-14.725 7.213-25.192 9.921-42 10.865-12.896.724-13.276.798-4.822.936 16.858.275 31.491-2.958 46.822-10.347 6.099-2.939 11.984-6.524 10.5-6.396-.275.023-5 2.247-10.5 4.942M435 897.859c0 1.77 20.812 21.955 28.752 27.887 10.355 7.736 27.863 16.301 40.248 19.691 11.885 3.254 27.788 4.339 38.679 2.641 15.915-2.483 42.821-11.687 56.321-19.268 4.671-2.624 21.633-13.314 22.917-14.443.229-.202.185-.599-.098-.882s-2.496.561-4.917 1.876c-8.642 4.692-29.216 11.343-44.402 14.354-7.013 1.391-13.746 1.775-30.5 1.738-19.299-.042-22.831-.32-34.5-2.724-25.415-5.234-48.507-14.972-66.207-27.92-5.432-3.973-6.293-4.377-6.293-2.95" fill="currentColor"></path>
+    </svg>
+    Activity
+</a>
+        </div>
+        <!-- Bottom Full Width Button -->
+        <a href="https://dwmk.github.io/muktoverse3d/public/" target="_blank" class="neon-btn" data-bg="https://huanmux.github.io/assets/image/dm-wallp03.jpg">Explore the Muktoverse</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Social Media Footer -->
+  <div id="social-bar"></div>
+
+  <script>
+  // --- 1. Ring Text Logic ---
+  const phrase = "• Dewan Mukto • Muktoverse ";
+  const text = phrase.repeat(2);
+  const chars = text.split("");
+  const ring = document.getElementById("ring");
+  const angle = 360 / chars.length;
+
+  ring.innerHTML = chars.map((ch, i) => {
+    const s = document.createElement("span");
+    s.textContent = ch;
+    s.style.setProperty("--i", i);
+    s.style.setProperty("--angle", angle + "deg");
+    return s.outerHTML;
+  }).join("");
+
+  // --- 2. Glitch Header Logic ---
+  const headerEl = document.getElementById('glitch-text');
+  const WORDS = ['DEWANMUKTO', 'ASENTURISK', 'BANGLADESH'];
+  const GLITCH_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()';
+  let currentWordIndex = 0;
+
+  function runGlitchEffect() {
+    const targetWord = WORDS[currentWordIndex];
+    let iterations = 0;
+    
+    const interval = setInterval(() => {
+      headerEl.innerText = targetWord
+        .split("")
+        .map((letter, index) => {
+          if (index < iterations) {
+            return targetWord[index];
+          }
+          return GLITCH_CHARS[Math.floor(Math.random() * GLITCH_CHARS.length)];
+        })
+        .join("");
+
+      if (iterations >= targetWord.length) {
+        clearInterval(interval);
+        // Wait before starting next word
+        setTimeout(() => {
+          currentWordIndex = (currentWordIndex + 1) % WORDS.length;
+          runGlitchEffect();
+        }, 2000); 
+      }
+
+      iterations += 1 / 3; // Speed of decoding
+    }, 30);
+  }
+
+  // Start the glitch effect
+  runGlitchEffect();
+
+
+  // --- 3. Social Media Icons Logic ---
+  const socials = [
+    { name: 'GitHub', username: 'dwmk', url: 'https://github.com/dwmk', icon: 'fab fa-github' },
+    { name: 'Instagram', username: 'dewanmukto', url: 'https://www.instagram.com/dewanmukto/', icon: 'fab fa-instagram' },
+    { name: 'Twitter X', username: 'DEWAN_MUKTO', url: 'https://x.com/DEWAN_MUKTO', icon: 'fab fa-twitter' },
+    { name: 'YouTube', username: 'Dewan Mukto', url: 'https://www.youtube.com/@DewanMukto', icon: 'fab fa-youtube' },
+    { name: 'Facebook', username: 'Dewan Mukto', url: 'https://www.facebook.com/dewanmukto/', icon: 'fab fa-facebook' },
+    { name: 'TikTok', username: 'muktovids', url: 'https://www.tiktok.com/@muktovids', icon: 'fab fa-tiktok' },
+    { name: 'CodePen', username: 'distil', url: 'https://codepen.io/distil', icon: 'fab fa-codepen' },
+    { name: 'Dribbble', username: 'dmkto', url: 'https://dribbble.com/dmkto', icon: 'fab fa-dribbble' },
+    { name: 'Medium', username: 'dewanmukto', url: 'https://www.medium.com/@dewanmukto', icon: 'fab fa-medium' },
+    { name: 'LinkedIn', username: 'dewanmukto', url: 'https://www.linkedin.com/in/dewanmukto/', icon: 'fab fa-linkedin' }
+  ];
+
+  const socialBar = document.getElementById('social-bar');
+
+  socials.forEach(social => {
+    const a = document.createElement('a');
+    a.href = social.url;
+    a.target = '_blank';
+    a.className = 'social-link';
+    a.title = `${social.name} (${social.username})`;
+    
+    const i = document.createElement('i');
+    i.className = social.icon;
+    
+    a.appendChild(i);
+    socialBar.appendChild(a);
+  });
+
+  // --- 4. Background Hover Logic ---
+  const bgLayer = document.getElementById('bg-image-layer');
+  const buttons = document.querySelectorAll('.neon-btn');
+
+  // Preload images to prevent lag
+  const imageUrls = [
+    "https://huanmux.github.io/assets/image/dm-wallp01.jpg",
+    "https://huanmux.github.io/assets/image/dm-wallp02.jpg",
+    "https://huanmux.github.io/assets/image/dm-wallp03.jpg"
+  ];
+  imageUrls.forEach(url => {
+    const img = new Image();
+    img.src = url;
+  });
+
+  buttons.forEach(btn => {
+    btn.addEventListener('mouseenter', () => {
+      const bgUrl = btn.getAttribute('data-bg');
+      if (bgUrl) {
+        bgLayer.style.backgroundImage = `url('${bgUrl}')`;
+        bgLayer.style.opacity = 0.5;
+      }
+    });
+
+    btn.addEventListener('mouseleave', () => {
+      bgLayer.style.opacity = 0;
+    });
+  });
+  </script>
+</body>
+</html>
