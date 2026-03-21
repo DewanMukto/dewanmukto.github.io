@@ -346,27 +346,35 @@
 
         // DATA — each section stored as distinct JSON
         const brandsData = [
-            { title: "Artastic", logo: "https://muktoverse.vercel.app/asset/logos/artastic.png", type: "Websites for Artists", website: "https://artastic.muxday.com/" },
             { title: "Asenturisk", logo: "https://asenturisk.vercel.app/asenturisk-logo-2019-white.png", type: "Next-gen Science & Tech", website: "https://asenturisk.web.app/" },
             { title: "Bongojukti", logo: "https://bongojukti.github.io/assets/logos/favicon.png", type: "Accessible Tech", website: "https://bongoverse.vercel.app/" },
-          { title: "Exalux", logo: "https://avatars.githubusercontent.com/u/215483536?s=200&v=4", type: "AI Research", website: "https://github.com/Exalux" },
+          { title: "Exalux", logo: "https://avatars.githubusercontent.com/u/215483536?s=200&v=4", type: "AI Research", website: "#" },
             { title: "HuanMux", logo: "https://huanmux.github.io/assets/logo/favicon.png", type: "Software & Electronics", website: "https://huanverse.vercel.app/" },
             { title: "Mew Shaders", logo: "https://media.forgecdn.net/avatars/1495/727/638971714973807709.png", type: "Computer Graphics", website: "https://www.curseforge.com/members/mewshaders/projects" },
             { title: "Mux Games", logo: "https://muktoverse.vercel.app/asset/logos/Mux%20logo%20icon%202025.jpg", type: "Game Development Studio", website: "https://huanverse.vercel.app/" },
-            { title: "NeoMav", logo: "https://neomav.vercel.app/favicon.png", type: "Online Publishing", website: "https://neomav.muxday.com/" },
+            { title: "NeoMav", logo: "https://neomav.vercel.app/favicon.png", type: "Online Publishing", website: "https://neomav.vercel.app/" },
             { title: "ZiZhiZhe", logo: "https://huanmux.github.io/assets/logo/zzz.png", type: "Outsourcing IT Services", website: "https://huanmux.vercel.app/zzz" }
         ]
 
         const appsData = [
-            { thumbnail: "https://huanmux.github.io/assets/ogimage/liaoverse-banner.jpg", title: "Liaoverse", type: "Social Platform", buttonText: "Sign Up", buttonUrl: "https://liaoverse.muxday.com", tech: "Nextjs, Vite, Supabase, PostgreSQL" },
-            { thumbnail: "https://mi2u.pages.dev/images/acado_ogimage.jpg", title: "Acado", type: "Document Editor", buttonText: "Try Now", buttonUrl: "https://acado.muxday.com/", tech: "Nextjs, Vite" },
-            { thumbnail: "https://mi2u.pages.dev/brax/images/mizucv_ogimage.jpg", title: "Mizu", type: "CV/Resume Builder", buttonText: "Try Now", buttonUrl: "https://mizu.muxday.com/", tech: "Nextjs, Vite" },
-            { thumbnail: "https://i.ytimg.com/vi/VFS9KTE28rw/maxresdefault.jpg", title: "BRAX", type: "University Tools", buttonText: "Try Now", buttonUrl: "https://brax.muxday.com/", tech: "vanilla HTML, CSS, JS" }
+        
+            { thumbnail: "https://muktoverse.vercel.app/asset/images/muxday/banner.png", title: "MuxDay", type: "Social Platform", buttonText: "Sign Up", buttonUrl: "https://muxday.vercel.app", tech: "Nextjs, Vite, Supabase, PostgreSQL" },
+            { thumbnail: "https://huanmux.github.io/assets/ogimage/liaoverse-banner.jpg", title: "Liaoverse", type: "Social Platform", buttonText: "Sign Up", buttonUrl: "https://liaoverse.vercel.app", tech: "Nextjs, Vite, Supabase, PostgreSQL" },
+            { thumbnail: "https://mi2u.pages.dev/images/acado_ogimage.jpg", title: "Acado", type: "Document Editor", buttonText: "Try Now", buttonUrl: "https://acadolife.vercel.app/", tech: "Nextjs, Vite, TailwindCSS" },
+            { thumbnail: "https://mi2u.pages.dev/brax/images/mizucv_ogimage.jpg", title: "Mizu", type: "CV/Resume Builder", buttonText: "Try Now", buttonUrl: "https://mizucv.vercel.app/", tech: "Nextjs, Vite, TailwindCSS" },
+            { thumbnail: "https://i.ytimg.com/vi/VFS9KTE28rw/maxresdefault.jpg", title: "BRAX", type: "University Tools (for BRACU, Dhaka, BD)", buttonText: "Try Now", buttonUrl: "https://braxapp.github.io/", tech: "vanilla HTML, CSS, JS" },
+            { thumbnail: "https://dewanmukto.github.io/asset/images/appimage04.png", title: "Jackbus", type: "Bus Tracker (for Metrobus, St. John's, CA)", buttonText: "Try Now", buttonUrl: "https://huanmux.github.io/metrobus-tracker/", tech: "vanilla HTML, CSS, JS, LeafletJS" },
+            { thumbnail: "https://muktoverse.vercel.app/asset/images/disorder_ogimage.jpg", title: "Disorder", type: "Anonymous Communication Platform", buttonText: "Try Now", buttonUrl: "https://dewanmukto.github.io/web/disorder/ ", tech: "vanilla HTML, CSS, JS, PeerJS" }
+
+             
         ]
 
         const gamesData = [
-            { thumbnail: "https://muktoverse.vercel.app/asset/images/facultyofsurvival.png", title: "Faculty of Survival", genre: "Single-Player, Survival", playText: "Play Online", playUrl: "https://facultyofsurvival.muxday.com/", tech: "Nextjs, Vite, WebAudio API" },
-            { thumbnail: "https://tr.rbxcdn.com/180DAY-aea3bba2551b5af28164b9e3aa80f995/768/432/Image/Webp/noFilter", title: "Goofy Gunners", genre: "Multi-Player, Sandbox, Action", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/107542071734450/Goofy-Gunners", tech: "Lua, Roblox Studio" }
+            { thumbnail: "https://muktoverse.vercel.app/asset/images/facultyofsurvival.png", title: "Faculty of Survival", genre: "Single-Player, Survival", playText: "Play Online", playUrl: "https://facultyofsurvival.vercel.app/", tech: "Nextjs, Vite, WebAudio API" },
+            { thumbnail: "https://tr.rbxcdn.com/180DAY-aea3bba2551b5af28164b9e3aa80f995/768/432/Image/Webp/noFilter", title: "Goofy Gunners", genre: "Multi-Player, Sandbox, Action", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/107542071734450/Goofy-Gunners", tech: "Lua, Roblox Studio" },
+            { thumbnail: "https://tr.rbxcdn.com/180DAY-af210120545a9e49a45257c8d5a0f5d7/768/432/Image/Png/noFilter", title: "Goofy Obby", genre: "Multi-Player, Parkour, Puzzle", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/76587171520946/Goofy-Obby", tech: "Lua, Roblox Studio" },
+            { thumbnail: "https://tr.rbxcdn.com/180DAY-728626c823bbc71596e4d0cc19fb1928/768/432/Image/Webp/noFilter", title: "Welcome to Bangladesh", genre: "Multi-Player, Exploration, Life", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/13664220695/Welcome-to-Bangladesh", tech: "Lua, Roblox Studio" },
+            { thumbnail: "https://tr.rbxcdn.com/180DAY-e065f3e43ea5d5cd266e35fe9ca7a1c4/768/432/Image/Webp/noFilter", title: "Save Her", genre: "Single-Player, Experimental, Drama", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/18535230648/Save-Her", tech: "Lua, Roblox Studio" }
         ]
 
         const designData = [
@@ -378,7 +386,18 @@
             { client: "Gemini Trading", type: "App UI", image: "https://huanmux.github.io/zzz/images/2.png" },
             { client: "Mario's", type: "App UI", image: "https://huanmux.github.io/zzz/images/5.png" },
             { client: "Amrella", type: "App UI", image: "https://huanmux.github.io/zzz/images/6.png" },
-            { client: "BRAX", type: "App UI", image: "https://huanmux.github.io/zzz/images/brax-v2.png" }
+            { client: "BRAX", type: "App UI", image: "https://huanmux.github.io/zzz/images/brax-v2.png" },
+            { client: "Opal Hits", type: "Social Banner", image: "https://huanmux.github.io/zzz/images/AIWorkflow%20-%20Opal%20Hits%20banner%202.png" },
+            { client: "Webnova Publishing", type: "Book Cover", image: "https://huanmux.github.io/zzz/images/111%20three%20books.png" },
+            { client: "Amrella", type: "Social Banner", image: "https://huanmux.github.io/zzz/images/amrella%20market%20og.png" },
+            { client: "DukeManTwo", type: "Social Banner", image: "https://huanmux.github.io/zzz/images/dukemantwo-twitch-banner.png" },
+            { client: "Bongojukti", type: "Social Banner", image: "https://huanmux.github.io/zzz/images/bangjukti%20banner%202025.png" },
+            { client: "Fortenox", type: "Website UI", image: "https://huanmux.github.io/zzz/images/Fortenox.png" }            
+            
+            
+            
+            
+           
         ]
 
         // Render Brands — whole card clickable + squircle inner crop + white bg (except Asenturisk)
