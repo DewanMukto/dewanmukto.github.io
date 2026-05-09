@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Dewan Mukto ✦ Website</title>
 <meta name="description" content="Welcome to the Muktoverse, formed by a virtuous man of etiquette, an online icon of netiquette, living in a modern vignette, on behalf of Dewan Mukto's signet." />
-    <meta name="keywords" content="dewanmukto, asenturisk, bangladesh, dewan mukto, dewan mukto co, muktoverse, the muktoverse, dewan maksudul islam mukto, dewan mukto & co, dmca" />
+    <meta name="keywords" content="dewanmukto, bangladesh, dewan mukto, dewan mukto co, muktoverse, the muktoverse, dewan maksudul islam mukto, dewan mukto & co, dmca" />
   <meta name="author" content="Dewan Mukto" />
   <meta property="og:title" content="Muktoverse" />
   <meta property="og:description" content="Welcome to the Muktoverse, formed by a virtuous man of etiquette, an online icon of netiquette, living in a modern vignette, on behalf of Dewan Mukto's signet." />
@@ -154,7 +154,7 @@
             }
         }
 
-        /* Squircle Frames — circumscribed inner crop + white bg (except Asenturisk) */
+        /* Squircle Frames — circumscribed inner crop + white bg */
         .squircle-frame {
             width: 118px;
             height: 118px;
@@ -398,7 +398,7 @@
            
         ]
 
-        // Render Brands — whole card clickable + squircle inner crop + white bg (except Asenturisk)
+        // Render Brands — whole card clickable + squircle inner crop + white bg
         function renderBrands() {
             const container = document.getElementById('brands-grid')
             container.innerHTML = ''
@@ -409,7 +409,7 @@
                 card.target = '_blank'
                 card.className = `brand-card shimmer-card tilt-card group bg-[#1f2421] border border-[#7ea2aa]/30 rounded-3xl p-8 flex flex-col items-center text-center transition-all cursor-pointer`
                 
-                const frameBg = brand.title === "Asenturisk" ? "transparent" : "#ffffff"
+                const frameBg = "#ffffff"
                 
                 card.innerHTML = `
                     <div class="squircle-frame mb-8" style="background: ${frameBg};">
