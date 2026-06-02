@@ -207,6 +207,38 @@
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
         .guide-bubble.show { opacity: 1; transform: scale(1) translateY(0); }
+
+        /* Diamond Rack Book Mechanism */
+        .diamond-frame {
+            width: 130px;
+            height: 130px;
+            transform: rotate(45deg);
+            border: 2px solid rgba(156, 122, 151, 0.35);
+            background: #1f2421;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: visible;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3);
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .diamond-frame:hover {
+            box-shadow: 0 0 35px -5px var(--accent-purple);
+            border-color: var(--accent-purple);
+        }
+        .book-cover-upright {
+            transform: rotate(-45deg) translateY(-20px);
+            transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .diamond-frame:hover .book-cover-upright {
+            transform: rotate(-38deg) translateY(-32px) scale(1.08);
+        }
+        .line-clamp-1 {
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+        }
     </style>
 </head>
 <body class="bg-[#303633] text-white dot-matrix overflow-x-hidden">
@@ -224,6 +256,8 @@
                     <a href="#apps" onclick="smoothScrollTo('apps')" class="hover:text-[#8be8cb] transition-all active:scale-95">APPS</a>
                     <a href="#games" onclick="smoothScrollTo('games')" class="hover:text-[#8be8cb] transition-all active:scale-95">GAMES</a>
                     <a href="#design" onclick="smoothScrollTo('design')" class="hover:text-[#8be8cb] transition-all active:scale-95">DESIGNS</a>
+                    <a href="#books" onclick="smoothScrollTo('books')" class="hover:text-[#8be8cb] transition-all active:scale-95">BOOKS</a>
+                    <a href="#videos" onclick="smoothScrollTo('videos')" class="hover:text-[#8be8cb] transition-all active:scale-95">VIDEOS</a>
                 </div>
 
                 <button onclick="toggleMobileMenu()" class="md:hidden text-3xl text-white focus:outline-none flex items-center justify-center">
@@ -236,6 +270,8 @@
                 <a href="#apps" onclick="smoothScrollTo('apps'); toggleMobileMenu()" class="hover:text-[#8be8cb] transition-all active:scale-95">APPS</a>
                 <a href="#games" onclick="smoothScrollTo('games'); toggleMobileMenu()" class="hover:text-[#8be8cb] transition-all active:scale-95">GAMES</a>
                 <a href="#design" onclick="smoothScrollTo('design'); toggleMobileMenu()" class="hover:text-[#8be8cb] transition-all active:scale-95">DESIGNS</a>
+                <a href="#books" onclick="smoothScrollTo('books'); toggleMobileMenu()" class="hover:text-[#8be8cb] transition-all active:scale-95">BOOKS</a>
+                <a href="#videos" onclick="smoothScrollTo('videos'); toggleMobileMenu()" class="hover:text-[#8be8cb] transition-all active:scale-95">VIDEOS</a>
             </div>
         </div>
     </nav>
@@ -302,6 +338,40 @@
 
             <div id="design-grid" class="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
                 </div>
+        </div>
+    </section>
+
+    <section id="books" class="bg-[#1f2421] py-32 relative">
+        <div class="max-w-screen-2xl mx-auto px-12">
+            <div class="flex justify-between items-end mb-16">
+                <div>
+                    <span class="text-[#9c7a97] text-sm font-mono tracking-[4px]">05 —</span>
+                    <h2 class="section-header text-5xl font-semibold tracking-tighter text-white">NOVELS, POETRY &amp; MORE</h2>
+                </div>
+            </div>
+
+            <div id="books-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-x-6 gap-y-20 pt-10 justify-items-center">
+            </div>
+
+            <div class="flex flex-wrap justify-center items-center gap-4 mt-24 border-t border-[#9c7a97]/20 pt-12">
+                <a href="https://www.webnovel.com/profile/4322246237" target="_blank" class="px-6 py-3 bg-[#303633] text-xs font-mono font-semibold tracking-wider rounded-2xl hover:bg-[#8be8cb] hover:text-[#303633] transition-all border border-[#7ea2aa]/10">WEBNOVEL</a>
+                <a href="https://www.wattpad.com/user/muktodewan" target="_blank" class="px-6 py-3 bg-[#303633] text-xs font-mono font-semibold tracking-wider rounded-2xl hover:bg-[#8be8cb] hover:text-[#303633] transition-all border border-[#7ea2aa]/10">WATTPAD</a>
+                <a href="https://www.honeyfeed.fm/u/24734/novels" target="_blank" class="px-6 py-3 bg-[#303633] text-xs font-mono font-semibold tracking-wider rounded-2xl hover:bg-[#8be8cb] hover:text-[#303633] transition-all border border-[#7ea2aa]/10">HONEYFEED</a>
+                <a href="https://play.google.com/store/info/name/Dewan_Mukto?id=11krcftmvn&hl=as&gl=US" target="_blank" class="px-6 py-3 bg-[#303633] text-xs font-mono font-semibold tracking-wider rounded-2xl hover:bg-[#8be8cb] hover:text-[#303633] transition-all border border-[#7ea2aa]/10">GOOGLE PLAY</a>
+                <a href="https://www.lulu.com/spotlight/dewanmukto" target="_blank" class="px-6 py-3 bg-[#303633] text-xs font-mono font-semibold tracking-wider rounded-2xl hover:bg-[#8be8cb] hover:text-[#303633] transition-all border border-[#7ea2aa]/10">LULU</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="max-w-screen-2xl mx-auto px-12 py-32">
+        <div class="flex justify-between items-end mb-16">
+            <div>
+                <span class="text-[#7ea2aa] text-sm font-mono tracking-[4px]">06 —</span>
+                <h2 class="section-header text-5xl font-semibold tracking-tighter">VIDEOS, VLOGS &amp; ANIMATIONS</h2>
+            </div>
+        </div>
+
+        <div id="videos-grid" class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-6 space-y-6">
         </div>
     </section>
 
@@ -391,12 +461,57 @@
             { client: "DukeManTwo", type: "Social Banner", image: "https://huanmux.github.io/zzz/images/dukemantwo-twitch-banner.png" },
             { client: "Bongojukti", type: "Social Banner", image: "https://huanmux.github.io/zzz/images/bangjukti%20banner%202025.png" },
             { client: "Fortenox", type: "Website UI", image: "https://huanmux.github.io/zzz/images/Fortenox.png" }            
-            
-            
-            
-            
-           
         ]
+
+        const booksData = [
+            { title: "Sun of a Beach", year: "2024", isbn: "ISBN 9798331215095", desc: "Anthology of first chapters from all of the works I've written since 2014. The Wildest Dimensions, Prison of Sentience, One One One, Knightspeak as well as unseen titles like Genesis Era, Hodge Podge, Sapien-Skinned Serpents and more!", cover: "/asset/images/sunofabeach-googleplay-cover.jpg" },
+            { title: "In The Wildest Dimensions", year: "2023", isbn: "ISBN 9798880533060", desc: "A detective on vacation discovers a strange set of events that leads him to ultimately question his entire existence.", cover: "/asset/images/inthewildestdimensions-googleplay-cover.jpg" },
+            { title: "Synaesthetic Symphonies", year: "2019", isbn: "ISBN 9781446750544", desc: "A compilation of aesthetic poetry written by Dewan Mukto during his high school days back in 2018-19. Featuring textual artworks spanning 3 episodes: Nature, Emotion and Abstract.", cover: "/asset/images/synaestheticsymphonies-googleplay-cover.jpg" },
+            { title: "IELTS Guide", year: "2019", isbn: "ISBN 9781446741153", desc: "Dewan M.I. Mukto wrote this book to help people aggressively "rip and tear" down their fears and confusions about IELTS and to help others reach their destinations and to mend every such candidate’s confidence.", cover: "/asset/images/ieltsguide-googleplay-cover.jpg" },
+            { title: "Dead Man Alive", year: "2017", isbn: "ISBN 9781446740972", desc: "An unsuspecting NYPD officer encounters a freak weather storm, lands at a café, and discovers an unending layer of reality enticed by cultists practicing underneath the shield of society.", cover: "/asset/images/deadmanalive-googleplay-cover.jpg" },
+            { title: "Cooper Black: Classic", year: "2016", isbn: "ISBN 9781446638897", desc: "Follow upon the escapades of Cooper Black, a modern American cowboy who loves to attack criminals and works as a vigilante to defeat big mafia leaders and terrorists while also maintaining his own set of hobbies.", cover: "/asset/images/cooperblack-googleplay-cover.jpg" }
+        ];
+
+        const videosData = [
+          { "thumbnail": "https://i.ytimg.com/vi/Eto1Bu1SZDM/maxresdefault.jpg", "video": "https://www.youtube.com/embed/Eto1Bu1SZDM" },
+          { "thumbnail": "https://i.ytimg.com/vi/NlvZ_htK3a4/maxresdefault.jpg", "video": "https://www.youtube.com/embed/NlvZ_htK3a4" },
+          { "thumbnail": "https://i.ytimg.com/vi/01EHX3v8A1Y/maxresdefault.jpg", "video": "https://www.youtube.com/embed/01EHX3v8A1Y" },
+          { "thumbnail": "https://i.ytimg.com/vi/pbBjTk6v6NU/maxresdefault.jpg", "video": "https://www.youtube.com/embed/pbBjTk6v6NU" },
+          { "thumbnail": "https://i.ytimg.com/vi/qkKYJ0FBiI8/maxresdefault.jpg", "video": "https://www.youtube.com/embed/qkKYJ0FBiI8" },
+          { "thumbnail": "https://i.ytimg.com/vi/lgJU7GWyea0/maxresdefault.jpg", "video": "https://www.youtube.com/embed/lgJU7GWyea0" },
+          { "thumbnail": "https://i.ytimg.com/vi/0s6wcBfBtI8/maxresdefault.jpg", "video": "https://www.youtube.com/embed/0s6wcBfBtI8" },
+          { "thumbnail": "https://i.ytimg.com/vi/nMSrh9sKIDk/maxresdefault.jpg", "video": "https://www.youtube.com/embed/nMSrh9sKIDk" },
+          { "thumbnail": "https://i.ytimg.com/vi/Olvpjm_lFJs/sddefault.jpg", "video": "https://www.youtube.com/embed/Olvpjm_lFJs" },
+          { "thumbnail": "https://i.ytimg.com/vi/VnibeQmKCSY/maxresdefault.jpg", "video": "https://www.youtube.com/embed/VnibeQmKCSY" },
+          { "thumbnail": "https://i.ytimg.com/vi/5TXRtx__lko/maxresdefault.jpg", "video": "https://www.youtube.com/embed/5TXRtx__lko" },
+          { "thumbnail": "https://i.ytimg.com/vi/HrrHkn6Nyow/sddefault.jpg", "video": "https://www.youtube.com/embed/HrrHkn6Nyow" },
+          { "thumbnail": "https://i.ytimg.com/vi/SPfSfeBBg18/sddefault.jpg", "video": "https://www.youtube.com/embed/SPfSfeBBg18" },
+          { "thumbnail": "https://i.ytimg.com/vi/lxAjAWwoI5U/sddefault.jpg", "video": "https://www.youtube.com/embed/lxAjAWwoI5U" },
+          { "thumbnail": "https://i.ytimg.com/vi/PcnXI24CRBc/sddefault.jpg", "video": "https://www.youtube.com/embed/PcnXI24CRBc" },
+          { "thumbnail": "https://i.ytimg.com/vi/HYLviufjlMg/sddefault.jpg", "video": "https://www.youtube.com/embed/HYLviufjlMg" },
+          { "thumbnail": "https://i.ytimg.com/vi/iURPRMePlbw/maxresdefault.jpg", "video": "https://www.youtube.com/embed/iURPRMePlbw" },
+          { "thumbnail": "https://i.ytimg.com/vi/M5hxadOj9H8/maxresdefault.jpg", "video": "https://www.youtube.com/embed/M5hxadOj9H8" },
+          { "thumbnail": "https://i.ytimg.com/vi/r-m73QJiNdU/maxresdefault.jpg", "video": "https://www.youtube.com/embed/r-m73QJiNdU" },
+          { "thumbnail": "https://i.ytimg.com/vi/2E4REewJgJY/hqdefault.jpg", "video": "https://www.youtube.com/embed/2E4REewJgJY" },
+          { "thumbnail": "https://i.ytimg.com/vi/aHNDf5AMr7c/sddefault.jpg", "video": "https://www.youtube.com/embed/aHNDf5AMr7c" },
+          { "thumbnail": "https://i.ytimg.com/vi/CKtsA1S5Kc0/maxresdefault.jpg", "video": "https://www.youtube.com/embed/CKtsA1S5Kc0" },
+          { "thumbnail": "https://i.ytimg.com/vi/rOIqV9BUuPg/maxresdefault.jpg", "video": "https://www.youtube.com/embed/rOIqV9BUuPg" },
+          { "thumbnail": "https://i.ytimg.com/vi/u2hSU9jBmd0/maxresdefault.jpg", "video": "https://www.youtube.com/embed/u2hSU9jBmd0" },
+          { "thumbnail": "https://i.ytimg.com/vi/sSzvVVt88oM/sddefault.jpg", "video": "https://www.youtube.com/embed/sSzvVVt88oM" },
+          { "thumbnail": "https://i.ytimg.com/vi/LgQN-Lpj-kI/sddefault.jpg", "video": "https://www.youtube.com/embed/LgQN-Lpj-kI" },
+          { "thumbnail": "https://i.ytimg.com/vi/vBo0Q9Ubip8/sddefault.jpg", "video": "https://www.youtube.com/embed/vBo0Q9Ubip8" },
+          { "thumbnail": "https://i.ytimg.com/vi/vjSDPAi-KxI/maxresdefault.jpg", "video": "https://www.youtube.com/embed/vjSDPAi-KxI" },
+          { "thumbnail": "https://i.ytimg.com/vi/jKUMjCQEB7s/maxresdefault.jpg", "video": "https://www.youtube.com/embed/jKUMjCQEB7s" },
+          { "thumbnail": "https://i.ytimg.com/vi/VXYnywCzNhE/maxresdefault.jpg", "video": "https://www.youtube.com/embed/VXYnywCzNhE" },
+          { "thumbnail": "https://i.ytimg.com/vi/jkdSP9JZ16I/maxresdefault.jpg", "video": "https://www.youtube.com/embed/jkdSP9JZ16I" },
+          { "thumbnail": "https://i.ytimg.com/vi/RQ8-yeM_W1Q/maxresdefault.jpg", "video": "https://www.youtube.com/embed/RQ8-yeM_W1Q" },
+          { "thumbnail": "https://i.ytimg.com/vi/uc5r8xPnJ7Q/maxresdefault.jpg", "video": "https://www.youtube.com/embed/uc5r8xPnJ7Q" },
+          { "thumbnail": "https://i.ytimg.com/vi/ZOTSEsowSko/maxresdefault.jpg", "video": "https://www.youtube.com/embed/ZOTSEsowSko" },
+          { "thumbnail": "https://i.ytimg.com/vi/_OMifw7tWMw/maxresdefault.jpg", "video": "https://www.youtube.com/embed/_OMifw7tWMw" },
+          { "thumbnail": "https://i.ytimg.com/vi/P7lHp74GtfQ/maxresdefault.jpg", "video": "https://www.youtube.com/embed/P7lHp74GtfQ" },
+          { "thumbnail": "https://i.ytimg.com/vi/duRsz_MG3J0/maxresdefault.jpg", "video": "https://www.youtube.com/embed/duRsz_MG3J0" },
+          { "thumbnail": "https://i.ytimg.com/vi/fD3QWeQiARs/sddefault.jpg", "video": "https://www.youtube.com/embed/fD3QWeQiARs" }
+        ];
 
         // Render Brands — whole card clickable + squircle inner crop + white bg
         function renderBrands() {
@@ -514,6 +629,77 @@
             })
         }
 
+        // Render Books
+        function renderBooks() {
+            const container = document.getElementById('books-grid');
+            container.innerHTML = '';
+            
+            booksData.forEach((book, index) => {
+                const element = document.createElement('div');
+                element.className = 'flex flex-col items-center cursor-pointer group select-none transition-transform duration-300';
+                element.onclick = () => openBookModal(index);
+                element.innerHTML = `
+                    <div class="diamond-frame relative mb-12">
+                        <img src="${book.cover}" class="book-cover-upright w-24 aspect-[2/3] object-cover rounded shadow-2xl border border-white/10" alt="${book.title}">
+                    </div>
+                    <h4 class="text-base font-medium tracking-tight text-center group-hover:text-[#8be8cb] transition-colors line-clamp-1 px-1 w-full max-w-[140px]">${book.title}</h4>
+                    <span class="text-xs font-mono text-[#888da7] mt-1">${book.year}</span>
+                `;
+                container.appendChild(element);
+            });
+        }
+
+        // Render Videos
+        function renderVideos() {
+            const container = document.getElementById('videos-grid');
+            container.innerHTML = '';
+            
+            videosData.forEach(vid => {
+                const element = document.createElement('div');
+                element.className = 'group relative overflow-hidden rounded-3xl border border-white/5 shadow-md break-inside-avoid cursor-pointer mb-6';
+                element.onclick = () => openVideoModal(vid.video);
+                element.innerHTML = `
+                    <img src="${vid.thumbnail}" class="w-full h-auto transition-transform duration-500 group-hover:scale-105" alt="Video Frame Preview">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                        <div class="w-14 h-14 bg-white text-[#303633] rounded-full flex items-center justify-center shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-300">
+                            <iconify-icon icon="solar:play-bold" class="text-2xl ml-1"></iconify-icon>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(element);
+            });
+        }
+
+        // Modal Controls
+        function openBookModal(idx) {
+            const book = booksData[idx];
+            document.getElementById('modal-book-img').src = book.cover;
+            document.getElementById('modal-book-title').innerText = book.title;
+            document.getElementById('modal-book-year').innerText = book.year;
+            document.getElementById('modal-book-isbn').innerText = book.isbn;
+            document.getElementById('modal-book-desc').innerText = book.desc;
+            
+            const modal = document.getElementById('book-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeBookModal(e) {
+            document.getElementById('book-modal').classList.replace('flex', 'hidden');
+        }
+
+        function openVideoModal(url) {
+            document.getElementById('modal-video-iframe').src = url + "?autoplay=1";
+            const modal = document.getElementById('video-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeVideoModal() {
+            document.getElementById('modal-video-iframe').src = "";
+            document.getElementById('video-modal').classList.replace('flex', 'hidden');
+        }
+
         // Smooth scroll helper
         function smoothScrollTo(id) {
             document.getElementById(id).scrollIntoView({ behavior: "smooth" })
@@ -587,6 +773,8 @@
                     { sprite: sprites.talk, text: "And here are some featured apps that I'm proud of creating. And people often call them lifesavers.", blur: false, scroll: 'apps' },
                     { sprite: sprites.smug, text: "I also make interactive content such as games in my free time. Loved by hundreds of people worldwide!", blur: false, scroll: 'games' },
                     { sprite: sprites.talk, text: "I like to be independent from the economy, so I make my own stuff. Plus, I help others make theirs, too!", blur: false, scroll: 'design' },
+                    { sprite: sprites.talk, text: "Since 2014, I began exploring a lot of creative fields. That includes my hobby of writing.", blur: false, scroll: 'books' },
+                    { sprite: sprites.smug, text: "Yep. I've been active globally for more than 10 years now. You can say I do almost EVERYTHING.", blur: false, scroll: 'videos' },
                     { sprite: sprites.hi, text: "There are even more things I do. Explore them on your own. See you later!", blur: false, scroll: 'top' }
                 ];
                 startGuide();
@@ -663,11 +851,42 @@
             renderApps()
             renderGames()
             renderDesign()
+            renderBooks()
+            renderVideos()
             enable3DTilt()
             initVirtualGuide()
 
         }
     </script>
+
+    <div id="book-modal" class="fixed inset-0 z-[10000] hidden items-center justify-center p-4 bg-black/80 backdrop-blur-md" onclick="closeBookModal(event)">
+        <div class="bg-[#1f2421] border border-[#9c7a97]/40 max-w-lg w-full rounded-3xl p-8 relative shadow-2xl transition-all" onclick="event.stopPropagation()">
+            <button onclick="closeBookModal(null)" class="absolute top-6 right-6 text-2xl text-white/60 hover:text-white transition-all flex">
+                <iconify-icon icon="solar:close-circle-linear"></iconify-icon>
+            </button>
+            <div class="flex flex-col gap-y-4">
+                <div class="w-32 aspect-[3/4] bg-[#303633] rounded-xl overflow-hidden self-center shadow-2xl border border-white/10 mb-2">
+                    <img id="modal-book-img" src="" class="w-full h-full object-cover" alt="Book Cover Image">
+                </div>
+                <h3 id="modal-book-title" class="text-3xl font-semibold tracking-tight text-white mt-2"></h3>
+                <div class="flex gap-x-3 items-center">
+                    <span id="modal-book-year" class="px-3 py-1 text-xs bg-[#9c7a97]/20 text-[#9c7a97] rounded-full font-mono"></span>
+                    <span id="modal-book-isbn" class="text-xs font-mono text-[#888da7]"></span>
+                </div>
+                <p id="modal-book-desc" class="text-white/80 text-sm leading-relaxed mt-2 border-t border-white/5 pt-4"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="video-modal" class="fixed inset-0 z-[10000] hidden items-center justify-center p-4 bg-black/90 backdrop-blur-md" onclick="closeVideoModal()">
+        <div class="w-full max-w-4xl aspect-video bg-black rounded-3xl overflow-hidden relative border border-white/10 shadow-2xl" onclick="event.stopPropagation()">
+            <button onclick="closeVideoModal()" class="absolute top-4 right-4 z-50 text-3xl text-white/70 hover:text-white transition-all bg-black/50 rounded-full p-1 flex items-center justify-center">
+                <iconify-icon icon="solar:close-circle-linear"></iconify-icon>
+            </button>
+            <iframe id="modal-video-iframe" src="" class="w-full h-full border-none" allowfullscreen allow="autoplay"></iframe>
+        </div>
+    </div>
+    
   <style>body{margin:0;overflow:hidden}#intro{position:fixed;top:0;left:0;width:100vw;height:100vh;background:black;display:flex;justify-content:center;align-items:center;z-index:9999;opacity:1;animation:fadeOut .5s ease-in-out forwards;animation-delay:0.5s}#intro img{width:150px;animation:pulse 1s infinite}@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.01);opacity:.7}}@keyframes fadeOut{from{opacity:1}to{opacity:0;visibility:hidden}}</style><div id="intro"><img src="https://muktoverse.vercel.app/asset/images/classic_logo.png" alt="Logo"></div><script>document.getElementById("intro").addEventListener("animationend",()=>{document.getElementById("intro").style.display="none";document.body.style.overflow="auto"});</script>
 <img src="https://canarytokens.com/static/qgreqcen2xw1zbaj352t3u7a4/contact.jpg" width="0px" height="0px" />
 </body>
