@@ -1,4 +1,96 @@
 [
+   {
+    "title": "S-Slides",
+    "description": "Quick snappy presentation tool",
+    "technologies": [
+      "Vite",
+      "NextJS",
+      "Browser API"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/senturisk/slides",
+    "url": "https://sslides.vercel.app",
+    "icon": "https://sslides.vercel.app/icon.png",
+    "problem_solved": null,
+    "category": "Productivity"
+  },
+   {
+    "title": "S-Vibe",
+    "description": "Anonymous instant (P2P) voice-video chat with screen sharing for watch parties",
+    "technologies": [
+      "Vite",
+      "NextJS",
+      "PeerJS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/senturisk/vibe",
+    "url": "https://senvibe.vercel.app",
+    "icon": "https://senvibe.vercel.app/favicon.png",
+    "problem_solved": "Peer to peer virtual parties",
+    "category": "Communication"
+  },
+  {
+    "title": "S-Send",
+    "description": "Anonymous instant (P2P) file sharing online",
+    "technologies": [
+      "Vite",
+      "NextJS",
+      "PeerJS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/senturisk/send",
+    "url": "https://ssend.vercel.app",
+    "icon": "https://ssend.vercel.app/logo.svg",
+    "problem_solved": "Peer to peer file sharing",
+    "category": "Utilities"
+  },
+ {
+    "title": "MuxAI",
+    "description": "Self-hosted customizable decentralized LLM platform with personas",
+    "technologies": [
+      "Vite",
+      "NextJS",
+      "Ollama",
+      "Ngrok"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/muxai/muxai-platform",
+    "url": "https://muxai.vercel.app",
+    "icon": "https://muxai.vercel.app/logo.png",
+    "problem_solved": "Unrestricted uncensored AI access for everyone",
+    "category": "AI Tools"
+  },
+ {
+    "title": "Makron",
+    "description": "Online tools, resources, media/file converters, etc.",
+    "technologies": [
+      "HTML",
+      "PDFjs",
+      "Browser API"
+    ],
+    "type": "Webapp",
+    "url": "https://makronweb.vercel.app",
+    "icon": "https://makronweb.vercel.app/assets/logo.png",
+    "problem_solved": "Random problems for converting between file formats",
+    "category": "Utilities"
+  },
+ {
+    "title": "Excite",
+    "description": "Derivative social media platform based on Liaoverse",
+    "technologies": [
+      "Vite",
+      "TailwindCSS",
+      "NextJS",
+      "PostgreSQL",
+      "Supabase"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/dwmk/makron-social",
+    "url": "https://xze.vercel.app",
+    "icon": "https://xze.vercel.app/icon.png",
+    "problem_solved": "Modern minimalist communities for friendly strangers",
+    "category": "Communication"
+  },
  {
     "title": "Liaoverse",
     "description": "Mega social media platform that houses all the features of Facebook, Instagram, Twitter, WhatsApp, Discord and more!",
