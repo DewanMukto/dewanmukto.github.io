@@ -137,7 +137,7 @@
     ],
     "type": "Webapp",
     "repo": "https://github.com/dwmk/acado-live",
-    "url": "https://dewanmukto.github.io/web/acado/",
+    "url": "https://acadolife.vercel.app",
     "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjNWU3YmZkIiBkPSJNMyAxMGMwLTMuNzcxIDAtNS42NTcgMS4xNzItNi44MjhTNy4yMjkgMiAxMSAyYzMuNzcxIDAgNS42NTcgMCA2LjgyOCAxLjE3MlMyMSA2LjIyOSA yMSAxMHY0YzAgMy43NzEgMCA1LjY1Ny0xLjE3MiA2LjgyOFMxNi43NzEgMjIgMTMgMjJoLTJjLTMuNzcxIDAtNS42NTcgMC02LjgyOC0xLjE3MlMzIDE3Ljc3MSAzIDE0eiIgb3BhY2l0eT0iMC41Ii8+PHBhdGggZmlsbD0iIzVlN2JmZCIgZD0iTTE2LjUxOSAxNi41MDFjLjE3NS0uMTM2LjMzNC0uMjk1LjY1MS0uNjEybDMuOTU3LTMuOTU4Yy4wOTYtLjA5NS4wNTItLjI2LS4wNzUtLjMwNWE0LjMgNC4zIDAgMCAxLTEuNjQ0LTEuMDM0YTQuMyA0LjMgMCAwIDEtMS4wMzQtMS42NDRjLS4wNDUtLjEyNy0uMjEtLjE3MS0uMzA1LS4wNzVMMTQuMTEgMTIuODNjLS4zMTcuMzE3LS40NzYuNDc2LS42MTIuNjUxLS4yNDMuMzExLS40MTIuNjY2LS40MTIuNjY2Yy0uMDk1LjItLjE2Ni40MTQtLjMwOC44NGwtLjE4NC41NWwtLjI5Mi44NzVsLS4yNzMuODJhLjU4NC41ODQgMCAwIDAgLjczOC43MzhsLjgyLS4yNzNsLjg3NS0uMjkybC41NS0uMTg0Yy40MjYtLjE0Mi42NC0uMjEyLjg0LS4zMDhxLjM1NS0uMTcuNjY2LS40MTJtNS44NDktNS44MDlhMi4xNjMgMi4xNjMgMCAxIDAtMy4wNi0zLjA1OWwtLjEyNi4xMjhhLjUyLjUyIDAgMCAwLS4xNDguNDY1Yy4wMi4xMDcuMDU1LjI2NS4xMi40NTJjLjEzLjM3NS4zNzYuODY3LjgzOSAxLjMzcy45NTUuNzA5IDEuMzMuODM5Yy4xODguMDY1LjM0NS4xLjQ1Mi4xMmEuNTMuNTMgMCAwIDAgLjQ2NS0uMTQ4eiIvPjxwYXRoIGZpbGw9IiM1ZTdiZmQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMjUgOUEuNzUuNzUgMCAwIDEgOCA4LjI1aDYuNWEuNzUuNzUgMCAwIDEgMCAxLjVIOC4wMWEuNzUuNzUgMCAwIDEtLjctLjc1bTAgNGEuNzUuNzUgMCAwIDEgLjc1LS43NWgzYS43NS43NSAwIDAgMSAwIDEuNUg4YS43NS43NSAwIDAgMS0uNzUtLjc1bTAgNGEuNzUuNzUgMCAwIDEgLjc1LS43NWgxLjVhLjc1Ljc1IDAgMCAxIDAgMS41SDhhLjc1Ljc1IDAgMCAxLS43NS0uNzUiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==",
     "problem_solved": "Simplified word processor for students",
     "category": "Utilities"
@@ -155,11 +155,26 @@
       "html2canvas"
     ],
     "type": "Webapp",
-    "repo": "https://github.com/kdue/mizu-cv-builder",
-    "url": "https://dewanmukto.github.io/web/mizu-cv/",
+    "repo": "https://github.com/dwmk/mizu-cv-builder",
+    "url": "https://mizucv.vercel.app",
     "icon": "https://mi2u.pages.dev/brax/images/furina-genshin-icon.jpg",
     "problem_solved": "Accessible CV/resume creation for everyone",
     "category": "Utilities"
+  },
+  {
+    "title": "BRUSH",
+    "description": "Upgraded derivative of BRAX",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "JS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/dwmk/brush",
+    "url": "https://brushonline.vercel.app/",
+    "icon": "https://brushonline.vercel.app/icon.png",
+    "problem_solved": "Real-time course section information previewing",
+    "category": "BRACU Student Tools"
   },
   {
     "title": "BRAX",
@@ -208,21 +223,6 @@
     "icon": "https://disorderchat.web.app/asset/img/favicon.png",
     "problem_solved": "Discuss and share items fearlessly over the internet with all details lost upon disconnection",
     "category": "Communication"
-  },
-  {
-    "title": "Somarthok",
-    "description": "Sample demo for a compact website with desktop and mobile-friendly views",
-    "technologies": [
-      "HTML",
-      "TailwindCSS",
-      "JS"
-    ],
-    "type": "2D website",
-    "repo": "https://github.com/dewanmukto/eco-products-website/",
-    "url": "https://dewanmukto.github.io/eco-products-website/",
-    "icon": "https://dewanmukto.github.io/eco-products-website/favicon.png",
-    "problem_solved": null,
-    "category": "Client Projects"
   },
   {
     "title": "Jargonify",
