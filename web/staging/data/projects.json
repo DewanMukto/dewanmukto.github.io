@@ -296,7 +296,7 @@
       "Python"
     ],
     "type": "Desktop app",
-    "icon": "https://huanmux.github.io/cdn/images/ogimage-muxrepeat.ico",
+    "icon": "https://huanmux.vercel.app/cdn/images/ogimage-muxrepeat.ico",
     "repo": "https://github.com/dewanmukto/universal-macro-automation",
     "url": null,
     "problem_solved": "All your repetitive works performed by the machine while you relax and focus on the better things in life",
