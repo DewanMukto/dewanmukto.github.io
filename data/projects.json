@@ -7,9 +7,9 @@
       "Transformers.js",
       "ChatVRM",
       "WebGPU/WASM",
-      "Vite"
+      "Vite",
       "NextJS",
-      "TailwindCSS"
+      "TailwindCSS",
       "Browser API"
     ],
     "type": "Webapp",
