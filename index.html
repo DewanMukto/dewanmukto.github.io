@@ -418,17 +418,15 @@
 
         // DATA — each section stored as distinct JSON
         const brandsData = [
-            { title: "Bongojukti", logo: "https://bongojukti.github.io/assets/logos/favicon.png", type: "Accessible Tech", website: "https://bongoverse.vercel.app/" },
-          { title: "Exalux", logo: "https://avatars.githubusercontent.com/u/215483536?s=200&v=4", type: "AI Research", website: "https://github.com/exalux" },
-            { title: "HuanMux", logo: "https://huanmux.vercel.app/assets/logo/favicon.png", type: "Software & Electronics", website: "https://huanverse.vercel.app/" },
+            { title: "HuanMux", logo: "https://huanmux.vercel.app/assets/logo/favicon.png", type: "Software & Electronics", website: "https://huanmux.vercel.app/" },
             { title: "Mew Shaders", logo: "https://media.forgecdn.net/avatars/1495/727/638971714973807709.png", type: "Computer Graphics", website: "https://www.curseforge.com/members/mewshaders/projects" },
             { title: "Mux Games", logo: "https://muktoverse.vercel.app/asset/logos/Mux%20logo%20icon%202025.jpg", type: "Game Development Studio", website: "https://www.roblox.com/communities/35877558/Mux-Games#!/about" },
-            { title: "NeoMav", logo: "https://neomav.vercel.app/favicon.png", type: "Online Publishing", website: "https://neomav.vercel.app/" },
-            { title: "ZiZhiZhe", logo: "https://huanmux.vercel.app/assets/logo/zzz.png", type: "Outsourcing IT Services", website: "https://huanmux.vercel.app/zzz" }
+            { title: "NeoMav", logo: "https://neomav.vercel.app/favicon.png", type: "Online Publishing", website: "https://neomav.vercel.app/" }
         ]
 
         const appsData = [
-    
+	{ thumbnail: "https://muxai.vercel.app/aismash_banner.png", title: "AI Smash", type: "3D AI Companion", buttonText: "Try Now", buttonUrl: "https://aismash.web.app", tech: "Ollama, Ngrok, Transformers.js, ChatVRM, Mixamo, Next.js, TailwindCSS" },
+	{ thumbnail: "https://muxai.vercel.app/og-image.png", title: "Mux AI", type: "AI Platform", buttonText: "Try Now", buttonUrl: "https://muxai.vercel.app", tech: "Ollama, Ngrok, Transformers.js, Next.js, TailwindCSS" },
             { thumbnail: "https://huanmux.vercel.app/assets/ogimage/liaoverse-banner.jpg", title: "Liaoverse", type: "Social Platform", buttonText: "Sign Up", buttonUrl: "https://liaoverse.vercel.app", tech: "Nextjs, Vite, Supabase, PostgreSQL" },
             { thumbnail: "https://mi2u.pages.dev/images/acado_ogimage.jpg", title: "Acado", type: "Document Editor", buttonText: "Try Now", buttonUrl: "https://acadolife.vercel.app/", tech: "Nextjs, Vite, TailwindCSS" },
             { thumbnail: "https://mi2u.pages.dev/brax/images/mizucv_ogimage.jpg", title: "Mizu", type: "CV/Resume Builder", buttonText: "Try Now", buttonUrl: "https://mizucv.vercel.app/", tech: "Nextjs, Vite, TailwindCSS" },
@@ -441,10 +439,9 @@
 
         const gamesData = [
             { thumbnail: "https://muktoverse.vercel.app/asset/images/facultyofsurvival.png", title: "Faculty of Survival", genre: "Single-Player, Survival", playText: "Play Online", playUrl: "https://facultyofsurvival.vercel.app/", tech: "Nextjs, Vite, WebAudio API" },
-            { thumbnail: "https://tr.rbxcdn.com/180DAY-aea3bba2551b5af28164b9e3aa80f995/768/432/Image/Webp/noFilter", title: "Goofy Gunners", genre: "Multi-Player, Sandbox, Action", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/107542071734450/Goofy-Gunners", tech: "Lua, Roblox Studio" },
-            { thumbnail: "https://tr.rbxcdn.com/180DAY-af210120545a9e49a45257c8d5a0f5d7/768/432/Image/Png/noFilter", title: "Goofy Obby", genre: "Multi-Player, Parkour, Puzzle", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/76587171520946/Goofy-Obby", tech: "Lua, Roblox Studio" },
-            { thumbnail: "https://tr.rbxcdn.com/180DAY-728626c823bbc71596e4d0cc19fb1928/768/432/Image/Webp/noFilter", title: "Welcome to Bangladesh", genre: "Multi-Player, Exploration, Life", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/13664220695/Welcome-to-Bangladesh", tech: "Lua, Roblox Studio" },
-            { thumbnail: "https://tr.rbxcdn.com/180DAY-e065f3e43ea5d5cd266e35fe9ca7a1c4/768/432/Image/Webp/noFilter", title: "Save Her", genre: "Single-Player, Experimental, Drama", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/18535230648/Save-Her", tech: "Lua, Roblox Studio" }
+            { thumbnail: "https://tr.rbxcdn.com/180DAY-815518ee08f015e5d1df7f8de4b79b75/768/432/Image/Png/noFilter", title: "Goofy Gunners", genre: "Multi-Player, Sandbox, Action", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/107542071734450/Goofy-Gunners", tech: "Lua, Roblox Studio" },
+            { thumbnail: "https://tr.rbxcdn.com/180DAY-36d31bda65eea5c81b72cd3162c500a3/768/432/Image/Webp/noFilter", title: "Goofy Obby", genre: "Multi-Player, Parkour, Puzzle", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/76587171520946/Goofy-Obby", tech: "Lua, Roblox Studio" },
+            { thumbnail: "https://tr.rbxcdn.com/180DAY-189216c14d3312ca2b1c7119a98108c8/768/432/Image/Webp/noFilter", title: "Welcome to Bangladesh", genre: "Multi-Player, Exploration, Life", playText: "Play on Roblox", playUrl: "https://www.roblox.com/games/13664220695/Welcome-to-Bangladesh", tech: "Lua, Roblox Studio" }
         ]
 
         const designData = [

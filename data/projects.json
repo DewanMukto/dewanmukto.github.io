@@ -1,5 +1,25 @@
 [
    {
+    "title": "AI Smash",
+    "description": "Edge-computing 3D HCI-AI companion",
+    "technologies": [
+      "Ollama",
+      "Transformers.js",
+      "ChatVRM",
+      "WebGPU/WASM",
+      "Vite"
+      "NextJS",
+      "TailwindCSS"
+      "Browser API"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/dwmk/ai-smash",
+    "url": "https://aismash.web.app",
+    "icon": "https://muxai.vercel.app/aismash-favicon.png",
+    "problem_solved": null,
+    "category": "AI Tools"
+  },
+   {
     "title": "S-Slides",
     "description": "Quick snappy presentation tool",
     "technologies": [

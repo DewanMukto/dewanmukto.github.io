@@ -1,7 +1,7 @@
 [
   {
     "company": "Pathantula Govt Primary School",
-    "role": "English Language Teacher",
+    "role": "English Language Teacher (volunteering for Duke of Edinburgh Bronze Award - Service slot)",
     "start_date": "April 2018",
     "end_date": "November 2018",
     "location": {
@@ -13,7 +13,7 @@
   },
   {
     "company": "Mux Anime Studios",
-    "role": ["Director", "Animator", "Marketing Strategist", "Recruiter"],
+    "role": ["Storyboard Director"],
     "start_date": "November 2019",
     "end_date": "February 2022",
     "location": {
@@ -22,30 +22,6 @@
     },
     "industry": "Entertainment",
     "department": "Animation"
-  },
-  {
-    "company": "Bongojukti",
-    "role": "Founder",
-    "start_date": "February 2020",
-    "end_date": "Present",
-    "location": {
-      "city": "Dhaka",
-      "country": "Bangladesh 🇧🇩"
-    },
-    "industry": "Technology",
-    "department": "Websites & Apps"
-  },
-  {
-    "company": "Dewan IELTS",
-    "role": "IELTS Trainer",
-    "start_date": "January 2021",
-    "end_date": "February 2022",
-    "location": {
-      "city": "Remote",
-      "country": "Bangladesh 🇧🇩"
-    },
-    "industry": "Education",
-    "department": "Training"
   },
   {
     "company": "Mark's",
@@ -108,27 +84,28 @@
     "department": "Paint & Chemicals"
   },
   {
-    "company": "Mux AI",
-    "role": ["Web Developer", "Software Developer", "Marketing Strategist", "Graphic Designer", "UI/UX Designer"],
+    "company": "HuanMux",
+    "role": ["Software & Web Developer"],
     "start_date": "July 2023",
+    "end_date": "Sept 2026",
+    "location": {
+      "city": "Remote",
+      "country": "Bangladesh 🇧🇩"
+    },
+    "industry": "Technology",
+    "department": "Software & IT"
+  },
+  {
+    "company": "HuanMux",
+    "role": ["AI Engineer"],
+    "start_date": "Sept 2026",
     "end_date": "Present",
     "location": {
       "city": "Remote",
       "country": "Bangladesh 🇧🇩"
     },
     "industry": "Technology",
-    "department": "Websites & Apps"
-  },
-  {
-    "company": "Mux Games",
-    "role": "Roblox/Lua Game Developer",
-    "start_date": "June 2024",
-    "end_date": "Present",
-    "location": {
-      "city": "Remote",
-      "country": "Bangladesh 🇧🇩"
-    },
-    "industry": "Game Development",
-    "department": "Roblox"
+    "department": "Software & IT"
   }
+
 ]
