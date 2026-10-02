@@ -13,7 +13,7 @@
   },
   {
     "company": "Mux Anime Studios",
-    "role": ["Storyboard Director"],
+    "role": "Storyboard Director",
     "start_date": "November 2019",
     "end_date": "February 2022",
     "location": {
@@ -85,7 +85,7 @@
   },
   {
     "company": "HuanMux",
-    "role": ["Software & Web Developer"],
+    "role": "Software & Web Developer",
     "start_date": "July 2023",
     "end_date": "Sept 2026",
     "location": {
@@ -97,7 +97,7 @@
   },
   {
     "company": "HuanMux",
-    "role": ["AI Engineer"],
+    "role": "AI Engineer",
     "start_date": "Sept 2026",
     "end_date": "Present",
     "location": {
